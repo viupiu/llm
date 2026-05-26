@@ -1,0 +1,11 @@
+﻿# Cursor: не индексировать тяжёлое и служебное (OpenCode не трогаем)
+
+.opencode/node_modules/
+
+archives/examples/_extracted/
+
+scripts/__pycache__/
+**/__pycache__/
+
+archives/exported/*.zip
+archives/examples/*.zip

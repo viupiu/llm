@@ -1,0 +1,77 @@
+# Скрипты упаковки и валидации (ДОС)
+
+Упаковщик и валидатор — **Python-скрипты**, не LLM-агенты. Агенты пишут в `work/<BotSlug>/`; скрипты собирают ZIP в `archives/exported/`. См. `work/README.md`.
+
+## Быстрый старт (один узел)
+
+Из корня проекта `LLM/`:
+
+```powershell
+cd scripts
+
+# 1. Собрать staging из узла + словарей из dl_rules_result.md
+python prepare_staging.py `
+  --node ..\work\GenderCheck_Bot\output\nodes\<id>.json `
+  --dict-md ..\work\GenderCheck_Bot\dl_rules_result.md `
+  --out ..\work\GenderCheck_Bot\staging `
+  --assistant-name "Анекдот-Мастер" `
+  --skill-name "Выбор категории" `
+  --export-basename "JokeBot"
+
+# 2. Проверить staging
+python validate_archive.py --staging ..\work\GenderCheck_Bot\staging
+
+# 3. Упаковать ZIP для импорта в ДОС
+python pack_archive.py --staging ..\work\GenderCheck_Bot\staging --out ..\archives\exported\<имя>_prod.zip
+```
+
+## Команды
+
+| Скрипт | Назначение |
+|--------|------------|
+| `prepare_staging.py` | Assistant + Branch + Skill + DialogNode + Dictionary из артефактов агентов |
+| `validate_archive.py` | Проверка `--staging` или `--zip` |
+| `pack_archive.py` | Staging → ZIP (нормализует `[@goto]`, ключи блоков) |
+| `unpack_archive.py` | ZIP из `archives/exported/` → staging для правок |
+| `build_full_staging.py` | Все узлы из `output/nodes/` + словари из `dl_rules_result.md` |
+| `generate_all_nodes.py` | MD-артефакты → JSON узлов (`conditions` из блока `Условия:` в responses) |
+
+## Структура staging
+
+```
+work/<BotSlug>/staging/
+  manifest.json
+  Assistant/{full-uuid}.json
+  Branch/{full-uuid}.json
+  Skill/{short-id}.json
+  DialogNode/{short-id}.json
+  Dictionary/{short-id}.json   # по одному файлу на словарь
+```
+
+Минимальный состав и формат ID — в `docs/D_GENERATION_RULES.md` и `docs/F_PLATFORM_API.md`.
+
+## `creator` и даты
+
+Скопируйте **creator** из любого вашего экспорта (`Assistant/....json` → поле `creator`) и передайте в manifest или CLI:
+
+```powershell
+python prepare_staging.py ... --creator "a04359b1-6422-4e56-9792-bf13f40afb9b"
+```
+
+Даты: `2026-05-25T06:54:24.862973` (без `+03:00`). Скрипт нормализует их при упаковке.
+
+## Словари: не терять канон
+
+В md Автора ДЛ канон идёт **отдельной строкой** (`IT`, `Москва`), синонимы — `=>...`.  
+`prepare_staging.py` переносит **все** строки тела словаря в `content.blocks`.  
+Валидатор выдаст `DICT_NO_CANON`, если в JSON остались только `=>`.
+
+## Что проверяет валидатор
+
+- `metadata.json` с полями `lc_version`, `timestamp`, `options`
+- `timestamp` / `created` без таймзоны; `creator` не `00000000-...`
+- Обёртка `{assistant_id}-master-{40 hex}`
+- Нет вложенных `.zip`, нет папки `NamesEntity`
+- Формат ID и имён файлов `{id}.json`
+- `skill_id`, `assistant_id`, ссылки `[dict(name)]`
+- Запрет `[goto(...)]` — только `[@goto("...")]`
