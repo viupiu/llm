@@ -99,14 +99,11 @@ Demo 2_master_prod.zip/
 
 ---
 
-## 5. Action
+## 5. Action (Platform Integration)
 
-```dl
-[action(name, param="value")]{[%var="[[field]]"]}
-```
-
-- Параметры в кавычках
-- Результат — `[[field]]` внутри `{}`
+Синтаксис см. `docs/A_LANGUAGE_SPEC.md`. Валидатор проверяет:
+- `[action(name, ...)]{...}` — парность `{}`, корректная структура параметров
+- Результат API — `[[field]]` внутри блока `{}`
 
 ---
 
@@ -143,38 +140,26 @@ python scripts/validate_archive.py --zip archives/exported/bot_prod.zip
 2. `id` уникальны в проекте
 3. Связи: `skill_id` → `Skill/`, `slot_filling.*` → `Variable/`/`Dictionary/`, `DialogNodeTag` → существующие `dialog_node_id`, `tag_id`
 
-### DSL (текст)
-- Парность тегов: `[` = `]`, `{` = `}`, `(` = `)`
-- `[b]/[/b]`, `[i]/[/i]`, `[ul]/[el]`, `[ol]/[el]`
-- `[dict(name)]`, `[udict(name)]`, `[sudict(name)]`, `[lcdict(name)]` → словарь существует
-- `[&dict(name, norm)]` → словарь с нормализацией (`=>`)
-- В каждом словаре — ≥ 1 строка без `=>` (канон)
-- Имя переменной: латиница, кириллица, цифры, `_`, `-`, `.`
-- `[if(...)]{...}` — без пробела между `)` и `{`
-- Блочные: каждый тег отдельный блок; только `--`, не `–`
-- `[@hvs("table", "row")]` или `[@hvs("table", "row", "col")]`
-- `[&1]` только если в `dl_rules` есть `[- -]` или `[-{...}-]`
-- `[@goto]` / `[@extend]`: имя в кавычках = `DialogNode.name`
-- `[action(name, ...)]{...}` — парность `{}`
+### DSL-валидация (чек-лист)
+- Парность тегов: `[` = `]`, `{` = `}`, `(` = `)` (полные синтаксические правила см. `docs/A_LANGUAGE_SPEC.md` §19)
+- `[dict(name)]` / `[udict(name)]` / `[sudict(name)]` / `[lcdict(name)]` → референция на существующий Dictionary
+- `[&dict(name, norm)]` → референция на нормализующий словарь (с `=>`) (см. `docs/A_LANGUAGE_SPEC.md`)
+- `[@goto("...")]` / `[@extend("...")]` → имя в кавычках = `DialogNode.name`
+- `[action(name, ...)]{...}` → парность `{}`, корректная структура параметров (см. `docs/A_LANGUAGE_SPEC.md` §16, §25)
+- `[&1]` → референция на `[- -]` / `[-{...}-]` в `dl_rules` (см. `docs/A_LANGUAGE_SPEC.md` §4, §19)
+- Форматирование: `[b]/[/b]`, `[i]/[/i]`, `[ul]/[el]`, `[ol]/[el]` (полный список тегов см. `docs/E_RESPONSE_FORMATTING.md` §1)
 
-### ML примеры
-- ≥ 10 уникальных примеров на класс
-- ≥ 3 разных класса в боте
-- Рекомендуется ≥ 100 примеров на класс
+### ML-датасет
+- См. `docs/B_RUNTIME_MODEL.md` §11 (количество примеров, балансировка).
 
-### Red Flags
-- HTML `<b>`, `<br>` в обычных ответах
-- `–switch` вместо `--switch`
-- `slot_filling` с `required: true` без `question` или `variable`
-- Пустые `dl_rules` не на фоллбэке
-- `[dict]` без файла словаря
-- `--switch` в одном блоке `text` с другим текстом
-- Отсутствие обёртки в архиве
-- Узлы/навыки `Узел 1.1`, `Навык 1` — не допустимо
-- `[&1]` без референции `[- -]`
-- Слоты без `retry_count` и `failure_answer`
-- Словари: канон с `~` или `*`; только синонимы `=>`; `–include`
-- `[dict]` выдача без нормализации, но с `=>`
+### Red Flags (авторинг и DSL)
+- Авторские анти-паттерны: `docs/D_GENERATION_RULES.md` §3-8, §12-14.
+- Форматирование анти-паттерны: `docs/E_RESPONSE_FORMATTING.md` §4.
+- DSL синтаксис: `docs/A_LANGUAGE_SPEC.md` §19.
+
+### Red Flags (платформа/архив)
+- Отсутствие обёртки `{assistant_id}-master-{hash}` в архиве
+- `slot_filling` с `required: true` без `variable` в JSON узла
 
 ---
 

@@ -20,9 +20,9 @@
 - **Источник:** `PROJECT_BRIEF.md`, `SCHEMA_DESCRIPTION.md`, схема PDF/jpg
 - **Режим оркестрации:** Interactive
 - **Текущий узел:** —
-- **Текущий агент:** Финальный Валидатор (следующий)
-- **Следующий шаг:** проверить `dl_responses_result.md` → **Финальный Валидатор**; ML Автор **пропуск**
-- **Готово:** `PROJECT_BRIEF.md`, `SCHEMA_DESCRIPTION.md`, `architecture_map.md`, `user_phrases.md`, `dl_rules_result.md`, `copywriter_result.md`, `dl_responses_result.md`
+- **Текущий агент:** Упаковка (следующий)
+- **Следующий шаг:** `build_full_staging.py` → `validate_archive.py` → `pack_archive.py`
+- **Готово:** `PROJECT_BRIEF.md`, `SCHEMA_DESCRIPTION.md`, `architecture_map.md`, `user_phrases.md`, `dl_rules_result.md`, `copywriter_result.md`, `dl_responses_result.md`, **Финальный Валидатор: APPROVED**
 - **Артефакты:** все перечисленные + `dl_responses_result.md`
 - **Замечания:** реплики: **вам/вас/ваш** строчные (правило в `copywriter.md`); якорь главного вопроса `Чем я могу вам помочь?`; имена узлов для `goto` без смены регистра
 
