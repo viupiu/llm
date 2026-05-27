@@ -1,0 +1,91 @@
+{
+  "id": "efe9f255-1c03-9396-5f6a",
+  "name": "Start",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "d8toh",
+        "data": {},
+        "text": "EVENT 00b2fcbe-f27f-437b-a0d5-91072d840ed3 *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "n0wdt",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "7h9rq",
+        "data": {},
+        "text": ":lu: Как вас зовут? [%that_anchor=\"Как вас зовут?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 50
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-27T20:56:55.314848",
+  "updated": "2026-05-27T20:56:56.314849",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-27T20:56:56Z"
+    }
+  ]
+}

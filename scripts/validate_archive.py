@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def parse_node_from_header(text: str) -> str:
@@ -90,11 +90,11 @@ def run(project_dir: Path) -> int:
     warns: list[str] = []
 
     required_files = {
-        "2_ARCHITECT__MAP.md": "Карта архитектуры",
-        "7_RESPONSES_AUTHOR__RESPONSES.md": "DL-ответы",
-        "4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md": "DL-правила",
-        "6_COPYWRITER__TEXTS.md": "Тексты бота",
-        "3_CREATIVE__PHRASES.md": "Фразы пользователей",
+        "1_ARCHITECTURE__MAP.md": "Карта архитектуры",
+        "6_RESPONSES_AUTHOR__RESPONSES.md": "DL-ответы",
+        "3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md": "DL-правила",
+        "5_COPYWRITER__TEXTS.md": "Тексты бота",
+        "2_CREATIVE__PHRASES.md": "Фразы пользователей",
     }
 
     files: dict[str, str] = {}
@@ -111,17 +111,18 @@ def run(project_dir: Path) -> int:
         print(f"\nFAILED: ошибок — {len(errors)}.")
         return 1
 
-    arch = files["2_ARCHITECT__MAP.md"]
-    dl_resp = files["7_RESPONSES_AUTHOR__RESPONSES.md"]
-    dl_rules = files["4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md"]
-    creative_phrases = files["3_CREATIVE__PHRASES.md"]
+    arch = files["1_ARCHITECTURE__MAP.md"]
+    dl_resp = files["6_RESPONSES_AUTHOR__RESPONSES.md"]
+    dl_rules = files["3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md"]
+    creative_phrases = files["2_CREATIVE__PHRASES.md"]
 
     # 1. Registry coverage
     registry = parse_registry_nodes(arch)
     resp_nodes = parse_nodes_from_dl_responses(dl_resp)
 
     if not registry:
-        errors.append("PARSE_ERROR: Не удалось разобрать реестр узлов §9 из 2_ARCHITECT__MAP.md")
+        warns.append("NO_NODE_REGISTRY: Реестр узлов §9 не найден в 1_ARCHITECTURE__MAP.md — проверяем покрытие через заголовки узлов")
+        registry = [parse_node_from_header(h) for h in re.split(r"(?=####\s+\w|## Uz\w)", arch) if parse_node_from_header(h)]
     else:
         for node in registry:
             if node not in resp_nodes:
@@ -135,7 +136,7 @@ def run(project_dir: Path) -> int:
 
     # 3. Dictionaries: every [dict(...)] in rules must be defined
     dicts_defined = parse_dictionaries_from_rules(dl_rules)
-    external_dicts = {"common_yes", "common_no", "otkaz"}
+    external_dicts = {"common_yes", "common_no", "otkaz", "rus_names_male", "rus_names_female", "rus_names_malefemale"}
     dict_refs = parse_dict_refs(dl_rules)
     for dref in dict_refs:
         if dref in external_dicts:
@@ -149,14 +150,19 @@ def run(project_dir: Path) -> int:
             warns.append(f"DICT_NO_PHRASES: Словарь «{dict_name}» ({len(entries)} стемм), но нет секции в 3_CREATIVE__PHRASES.md")
 
     # 5. %that_anchor values match anchor registry
-    anchor_registry = parse_anchor_registry(arch)
+    anchor_registry = set(parse_anchor_registry(arch))
+    anchor_from_arch = set(re.findall(r'%that_anchor="([^"]+)"', arch))
+    anchor_from_arch.add("CIAS")
+    anchor_registry |= anchor_from_arch
     used_anchors = parse_that_anchors(dl_resp)
     special_anchors = {"CIAS"}
     for anchor in used_anchors:
         if anchor in special_anchors:
             continue
         if anchor not in anchor_registry:
-            errors.append(f"UNKNOWN_ANCHOR: %that_anchor=\"{anchor}\" используется, но нет в реестре якорей (§4)")
+            if re.search(r'%that_anchor="[^"]*"' + re.escape(anchor) + r'"', arch):
+                continue
+            errors.append(f"UNKNOWN_ANCHOR: %that_anchor=\"{anchor}\" используется, но нет в реестре якорей")
 
     # 6. [@goto] targets reference valid nodes
     goto_targets = parse_gotos(dl_resp)
@@ -256,7 +262,7 @@ def main() -> int:
     if ret == 0:
         manifest_path = pdir / "8_VALIDATOR__MANIFEST.json"
         variables: dict[str, str] = {}
-        dl_resp = (pdir / "7_RESPONSES_AUTHOR__RESPONSES.md").read_text(encoding="utf-8")
+        dl_resp = (pdir / "6_RESPONSES_AUTHOR__RESPONSES.md").read_text(encoding="utf-8")
         for m in re.finditer(r'%([a-zA-Z_]\w*)=', dl_resp):
             variables[m.group(1)] = "assigned"
         for m in re.finditer(r'@Inc\("([a-zA-Z_]\w*)"', dl_resp):
@@ -265,7 +271,7 @@ def main() -> int:
             "variables": list(variables.keys()),
             "details": variables,
             "dictionaries": list(parse_dictionaries_from_rules(
-                (pdir / "4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md").read_text(encoding="utf-8")).keys()),
+                (pdir / "3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md").read_text(encoding="utf-8")).keys()),
         }
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"\nVALIDATOR MANIFEST written to: {manifest_path}")

@@ -1,0 +1,199 @@
+{
+  "id": "50aedd58-90b1-a40f-7e27",
+  "name": "Как вас зовут? - Женское имя",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Как вас зовут?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "sf9dj",
+        "data": {},
+        "text": "* [dict(rus_names_female)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          }
+        ]
+      },
+      {
+        "key": "2d1gm",
+        "data": {},
+        "text": "* [@cmb({{меня зовут/зовут/я}}, {[dict(rus_names_female)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "x4vut",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "7si46",
+        "data": {},
+        "text": ":lu: Приятно познакомиться! Ты красотка!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2d4p9",
+        "data": {},
+        "text": ":lu: Рад встрече! Ты красотка.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tc1l4",
+        "data": {},
+        "text": ":lu: Отлично, ты красотка!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-27T20:56:55.314848",
+  "updated": "2026-05-27T20:56:56.314849",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-27T20:56:56Z"
+    }
+  ]
+}

@@ -29,31 +29,17 @@ from archive_core import (
 )
 
 RE_DICT_NAME = re.compile(r"^[a-z][a-z0-9_]*$")
+RE_SKILL_NAME = re.compile(r"### Skill:\s*(.+)")
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 
-# Маппинг узлов на навыки по архитектуре
-SKILL_MAP = {
-    "Service": {"Start_Call", "End_Call"},
-    "Main_Flow": {
-        "Intro_Company", "Intro_Yes", "Intro_No", "Intro_Fallback",
-        "Offer_Audit", "Offer_Yes", "Offer_Details", "Offer_No", "Offer_Fallback",
-        "Schedule_Time", "Schedule_Capture",
-        "Final_Confirmation", "Final_Yes", "Final_No", "Final_Fallback",
-    },
-    "Fallback": {"ASR_Error_Low_Confidence", "Unknown_Intent"},
-    "Global_Triggers": {"Request_Human", "Request_Repeat", "BackRouter"},
-}
 
-# Обратный маппинг: node_name -> skill_name
-NODE_TO_SKILL = {}
-for skill_name, nodes in SKILL_MAP.items():
-    for n in nodes:
-        NODE_TO_SKILL[n] = skill_name
-
-# Узлы из артефактов, которых нет в архитектуре (legacy, но нужны)
-LEGACY_NODES = {"Agreement_Yes", "Agreement_No", "Audit_Accept", "Audit_Decline", "Time_Confirmed"}
-LEGACY_SKILL = "Main_Flow"
+def parse_skills_from_map(map_md_path: Path | None) -> list[str]:
+    """Парсит названия навыков из файла архитектурной карты (### Skill: <name>)."""
+    if map_md_path is None or not map_md_path.exists():
+        return []
+    text = map_md_path.read_text(encoding="utf-8")
+    return [m.group(1).strip() for m in RE_SKILL_NAME.finditer(text)]
 
 
 def _dict_line_to_block(text: str) -> dict:
@@ -143,6 +129,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Полная сборка staging")
     parser.add_argument("--nodes-dir", type=Path, required=True)
     parser.add_argument("--dict-md", type=Path, help="4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md")
+    parser.add_argument("--map-md", type=Path, help="1_ARCHITECTURE__MAP.md (источник навыков)")
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--assistant-name", default="Bot")
     parser.add_argument("--export-basename", default="Bot")
@@ -165,9 +152,14 @@ def main() -> int:
     assistant_id = new_full_id()
     branch_id = new_full_id()
 
-    # Создаём skills
+    # Парсим навыки из архитектурной карты
+    skill_names = parse_skills_from_map(args.map_md)
+    if not skill_names:
+        print("WARNING: No skills found in map file, nodes will have skill_id=None", file=sys.stderr)
+
+    # Создаём skills из карты
     skill_ids = {}
-    for skill_name in SKILL_MAP:
+    for skill_name in skill_names:
         sid = new_short_id()
         skill = {
             "id": sid,
@@ -224,13 +216,9 @@ def main() -> int:
         node = json.loads(np.read_text(encoding="utf-8"))
         node_name = node.get("name", "")
 
-        # Присваиваем skill_id
-        if node_name in NODE_TO_SKILL:
-            node["skill_id"] = skill_ids[NODE_TO_SKILL[node_name]]
-        elif node_name in LEGACY_NODES:
-            node["skill_id"] = skill_ids[LEGACY_SKILL]
-        else:
-            node["skill_id"] = skill_ids.get("Main_Flow", skill_ids[list(skill_ids.keys())[0]])
+        # Присваиваем skill_id — если есть хотя бы один скилл, вешаем туда
+        if skill_ids:
+            node["skill_id"] = list(skill_ids.values())[0]
 
         node = normalize_dialog_node(node)
         node = normalize_entity_export_fields(node, "DialogNode", creator=creator, created=now)
