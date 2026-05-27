@@ -35,6 +35,7 @@ python pack_archive.py --staging ..\work\GenderCheck_Bot\9_PACKAGER__STAGING --o
 | `unpack_archive.py` | ZIP из `archives/exported/` → 9_PACKAGER__STAGING для правок |
 | `build_full_staging.py` | Все узлы из `output/nodes/` + словари из `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` |
 | `generate_all_nodes.py` | MD-артефакты → JSON узлов (`conditions` из блока `Условия:` в responses) |
+| `merge_raw_dictionaries.py` | JSON-словари из `docs/reference/raw_dicts/` → `docs/reference/COMMON_DICTIONARIES.md` (автоочистка) |
 
 ## Структура 9_PACKAGER__STAGING
 
@@ -65,6 +66,21 @@ python prepare_staging.py ... --creator "a04359b1-6422-4e56-9792-bf13f40afb9b"
 В md Автора ДЛ канон идёт **отдельной строкой** (`IT`, `Москва`), синонимы — `=>...`.  
 `prepare_staging.py` переносит **все** строки тела словаря в `content.blocks`.  
 Валидатор выдаст `DICT_NO_CANON`, если в JSON остались только `=>`.
+
+## Объединение словарей
+
+Словари из `docs/reference/raw_dicts/` можно слить в `COMMON_DICTIONARIES.md`:
+
+```powershell
+python merge_raw_dictionaries.py
+```
+
+Скрипт:
+- Читает все `*.json` из `raw_dicts/`
+- Извлекает имя (`name`) и строки (`content.blocks[].text`)
+- Обновляет таблицу реестра
+- Добавляет новые секции в конец файла
+- Удаляет обработанные JSON-файлы
 
 ## Что проверяет валидатор
 
