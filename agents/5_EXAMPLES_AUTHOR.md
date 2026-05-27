@@ -122,6 +122,16 @@
 - NEVER change file format.
 - NEVER auto-convert markdown/yaml/txt into json.
 - NEVER delete existing sections unless explicitly instructed.
+
+
+# REFACTOR GUARD
+
+Обязателен протокол `docs/G_AGENT_RULES.md` §12 при любых операциях удаления/дедупликации примеров.
+
+- ❌ Запрещено удалять примеры без этапа canonicalization
+- ✅ Canonicalize → Preserve → Reconcile
+- ✅ Сохранить все примеры, edge cases, редкие формулировки
+- ✅ Audit log удалений
 - Preserve all unrelated content exactly.
 - If file structure is unclear — STOP and ask.
 - Before writing:

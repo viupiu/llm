@@ -14,12 +14,12 @@
 | A | `docs/A_LANGUAGE_SPEC.md` | Синтаксис ответов: `[if]`, `[@goto]`/`[@extend]`, `[nothing]` |
 | B | `docs/B_RUNTIME_MODEL.md` | Отложенные `%var`, якоря, не проверять `%var` в том же шаге |
 | C | `docs/C_BOT_ARCHITECTURE.md` | Задаватель vs обработчик, `CIAS`, структура узлов |
-| E | `docs/E_RESPONSE_FORMATTING.md` | Эталоны ответов, SSML, `:lu:`, `--switch`, форматирование |
+| E | `docs/E_RESPONSE_FORMATTING.md` | 3-слойная модель ответов, эталоны, SSML, inline IF, namespace-модель |
 | G | `docs/G_AGENT_RULES.md` | MUST NOT, границы ответственности, чек-лист |
 | — | — | — |
 | — | `docs/VOICE_OUTBOUND_CHECKLIST.md` | Обзвон: EVENT, `voice.end_call`, SSML |
 
-**Тексты:** из `work/<BotSlug>/6_COPYWRITER__TEXTS.md` — **дословно** (регистр **вам / вас / ваш** не менять; правило — `agents/6_COPYWRITER.md`).
+**Тексты:** из `work/<BotSlug>/5_COPYWRITER__TEXTS.md` — **дословно** (регистр **вам / вас / ваш** не менять; правило — `agents/6_COPYWRITER.md`).
 
 ---
 
@@ -336,6 +336,16 @@
 - NEVER change file format.
 - NEVER auto-convert markdown/yaml/txt into json.
 - NEVER delete existing sections unless explicitly instructed.
+
+
+# REFACTOR GUARD
+
+Обязателен протокол `docs/G_AGENT_RULES.md` §12 при любых операциях удаления/объединения ответов и условий.
+
+- ❌ Запрещено удалять ответы без этапа canonicalization
+- ✅ Canonicalize → Preserve → Reconcile
+- ✅ Сохранить все варианты ответов, примеры, MUST NOT
+- ✅ Audit log удалений
 - Preserve all unrelated content exactly.
 - If file structure is unclear — STOP and ask.
 - Before writing:

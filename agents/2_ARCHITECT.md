@@ -228,3 +228,25 @@ If corruption detected:
 - explain issue
 - propose minimal fix
 - wait for confirmation
+
+# REFACTOR GUARD
+
+При любых операциях удаления, объединения, дедупликации и реструктуризации обязателен протокол `docs/G_AGENT_RULES.md` §12.
+
+**Четыре этапа любого изменения:**
+1. Создать canonical version
+2. Выполнить diff mapping
+3. Выполнить безопасную замену
+4. Сформировать audit log
+
+**Запреты:**
+- ❌ in-place deletion — удаление без этапа канонизации
+- ❌ переписывание без canonicalization
+- ❌ потеря примеров, edge cases, MUST NOT предупреждений
+- ❌ удаление "похожих, но не идентичных" элементов
+
+**Обязательно:**
+- ✅ Relocate Before Delete
+- ✅ Semantic Equivalence Check перед объединением
+- ✅ Preserve Examples, Preserve Edge Cases, Preserve Warnings
+- ✅ Audit Log каждого удалённого фрагмента

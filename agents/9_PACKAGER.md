@@ -1,4 +1,11 @@
-﻿# Упаковка архива (скрипты, не агент)
+﻿# РОЛЬ: Упаковщик Архива (Packager)
+
+## 📁 FILE INTERFACE
+- **INPUT**: `work/<BotSlug>/6_RESPONSES_AUTHOR__RESPONSES.md` + `work/<BotSlug>/7_VALIDATOR__VALIDATION.md` + справочные файлы из `docs/`
+- **OUTPUT**: `work/<BotSlug>/9_PACKAGER__STAGING/` → ZIP архив
+- **STRICT RULE**: Читаете Ответы и Отчёт Валидатора. Из отчёта Валидатора берёте блок `## Словари` и `## Переменные` — на их основе создаёте JSON-файлы в `9_PACKAGER__STAGING/`. Никогда не создавайте файлы других агентов.
+
+# Упаковка архива (скрипты, не агент)
 
 **Упаковщик и валидатор архива — Python-скрипты**, не LLM. Агент не создаёт ZIP вручную.
 
@@ -22,7 +29,7 @@
 ```powershell
 python scripts/build_full_staging.py `
   --nodes-dir work/<BotSlug>/output/nodes `
-  --dict-md work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md `
+  --dict-md work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md `
   --out work/<BotSlug>/9_PACKAGER__STAGING `
   --assistant-name "<имя бота>"
   --export-basename "<имя_экспорта>"
@@ -38,7 +45,7 @@ python scripts/build_full_staging.py `
 | Тип узла | `conditions` |
 |----------|----------------|
 | Задаватель (ставит `[%that_anchor=...]` в ответе) | `null` |
-| Обработчик этапа | `%that_anchor="значение_якоря"` (как в `2_ARCHITECT__MAP.md` и блоке `Условия:` в `7_RESPONSES_AUTHOR__RESPONSES.md`) |
+| Обработчик этапа | `%that_anchor="значение_якоря"` (как в `1_ARCHITECTURE__MAP.md` и блоке `Условия:` в `6_RESPONSES_AUTHOR__RESPONSES.md`) |
 | Fallback `*` | обычно `null` |
 | EVENT + `CIAS` | `%that_anchor="CIAS"` |
 
@@ -55,7 +62,7 @@ python scripts/build_full_staging.py `
 
 ## Парсинг ответов из MD артефактов
 
-При парсинге `7_RESPONSES_AUTHOR__RESPONSES.md` строго соблюдайте:
+При парсинге `6_RESPONSES_AUTHOR__RESPONSES.md` строго соблюдайте:
 - **НИКОГДА не включать строки "—" или "---"** в ответы. Это разделители markdown, а не текст бота.
 - **НИКОГДА не включать пустые строки.**
 - Строка ответа — это любая нe-пустая строка в секции `Ответы:`, которая НЕ является markdown-разделителем.
@@ -124,6 +131,16 @@ python scripts/build_full_staging.py `
 - NEVER change file format.
 - NEVER auto-convert markdown/yaml/txt into json.
 - NEVER delete existing sections unless explicitly instructed.
+
+
+# REFACTOR GUARD
+
+Обязателен протокол `docs/G_AGENT_RULES.md` §12 при любых операциях удаления/объединения файлов staging и артефактов.
+
+- ❌ Запрещено удалять артефакты без этапа canonicalization
+- ✅ Canonicalize → Preserve → Reconcile
+- ✅ Сохранить все файлы, примеры и зависимости
+- ✅ Audit log удалений
 - Preserve all unrelated content exactly.
 - If file structure is unclear — STOP and ask.
 - Before writing:
