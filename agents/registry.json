@@ -9,7 +9,7 @@
   "validator": "agents/8_VALIDATOR.md",
   "packager": "agents/9_PACKAGER.md",
   "glossary_manager": "agents/10_GLOSSARY_MANAGER.md",
-  "coordinator": "agents/11_COORDINATOR.md",
+  "coordinator": "agents/12_COORDINATOR.md",
   "tester": "agents/11_TESTER.md",
   "test_set_collector": "agents/99_TEST_SET_COLLECTOR.md",
   "scripts": {

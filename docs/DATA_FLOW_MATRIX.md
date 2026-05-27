@@ -22,7 +22,7 @@
 | 6 | Автор Ответов | `agents/7_RESPONSES_AUTHOR.md` | `1_ARCHITECTURE__MAP.md` + `5_COPYWRITER__TEXTS.md` | `work/<BotSlug>/6_RESPONSES_AUTHOR__RESPONSES.md` | Архитектор + Копирайтер |
 | 7 | Валидатор | `agents/8_VALIDATOR.md` | `1_ARCHITECTURE__MAP.md` + `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` + `4_EXAMPLES_AUTHOR__DATASET.md` + `6_RESPONSES_AUTHOR__RESPONSES.md` | `work/<BotSlug>/7_VALIDATOR__VALIDATION.md` | Все предыдущие агенты |
 | 8 | Упаковщик | `agents/9_PACKAGER.md` | `6_RESPONSES_AUTHOR__RESPONSES.md` + `7_VALIDATOR__VALIDATION.md` | `work/<BotSlug>/9_PACKAGER__STAGING/` → ZIP | Валидатор + Автор Ответов |
-| 9 | Координатор | `agents/11_COORDINATOR.md` | Запросы Оркестратора | Устное ответное сообщение Оркестратору | — |
+| 9 | Координатор | `agents/12_COORDINATOR.md` | Запросы Оркестратора | Устное ответное сообщение Оркестратору | — |
 
 ## Исключения из конвейера
 - **Автор Примеров (#4)** пропускается, если узлов с реальным вводом пользователя ≤ 2.
