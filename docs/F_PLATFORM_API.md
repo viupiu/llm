@@ -147,14 +147,14 @@ python scripts/validate_archive.py --zip archives/exported/bot_prod.zip
 - `[@goto("...")]` / `[@extend("...")]` → имя в кавычках = `DialogNode.name`
 - `[action(name, ...)]{...}` → парность `{}`, корректная структура параметров (см. `docs/A_LANGUAGE_SPEC.md` §16, §25)
 - `[&1]` → референция на `[- -]` / `[-{...}-]` в `dl_rules` (см. `docs/A_LANGUAGE_SPEC.md` §4, §19)
-- Форматирование: `[b]/[/b]`, `[i]/[/i]`, `[ul]/[el]`, `[ol]/[el]` (полный список тегов см. `docs/E_RESPONSE_FORMATTING.md` §1)
+- Форматирование: `[b]/[/b]`, `[i]/[/i]`, `[ul]/[el]`, `[ol]/[el]` (полный список тегов см. `docs/E_RESPONSE_FORMATTING.md` §4.1)
 
 ### ML-датасет
 - См. `docs/B_RUNTIME_MODEL.md` §11 (количество примеров, балансировка).
 
 ### Red Flags (авторинг и DSL)
 - Авторские анти-паттерны: `docs/D_GENERATION_RULES.md` §3-8, §12-14.
-- Форматирование анти-паттерны: `docs/E_RESPONSE_FORMATTING.md` §4.
+- Форматирование анти-паттерны: `docs/E_RESPONSE_FORMATTING.md` §6.
 - DSL синтаксис: `docs/A_LANGUAGE_SPEC.md` §19.
 
 ### Red Flags (платформа/архив)
