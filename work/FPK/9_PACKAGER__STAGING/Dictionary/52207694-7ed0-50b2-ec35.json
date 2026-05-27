@@ -1,0 +1,99 @@
+{
+  "id": "52207694-7ed0-50b2-ec35",
+  "name": "keywords_other",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "j4bvr",
+        "data": {},
+        "text": "директор~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7dc6s",
+        "data": {},
+        "text": "представительств~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6rx6l",
+        "data": {},
+        "text": "проезд~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j0zjm",
+        "data": {},
+        "text": "приложен~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2vedp",
+        "data": {},
+        "text": "скидк~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9cwc7",
+        "data": {},
+        "text": "лояльн~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wefrx",
+        "data": {},
+        "text": "оператор~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ffng9",
+        "data": {},
+        "text": "проводник~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zweur",
+        "data": {},
+        "text": "обслуживан~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": false,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bc835360-472d-adfb-77b5",
+  "name": "Перевести на 8-800? - корень",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "96r3s",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "0uje5",
+        "data": {},
+        "text": "Поняла вас, по данному запросу вам необходимо обратиться по телефону справочной службы: 8 (800) 775-00-00, перевести вас? [%that_anchor=\"8 (800) 775-00-00, перевести вас?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "GE3hFyMzSu",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

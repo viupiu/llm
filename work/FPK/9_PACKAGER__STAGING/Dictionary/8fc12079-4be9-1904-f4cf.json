@@ -1,0 +1,54 @@
+{
+  "id": "8fc12079-4be9-1904-f4cf",
+  "name": "keywords_appeal",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "hv58f",
+        "data": {},
+        "text": "обращен~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "olx73",
+        "data": {},
+        "text": "заявк~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1m1bk",
+        "data": {},
+        "text": "реквизит~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8ip8i",
+        "data": {},
+        "text": "запрос~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": false,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

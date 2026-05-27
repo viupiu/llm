@@ -1,0 +1,66 @@
+{
+  "id": "a62ca04d-0dfb-035e-1e62",
+  "name": "Конец разговора",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"CIAS\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "gb9t1",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "b41ca219-70ee-e888-b2ac",
+  "answers": {
+    "blocks": [
+      {
+        "key": "j61by",
+        "data": {},
+        "text": "<speak>До свидания.<break time='1500ms'></speak> [%voice.end_call=\"True\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "qkBJWuW0Vc",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

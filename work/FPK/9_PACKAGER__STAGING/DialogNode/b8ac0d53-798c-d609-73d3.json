@@ -1,0 +1,75 @@
+{
+  "id": "b8ac0d53-798c-d609-73d3",
+  "name": "Тишина",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"CIAS\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "bqu9u",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "b41ca219-70ee-e888-b2ac",
+  "answers": {
+    "blocks": [
+      {
+        "key": "5w8zr",
+        "data": {},
+        "text": ":lu: Извините, не услышала вас. Повторите, пожалуйста. [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0zvh8",
+        "data": {},
+        "text": ":lu: Я вас не расслышала. Повторите, пожалуйста. [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "4Q4_PXPwC3",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

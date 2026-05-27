@@ -1,0 +1,66 @@
+{
+  "id": "0b034fd5-54e5-4428-d67f",
+  "name": "Заглушка - 8-800 - Юр",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "87haq",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "hxh32",
+        "data": {},
+        "text": "Здесь будет действие: перевод на 8 (800) 775-00-00 — юридическое лицо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "9-IQ0Z3J0m",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

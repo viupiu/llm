@@ -1,0 +1,108 @@
+{
+  "id": "34da9757-31dd-e495-3213",
+  "name": "common_yes",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "ydukg",
+        "data": {},
+        "text": "да",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qg477",
+        "data": {},
+        "text": "да пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ap56e",
+        "data": {},
+        "text": "да переведите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "69pz7",
+        "data": {},
+        "text": "да хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "de7lt",
+        "data": {},
+        "text": "конечно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zc5tc",
+        "data": {},
+        "text": "угу да",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0k41b",
+        "data": {},
+        "text": "так точно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "amihh",
+        "data": {},
+        "text": "да конечно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vpvvz",
+        "data": {},
+        "text": "переводите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hc34c",
+        "data": {},
+        "text": "да можно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

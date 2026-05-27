@@ -1,0 +1,120 @@
+{
+  "id": "94c85104-1ac9-bddf-ab29",
+  "name": "Чем я могу Вам помощь? - Обращение",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Чем я могу вам помочь?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "rldak",
+        "data": {},
+        "text": "* [@cmb({номер~}, {{моего/моей}}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tyfqe",
+        "data": {},
+        "text": "* [@cmb({статус~}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5dua1",
+        "data": {},
+        "text": "* [@cmb({где}, {{мой/мое/моя}}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1u245",
+        "data": {},
+        "text": "* [@cmb({хочу}, {узнать}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jkog6",
+        "data": {},
+        "text": "* [@cmb({проверьте}, {статус~}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5sot5",
+        "data": {},
+        "text": "* [@cmb({рассмотрен~}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jffz1",
+        "data": {},
+        "text": "* [@cmb({отслеж~}, {[dict(keywords_appeal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "3ugv0",
+        "data": {},
+        "text": "[%nomatch_counter=\"0\"] [%transfer=\"specialist\"] [@goto(\"Кто вы - корень\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "CJTnBv1n8s",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

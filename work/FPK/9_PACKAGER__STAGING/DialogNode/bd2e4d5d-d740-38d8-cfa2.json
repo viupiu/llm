@@ -1,0 +1,66 @@
+{
+  "id": "bd2e4d5d-d740-38d8-cfa2",
+  "name": "Заглушка перевода",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "g01lz",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "ua27u",
+        "data": {},
+        "text": "[if(%transfer=\"specialist\")]{[if(%user_type=\"physical\")]{[@goto(\"Заглушка - Специалист - Физ\")]}}[elsif(%transfer=\"specialist\")]{[if(%user_type=\"legal\")]{[@goto(\"Заглушка - Специалист - Юр\")]}}[elsif(%transfer=\"hotline_800\")]{[if(%user_type=\"physical\")]{[@goto(\"Заглушка - 8-800 - Физ\")]}}[elsif(%transfer=\"hotline_800\")]{[if(%user_type=\"legal\")]{[@goto(\"Заглушка - 8-800 - Юр\")]}}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "MSBBOmOsyL",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

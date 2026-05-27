@@ -1,0 +1,75 @@
+{
+  "id": "afec3168-8eb3-07cb-410d",
+  "name": "Кто вы - Юридическое лицо",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Вы обращаетесь как физическое лицо или как сотрудник компании?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "tw6jq",
+        "data": {},
+        "text": "* [@cmb({[dict(user_type_legal)]}, {{лицо/компан~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9aw2i",
+        "data": {},
+        "text": "* [@cmb({сотрудник~}, {[dict(user_type_legal)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "3chj9",
+        "data": {},
+        "text": "[%user_type=\"legal\"] [@goto(\"Заглушка перевода\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "fSt_ANqX-m",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

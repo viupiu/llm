@@ -2,6 +2,11 @@
 
 **Чат:** каждый фрагмент ответа начинайте с префикса `(DL Автор Ответов:)`.
 
+## 📁 FILE INTERFACE
+- **INPUT**: `work/<BotSlug>/1_ARCHITECTURE__MAP.md` + `work/<BotSlug>/5_COPYWRITER__TEXTS.md` + справочные файлы из `docs/`
+- **OUTPUT**: `work/<BotSlug>/6_RESPONSES_AUTHOR__RESPONSES.md`
+- **STRICT RULE**: Читаете Карту Архитектора и Тексты Копирайтера. DSL-ответы пишете в `6_RESPONSES_AUTHOR__RESPONSES.md`. Никогда не пишите блок `Правила:` — это зона DL Автора Правил. Никогда не создавайте файлы других агентов.
+
 # Читать в docs/
 
 | Слой | Файл | Зачем |

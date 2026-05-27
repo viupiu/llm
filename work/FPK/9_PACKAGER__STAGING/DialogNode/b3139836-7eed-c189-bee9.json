@@ -1,0 +1,138 @@
+{
+  "id": "b3139836-7eed-c189-bee9",
+  "name": "Чем я могу Вам помощь? - Прочее",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Чем я могу вам помочь?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "oz2le",
+        "data": {},
+        "text": "* [@cmb({[dict(keywords_other)]}, {{выясн~/поговорить/уточн~/связаться}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "250ol",
+        "data": {},
+        "text": "* [@cmb({переведите}, {{оператор~/человек~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "v097c",
+        "data": {},
+        "text": "* [@cmb({[dict(keywords_other)]}, {{директор/представительств}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "guwkb",
+        "data": {},
+        "text": "* [@cmb({{правила/документ}}, {{ребен~/проезд~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "supcs",
+        "data": {},
+        "text": "* [@cmb({[dict(keywords_other)]}, {приложен~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y8v7q",
+        "data": {},
+        "text": "* [@cmb({{график/скидк}}, {{работ~/--}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2p0uu",
+        "data": {},
+        "text": "* [@cmb({отдел}, {качеств~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nl6kv",
+        "data": {},
+        "text": "* [@cmb({{собак/животн}}, {поезд~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l2fni",
+        "data": {},
+        "text": "* [@cmb({программ~}, {лояльн~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "cffa1949-d160-a189-e129",
+  "answers": {
+    "blocks": [
+      {
+        "key": "etrv7",
+        "data": {},
+        "text": "[@Inc(\"nomatch_counter\")] [if([@Greater(\"[%nomatch_counter]\", \"2\")])]{[@goto(\"Прощание - Исчерпание помощи\")]} [else]{[@goto(\"delo и ещё помочь? - корень\")]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "Fk_WwhHhQv",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

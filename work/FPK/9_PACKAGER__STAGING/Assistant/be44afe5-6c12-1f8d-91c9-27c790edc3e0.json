@@ -1,0 +1,13 @@
+{
+  "id": "be44afe5-6c12-1f8d-91c9-27c790edc3e0",
+  "name": "FPK",
+  "description": "Входящий голосовой бот ФПК",
+  "is_active": true,
+  "meta": {},
+  "avatar_url": null,
+  "project_id": "205359",
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

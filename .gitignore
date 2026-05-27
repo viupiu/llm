@@ -1,5 +1,3 @@
-work/
 *.log
 .vscode/
 .env
-*.zip
