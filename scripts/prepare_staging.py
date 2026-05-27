@@ -4,7 +4,7 @@
 
   python prepare_staging.py ^
     --node work/<BotSlug>/output/nodes/<id>.json ^
-    --dict-md work/<BotSlug>/dl_rules_result.md ^
+    --dict-md work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md ^
     --out work/<BotSlug>/staging ^
     --assistant-name "Анекдот-Мастер" ^
     --skill-name "Выбор категории"
@@ -66,7 +66,7 @@ def parse_dictionary_body_lines(body_lines: list[str]) -> list[dict]:
 
 
 def parse_dictionaries_from_md(md_text: str) -> list[dict]:
-    """Парсит блоки словарей из dl_rules_result.md (формат Автора ДЛ)."""
+    """Парсит блоки словарей из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md (формат Автора ДЛ)."""
     dictionaries = []
     lines = md_text.splitlines()
     i = 0
@@ -143,7 +143,7 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="Сборка staging из узла и md словарей")
     parser.add_argument("--node", type=Path, required=True)
-    parser.add_argument("--dict-md", type=Path, help="dl_rules_result.md со словарями")
+    parser.add_argument("--dict-md", type=Path, help="4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md со словарями")
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--assistant-name", default="Generated Bot")
     parser.add_argument("--skill-name", default="main")
@@ -163,7 +163,7 @@ def main() -> int:
             if p.is_dir():
                 for f in p.glob("*.json"):
                     f.unlink()
-            elif p.name == "manifest.json":
+            elif p.name == "9_PACKAGER__MANIFEST.json":
                 p.unlink()
 
     node = json.loads(node_path.read_text(encoding="utf-8"))
@@ -243,7 +243,7 @@ def main() -> int:
         "project_id": args.project_id,
         "creator": creator,
     }
-    (out_dir / "manifest.json").write_text(
+    (out_dir / "9_PACKAGER__MANIFEST.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )

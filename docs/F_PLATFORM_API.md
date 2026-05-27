@@ -112,9 +112,9 @@ Demo 2_master_prod.zip/
 ### Порядок выполнения (из корня проекта)
 
 ```powershell
-python scripts/prepare_staging.py --staging work/staging
-python scripts/validate_archive.py --staging work/staging
-python scripts/pack_archive.py --staging work/staging --out archives/exported/bot_prod.zip
+python scripts/prepare_staging.py --staging-dir work/9_PACKAGER__STAGING
+python scripts/validate_archive.py --staging-dir work/9_PACKAGER__STAGING
+python scripts/pack_archive.py --staging-dir work/9_PACKAGER__STAGING --out archives/exported/bot_prod.zip
 python scripts/validate_archive.py --zip archives/exported/bot_prod.zip
 ```
 
@@ -168,7 +168,7 @@ python scripts/validate_archive.py --zip archives/exported/bot_prod.zip
 **КЛЮЧЕВОЙ ПРИНЦИП:** Экспорт из ДОС уже правильный. НЕ модифицируй содержимое!
 
 Пакер только:
-1. Читает staging (экспорт из ДОС)
+1. Читает 9_PACKAGER__STAGING (экспорт из ДОС)
 2. Упаковывает в ZIP со структурой `metadata.json` + `{assistant_id}-master-{hash}/`
 3. Минимально нормализует timezone'ы (если `+HH:MM` → убрать)
 
@@ -192,10 +192,10 @@ python scripts/validate_archive.py --zip archives/exported/bot_prod.zip
 - Генерировать random block keys для новых блоков
 
 ### Потоки работы пакетного процесса:
-1. `load_staging()` — читает `staging_dir/EntityType/*.json` + `manifest.json`
+1. `load_9_PACKAGER__STAGING()` — читает `9_PACKAGER__STAGING_dir/EntityType/*.json` + `9_PACKAGER__MANIFEST.json`
 2. `normalize_all_entities()` — только timezone'ы и placeholder creator'ы
 3. `validate_entities()` — проверяет структуру
-4. `pack_staging_to_zip()` — минифицирует JSON, вычисляет hash, создаёт ZIP
+4. `pack_9_PACKAGER__STAGING_to_zip()` — минифицирует JSON, вычисляет hash, создаёт ZIP
 
 ### Валидация перед упаковкой:
 - Каждый файл: `EntityType/{id}.json`, где `id == obj.id`

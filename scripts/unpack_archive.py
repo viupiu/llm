@@ -58,7 +58,7 @@ def main() -> int:
             "lc_version": meta.get("lc_version"),
             "source_zip": zip_path.name,
         }
-        (out_dir / "manifest.json").write_text(
+        (out_dir / "9_PACKAGER__MANIFEST.json").write_text(
             json.dumps(manifest, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )

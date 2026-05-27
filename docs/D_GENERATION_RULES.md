@@ -1,6 +1,6 @@
 # D. ПРАВИЛА ГЕНЕРАЦИИ (GENERATION_RULES)
 
-**SSOT для:** Где и как писать DSL в выходных артефактах, форматирование `dl_rules_result.md`, анти-паттерны генерации.
+**SSOT для:** Где и как писать DSL в выходных артефактах, форматирование `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`, анти-паттерны генерации.
 
 **НЕ содержит:** Синтаксис DSL (→ `docs/A_LANGUAGE_SPEC.md`), Runtime (→ `docs/B_RUNTIME_MODEL.md`), Архитектуру (→ `docs/C_BOT_ARCHITECTURE.md`).
 
@@ -20,9 +20,9 @@
 
 ---
 
-## 2. Формат выходного файла `dl_rules_result.md`
+## 2. Формат выходного файла `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`
 
-- ✅ Файл — только `work/<BotSlug>/dl_rules_result.md`. Запрет `rules.md`, `intent_rules.md`.
+- ✅ Файл — только `work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`. Запрет `rules.md`, `intent_rules.md`.
 - ✅ Только секции `## Узел: <Name>` и `## Словарь: <Name>`. Запрет прозы между секциями.
 - ✅ В узле — **скелет** (`* [@cmb({термин~}, {[dict(пак)]})] *`), а не единственный `[dict(key)]`.
 - ✅ В `## Словарь:` — только стеммы, по одной на строку. Без `*`, `[@cmb]`, `=>` (кроме `_norm`).

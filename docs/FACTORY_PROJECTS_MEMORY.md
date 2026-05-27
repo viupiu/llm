@@ -17,14 +17,14 @@
 - **Статус:** в работе
 - **Последнее обновление:** 2026-05-26
 - **ТЗ:** входящий голосовой бот ФПК — маршрутизация звонков (обращения / поезда-билеты / прочее)
-- **Источник:** `PROJECT_BRIEF.md`, `SCHEMA_DESCRIPTION.md`, схема PDF/jpg
+- **Источник:** `SCHEMA_DESCRIPTION.md`, схема PDF/jpg
 - **Режим оркестрации:** Interactive
 - **Текущий узел:** —
 - **Текущий агент:** Упаковка (следующий)
 - **Следующий шаг:** `build_full_staging.py` → `validate_archive.py` → `pack_archive.py`
-- **Готово:** `PROJECT_BRIEF.md`, `SCHEMA_DESCRIPTION.md`, `architecture_map.md`, `user_phrases.md`, `dl_rules_result.md`, `copywriter_result.md`, `dl_responses_result.md`, **Финальный Валидатор: APPROVED**
-- **Артефакты:** все перечисленные + `dl_responses_result.md`
-- **Замечания:** реплики: **вам/вас/ваш** строчные (правило в `copywriter.md`); якорь главного вопроса `Чем я могу вам помочь?`; имена узлов для `goto` без смены регистра
+- **Готово:** `SCHEMA_DESCRIPTION.md`, `2_ARCHITECT__MAP.md`, `3_CREATIVE__PHRASES.md`, `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`, `6_COPYWRITER__TEXTS.md`, `7_RESPONSES_AUTHOR__RESPONSES.md`, **Финальный Валидатор: APPROVED**
+- **Артефакты:** все перечисленные + `7_RESPONSES_AUTHOR__RESPONSES.md`
+- **Замечания:** реплики: **вам/вас/ваш** строчные (правило в `6_COPYWRITER.md`); якорь главного вопроса `Чем я могу вам помочь?`; имена узлов для `goto` без смены регистра
 
 ---
 

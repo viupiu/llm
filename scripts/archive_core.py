@@ -349,7 +349,7 @@ def load_staging(staging_dir: Path) -> tuple[dict[str, list[tuple[str, dict]]], 
     Читает staging/: EntityType/{id}.json
     Возвращает ({EntityType: [(filename, obj), ...]}, manifest или None)
     """
-    manifest_path = staging_dir / "manifest.json"
+    manifest_path = staging_dir / "9_PACKAGER__MANIFEST.json"
     manifest = None
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))

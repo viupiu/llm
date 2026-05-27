@@ -19,16 +19,16 @@ LLM/
 │   ├── PROJECT_MEMORY.md     # Как устроена фабрика, этапы, общие правила
 │   └── FACTORY_PROJECTS_MEMORY.md  # Конкретный бот в работе: узел, агент, шаг
 ├── agents/                   # Промпты агентов
-│   ├── orchestrator.md       # Главный конвейер
-│   ├── coordinator.md        # Этот файл
-│   ├── architect.md
-│   ├── creative.md
-│   ├── dl_author_rules.md
-│   ├── ml_examples_author.md
-│   ├── copywriter.md
-│   ├── dl_author_responses.md
-│   ├── final_validator.md
-│   └── packager.md
+│   ├── 1_ORCHESTRATOR.md       # Главный конвейер
+│   ├── 10_COORDINATOR.md        # Этот файл
+│   ├── 2_ARCHITECT.md
+│   ├── 3_CREATIVE.md
+│   ├── 4_RULES_AUTHOR.md
+│   ├── 5_EXAMPLES_AUTHOR.md
+│   ├── 6_COPYWRITER.md
+│   ├── 7_RESPONSES_AUTHOR.md
+│   ├── 8_VALIDATOR.md
+│   └── 9_PACKAGER.md
 ├── reference/                # Справочные материалы
 │   └── COMMON_DICTIONARIES.md  # Общие словари
 ├── scripts/                  # Python-скрипты упаковки
@@ -36,13 +36,15 @@ LLM/
 └── work/                     # Рабочие артефакты проектов
     ├── README.md
     └── <BotSlug>/
-        ├── PROJECT_BRIEF.md      # Бриф проекта (составляет Оркестратор)
-        ├── architecture_map.md   # Архитектура конкретного бота
-        ├── user_phrases.md       # Фразы пользователей (Креативщик)
-        ├── dl_rules_result.md    # DL-правила (DL Автор Правил)
-        ├── ml_examples_result.md # Обучающие примеры (ML Автор)
-        ├── copywriter_result.md  # Тексты ответов (Копирайтер)
-        ├── dl_responses_result.md# DSL-ответы (DL Автор Ответов)
+        ├── 1_ORCHESTRATOR__BRIEF.md      # Бриф проекта (составляет Оркестратор)
+        ├── 2_ARCHITECT__MAP.md   # Архитектура конкретного бота
+        ├── 3_CREATIVE__PHRASES.md       # Фразы пользователей (Креативщик)
+        ├── 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md    # DL-правила (DL Автор Правил)
+        ├── 5_EXAMPLES_AUTHOR__DATASET.md # Обучающие примеры (ML Автор)
+        ├── 6_COPYWRITER__TEXTS.md  # Тексты ответов (Копирайтер)
+        ├── 7_RESPONSES_AUTHOR__RESPONSES.md# DSL-ответы (DL Автор Ответов)
+        ├── 8_VALIDATOR__VALIDATION.md     # Отчёт валидации (Валидатор)
+        ├── 9_PACKAGER__STAGING/    # Staging-каталог для упаковки
         └── current_node/         # Поузловые черновики
 ```
 
@@ -64,13 +66,15 @@ LLM/
 
 | Файл | Автор | Содержание |
 |------|-------|-----------|
-| `PROJECT_BRIEF.md` | Оркестратор | Бриф проекта: цель, интенты, узлы, решения заказчика |
-| `architecture_map.md` | Архитектор | Карта узлов, переходов, условий, переменных |
-| `user_phrases.md` | Креативщик | Фразы пользователей по узлам |
-| `dl_rules_result.md` | DL Автор Правил | DL-правила (не prose!) |
-| `ml_examples_result.md` | ML Автор Примеров | Обучающие датасеты |
-| `copywriter_result.md` | Копирайтер | Тексты ответов бота |
-| `dl_responses_result.md` | DL Автор Ответов | Ответы в DSL-синтаксисе |
+| `1_ORCHESTRATOR__BRIEF.md` | Оркестратор | Бриф проекта: цель, интенты, узлы, решения заказчика |
+| `2_ARCHITECT__MAP.md` | Архитектор | Карта узлов, переходов, условий, переменных |
+| `3_CREATIVE__PHRASES.md` | Креативщик | Фразы пользователей по узлам |
+| `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` | DL Автор Правил | DL-правила (не prose!) |
+| `5_EXAMPLES_AUTHOR__DATASET.md` | ML Автор Примеров | Обучающие датасеты |
+| `6_COPYWRITER__TEXTS.md` | Копирайтер | Тексты ответов бота |
+| `7_RESPONSES_AUTHOR__RESPONSES.md` | DL Автор Ответов | Ответы в DSL-синтаксисе |
+| `8_VALIDATOR__VALIDATION.md` | Валидатор | Отчёт QA-проверки, вердикт APPROVED/REJECTED |
+| `9_PACKAGER__STAGING/` | Скрипты | Staging-каталог для упаковки в ZIP |
 | `current_node/` | — | Поузловые черновики агентов |
 
 ## 3. Ваша задача

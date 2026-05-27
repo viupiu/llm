@@ -90,11 +90,11 @@ def run(project_dir: Path) -> int:
     warns: list[str] = []
 
     required_files = {
-        "architecture_map.md": "Карта архитектуры",
-        "dl_responses_result.md": "DL-ответы",
-        "dl_rules_result.md": "DL-правила",
-        "copywriter_result.md": "Тексты бота",
-        "user_phrases.md": "Фразы пользователей",
+        "2_ARCHITECT__MAP.md": "Карта архитектуры",
+        "7_RESPONSES_AUTHOR__RESPONSES.md": "DL-ответы",
+        "4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md": "DL-правила",
+        "6_COPYWRITER__TEXTS.md": "Тексты бота",
+        "3_CREATIVE__PHRASES.md": "Фразы пользователей",
     }
 
     files: dict[str, str] = {}
@@ -111,21 +111,21 @@ def run(project_dir: Path) -> int:
         print(f"\nFAILED: ошибок — {len(errors)}.")
         return 1
 
-    arch = files["architecture_map.md"]
-    dl_resp = files["dl_responses_result.md"]
-    dl_rules = files["dl_rules_result.md"]
-    user_phrases = files["user_phrases.md"]
+    arch = files["2_ARCHITECT__MAP.md"]
+    dl_resp = files["7_RESPONSES_AUTHOR__RESPONSES.md"]
+    dl_rules = files["4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md"]
+    creative_phrases = files["3_CREATIVE__PHRASES.md"]
 
     # 1. Registry coverage
     registry = parse_registry_nodes(arch)
     resp_nodes = parse_nodes_from_dl_responses(dl_resp)
 
     if not registry:
-        errors.append("PARSE_ERROR: Не удалось разобрать реестр узлов §9 из architecture_map.md")
+        errors.append("PARSE_ERROR: Не удалось разобрать реестр узлов §9 из 2_ARCHITECT__MAP.md")
     else:
         for node in registry:
             if node not in resp_nodes:
-                errors.append(f"MISSING_RESPONSE: Узел «{node}» есть в реестре, но нет в dl_responses_result.md")
+                errors.append(f"MISSING_RESPONSE: Узел «{node}» есть в реестре, но нет в 7_RESPONSES_AUTHOR__RESPONSES.md")
 
     # 2. Nodes with DL rules must have responses
     rule_nodes = parse_nodes_from_dl_rules(dl_rules)
@@ -143,10 +143,10 @@ def run(project_dir: Path) -> int:
         if dref not in dicts_defined:
             errors.append(f"MISSING_DICTIONARY: [dict({dref})] используется в правилах, но словарь не определён")
 
-    # 4. Dictionaries have entries in user_phrases
+    # 4. Dictionaries have entries in 3_CREATIVE__PHRASES
     for dict_name, entries in dicts_defined.items():
-        if dict_name not in user_phrases.lower():
-            warns.append(f"DICT_NO_PHRASES: Словарь «{dict_name}» ({len(entries)} стемм), но нет секции в user_phrases.md")
+        if dict_name not in creative_phrases.lower():
+            warns.append(f"DICT_NO_PHRASES: Словарь «{dict_name}» ({len(entries)} стемм), но нет секции в 3_CREATIVE__PHRASES.md")
 
     # 5. %that_anchor values match anchor registry
     anchor_registry = parse_anchor_registry(arch)
@@ -254,9 +254,9 @@ def main() -> int:
 
     # If validation passed, also output manifest to a file
     if ret == 0:
-        manifest_path = pdir / "manifest.json"
+        manifest_path = pdir / "8_VALIDATOR__MANIFEST.json"
         variables: dict[str, str] = {}
-        dl_resp = (pdir / "dl_responses_result.md").read_text(encoding="utf-8")
+        dl_resp = (pdir / "7_RESPONSES_AUTHOR__RESPONSES.md").read_text(encoding="utf-8")
         for m in re.finditer(r'%([a-zA-Z_]\w*)=', dl_resp):
             variables[m.group(1)] = "assigned"
         for m in re.finditer(r'@Inc\("([a-zA-Z_]\w*)"', dl_resp):
@@ -265,10 +265,10 @@ def main() -> int:
             "variables": list(variables.keys()),
             "details": variables,
             "dictionaries": list(parse_dictionaries_from_rules(
-                (pdir / "dl_rules_result.md").read_text(encoding="utf-8")).keys()),
+                (pdir / "4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md").read_text(encoding="utf-8")).keys()),
         }
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"\nMANIFEST written to: {manifest_path}")
+        print(f"\nVALIDATOR MANIFEST written to: {manifest_path}")
 
     return ret
 

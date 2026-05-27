@@ -4,7 +4,7 @@
 
   python build_full_staging.py ^
     --nodes-dir work/<BotSlug>/output/nodes ^
-    --dict-md work/<BotSlug>/dl_rules_result.md ^
+    --dict-md work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md ^
     --out work/<BotSlug>/staging ^
     --assistant-name "<имя бота>" ^
     --export-basename "<имя_экспорта>"
@@ -69,7 +69,7 @@ def _dict_line_to_block(text: str) -> dict:
 
 
 def parse_dictionaries_from_md(md_text: str) -> list[dict]:
-    """Парсит словари из dl_rules_result.md (разбросаны по секциям узлов)."""
+    """Парсит словари из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md (разбросаны по секциям узлов)."""
     dictionaries = []
     seen = set()
     lines = md_text.splitlines()
@@ -142,7 +142,7 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="Полная сборка staging")
     parser.add_argument("--nodes-dir", type=Path, required=True)
-    parser.add_argument("--dict-md", type=Path, help="dl_rules_result.md")
+    parser.add_argument("--dict-md", type=Path, help="4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md")
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--assistant-name", default="Bot")
     parser.add_argument("--export-basename", default="Bot")
@@ -256,7 +256,7 @@ def main() -> int:
         "project_id": args.project_id,
         "creator": creator,
     }
-    (out_dir / "manifest.json").write_text(
+    (out_dir / "9_PACKAGER__MANIFEST.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )

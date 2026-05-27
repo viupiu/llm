@@ -3,9 +3,9 @@
 Генерирует DialogNode JSON для всех узлов из артефактов агентов.
 
   python generate_all_nodes.py ^
-    --responses work/<BotSlug>/dl_responses_result.md ^
-    --rules work/<BotSlug>/dl_rules_result.md ^
-    --ml-examples work/<BotSlug>/ml_examples_result.md ^
+    --responses work/<BotSlug>/7_RESPONSES_AUTHOR__RESPONSES.md ^
+    --rules work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md ^
+    --ml-examples work/<BotSlug>/5_EXAMPLES_AUTHOR__DATASET.md ^
     --out work/<BotSlug>/output/nodes
 """
 
@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def parse_response_blocks(md_text: str) -> dict[str, dict]:
-    """Парсит узлы из dl_responses_result.md -> {node_name: {answers, conditions}}."""
+    """Парсит узлы из 7_RESPONSES_AUTHOR__RESPONSES.md -> {node_name: {answers, conditions}}."""
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -70,7 +70,7 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
 
 
 def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
-    """Парсит узлы из dl_rules_result.md -> {node_name: [rule_lines]}. """
+    """Парсит узлы из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md -> {node_name: [rule_lines]}. """
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -95,7 +95,7 @@ def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
 
 
 def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
-    """Парсит узлы из ml_examples_result.md -> {node_name: [example_lines]}. """
+    """Парсит узлы из 5_EXAMPLES_AUTHOR__DATASET.md -> {node_name: [example_lines]}. """
     nodes = {}
     lines = md_text.splitlines()
     i = 0

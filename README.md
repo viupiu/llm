@@ -12,17 +12,21 @@
 | `agents/` | Промпты агентов (оркестратор, архитектор, DL-авторы, …) |
 | `work/<BotSlug>/` | Артефакты одного бота (см. `work/README.md`) |
 | `work/<BotSlug>/output/nodes/` | JSON узлов |
-| `work/<BotSlug>/staging/` | Сборка перед упаковкой |
+| `work/<BotSlug>/9_PACKAGER__STAGING/` | Сборка перед упаковкой |
 | `archives/exported/` | Готовые ZIP для загрузки в ДОС |
-| `scripts/` | `prepare_staging`, `validate_archive`, `pack_archive` |
+| `scripts/` | `prepare_staging.py`, `validate_archive.py`, `pack_archive.py` |
 
 ## Быстрый старт
 
 1. Откройте папку `LLM` в VS Code.
-2. Запустите конвейер с `agents/orchestrator.md`.
-3. После агентов — упаковка по `agents/packager.md` и `scripts/README.md`.
+2. Запустите конвейер с `agents/1_ORCHESTRATOR.md`.
+3. После агентов — упаковка по `agents/9_PACKAGER.md` и `scripts/README.md`.
 
-Успешный пример: `archives/exported/JokeBot_prod.zip`.
+Успешный пример: 
+`archives/exported/JokeBot_prod.zip`,
+`archives/exported/NeoCall_Solutions_prod.zip`,
+`archives/exported/FPK_prod.zip`.
+
 
 ## Память (обновлять постоянно)
 
@@ -35,9 +39,9 @@
 
 **Когда обновлять:** после каждого шага конвейера, при паузе/возобновлении, при смене узла, при замечании пользователя.
 
-**Если пользователь указывает на ошибку** — не только исправить артефакт, но и **записать урок** в подходящий MD (`docs/G_AGENT_RULES.md`, `docs/D_GENERATION_RULES.md`, промпт агента или секцию «Замечания» в `FACTORY_PROJECTS_MEMORY.md`), чтобы ошибка не повторялась.
+**Если пользователь указывает на ошибку** — необходимо не только исправить артефакт, но и **записать урок** в подходящий MD (`docs/G_AGENT_RULES.md`, `docs/D_GENERATION_RULES.md`, промпт агента или секцию «Замечания» в `FACTORY_PROJECTS_MEMORY.md`), чтобы ошибка не повторялась.
 
-**В чате** каждый агент подписывает ответ: «Я (Архитектор)…», «Я (Креативщик)…» и т.д. — см. `agents/orchestrator.md`.
+**В чате** каждый агент подписывает ответ: «(Архитектор:)…», «(Креативщик:)…» и т.д. — см. `agents/1_ORCHESTRATOR.md`.
 
 ## Документация
 

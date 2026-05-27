@@ -14,7 +14,7 @@
 | — | — | — |
 | — | `docs/VOICE_OUTBOUND_CHECKLIST.md` | Обзвон: EVENT, `voice.end_call`, SSML |
 
-**Тексты:** из `work/<BotSlug>/copywriter_result.md` — **дословно** (регистр **вам / вас / ваш** не менять; правило — `agents/copywriter.md`).
+**Тексты:** из `work/<BotSlug>/6_COPYWRITER__TEXTS.md` — **дословно** (регистр **вам / вас / ваш** не менять; правило — `agents/6_COPYWRITER.md`).
 
 ---
 

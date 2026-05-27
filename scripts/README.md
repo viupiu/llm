@@ -9,20 +9,20 @@
 ```powershell
 cd scripts
 
-# 1. Собрать staging из узла + словарей из dl_rules_result.md
+# 1. Собрать 9_PACKAGER__STAGING из узла + словарей из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md
 python prepare_staging.py `
   --node ..\work\GenderCheck_Bot\output\nodes\<id>.json `
-  --dict-md ..\work\GenderCheck_Bot\dl_rules_result.md `
-  --out ..\work\GenderCheck_Bot\staging `
+  --dict-md ..\work\GenderCheck_Bot\4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md `
+  --out ..\work\GenderCheck_Bot\9_PACKAGER__STAGING `
   --assistant-name "Анекдот-Мастер" `
   --skill-name "Выбор категории" `
   --export-basename "JokeBot"
 
-# 2. Проверить staging
-python validate_archive.py --staging ..\work\GenderCheck_Bot\staging
+# 2. Проверить артефакты проекта
+python validate_archive.py ..\work\GenderCheck_Bot
 
 # 3. Упаковать ZIP для импорта в ДОС
-python pack_archive.py --staging ..\work\GenderCheck_Bot\staging --out ..\archives\exported\<имя>_prod.zip
+python pack_archive.py --staging ..\work\GenderCheck_Bot\9_PACKAGER__STAGING --out ..\archives\exported\<имя>_prod.zip
 ```
 
 ## Команды
@@ -30,17 +30,17 @@ python pack_archive.py --staging ..\work\GenderCheck_Bot\staging --out ..\archiv
 | Скрипт | Назначение |
 |--------|------------|
 | `prepare_staging.py` | Assistant + Branch + Skill + DialogNode + Dictionary из артефактов агентов |
-| `validate_archive.py` | Проверка `--staging` или `--zip` |
-| `pack_archive.py` | Staging → ZIP (нормализует `[@goto]`, ключи блоков) |
-| `unpack_archive.py` | ZIP из `archives/exported/` → staging для правок |
-| `build_full_staging.py` | Все узлы из `output/nodes/` + словари из `dl_rules_result.md` |
+| `validate_archive.py` | Проверка md-артефактов проекта (positional: `work/<BotSlug>`) |
+| `pack_archive.py` | Staging → ZIP (`--staging <path>`, нормализует `[@goto]`, ключи блоков) |
+| `unpack_archive.py` | ZIP из `archives/exported/` → 9_PACKAGER__STAGING для правок |
+| `build_full_staging.py` | Все узлы из `output/nodes/` + словари из `4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` |
 | `generate_all_nodes.py` | MD-артефакты → JSON узлов (`conditions` из блока `Условия:` в responses) |
 
-## Структура staging
+## Структура 9_PACKAGER__STAGING
 
 ```
-work/<BotSlug>/staging/
-  manifest.json
+work/<BotSlug>/9_PACKAGER__STAGING/
+  9_PACKAGER__MANIFEST.json
   Assistant/{full-uuid}.json
   Branch/{full-uuid}.json
   Skill/{short-id}.json

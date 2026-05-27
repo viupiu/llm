@@ -51,7 +51,7 @@ def mn(name, sk, dl=None, ans=None, cond=None, par=None):
 S.mkdir(parents=True, exist_ok=True)
 
 # ── manifest ──
-sav("", "manifest.json", {
+sav("", "9_PACKAGER__MANIFEST.json", {
     "bot_name": "FPK", "export_basename": "FPK",
     "project_id": PID, "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b"
 })

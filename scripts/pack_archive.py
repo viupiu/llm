@@ -3,7 +3,7 @@
 Упаковка каталога staging в ZIP для импорта в ДОС.
 
 Структура staging:
-  manifest.json          — имя бота, export_basename, project_id (опционально)
+  9_PACKAGER__MANIFEST.json — имя бота, export_basename, project_id (опционально)
   Assistant/{uuid}.json
   Branch/{uuid}.json
   Skill/{short-id}.json
@@ -33,7 +33,7 @@ def main() -> int:
         "--staging",
         type=Path,
         required=True,
-        help="Каталог staging (EntityType/*.json + manifest.json)",
+        help="Каталог staging (EntityType/*.json + 9_PACKAGER__MANIFEST.json)",
     )
     parser.add_argument(
         "--out",
@@ -61,7 +61,7 @@ def main() -> int:
         return print_report(pre)
 
     manifest = {}
-    mp = staging / "manifest.json"
+    mp = staging / "9_PACKAGER__MANIFEST.json"
     if mp.exists():
         manifest = json.loads(mp.read_text(encoding="utf-8"))
 

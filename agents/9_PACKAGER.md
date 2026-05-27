@@ -17,19 +17,19 @@
 `<BotSlug>` — папка активного проекта из `FACTORY_PROJECTS_MEMORY.md` (например `GenderCheck_Bot`). См. `work/README.md`.
 
 1. JSON узлов — в `work/<BotSlug>/output/nodes/{id}.json`.
-2. Полный staging — `scripts/build_full_staging.py` или поузлово `prepare_staging.py`:
+2. Полный 9_PACKAGER__STAGING — `scripts/build_full_staging.py` или поузлово `prepare_staging.py`:
 
 ```powershell
 python scripts/build_full_staging.py `
   --nodes-dir work/<BotSlug>/output/nodes `
-  --dict-md work/<BotSlug>/dl_rules_result.md `
-  --out work/<BotSlug>/staging `
-  --assistant-name "<имя бота>" `
+  --dict-md work/<BotSlug>/4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md `
+  --out work/<BotSlug>/9_PACKAGER__STAGING `
+  --assistant-name "<имя бота>"
   --export-basename "<имя_экспорта>"
 ```
 
-3. Проверка: `python scripts/validate_archive.py --staging work/<BotSlug>/staging`
-4. ZIP: `python scripts/pack_archive.py --staging work/<BotSlug>/staging --out archives/exported/<имя>_prod.zip`
+3. Проверка: `python scripts/validate_archive.py --staging-dir work/<BotSlug>/9_PACKAGER__STAGING`
+4. ZIP: `python scripts/pack_archive.py --staging-dir work/<BotSlug>/9_PACKAGER__STAGING --out archives/exported/<имя>_prod.zip`
 
 ### `conditions` в DialogNode
 
@@ -38,7 +38,7 @@ python scripts/build_full_staging.py `
 | Тип узла | `conditions` |
 |----------|----------------|
 | Задаватель (ставит `[%that_anchor=...]` в ответе) | `null` |
-| Обработчик этапа | `%that_anchor="значение_якоря"` (как в `architecture_map.md` и блоке `Условия:` в `dl_responses_result.md`) |
+| Обработчик этапа | `%that_anchor="значение_якоря"` (как в `2_ARCHITECT__MAP.md` и блоке `Условия:` в `7_RESPONSES_AUTHOR__RESPONSES.md`) |
 | Fallback `*` | обычно `null` |
 | EVENT + `CIAS` | `%that_anchor="CIAS"` |
 
@@ -46,23 +46,23 @@ python scripts/build_full_staging.py `
 
 Подробнее: `docs/C_BOT_ARCHITECTURE.md`, `docs/F_PLATFORM_API.md`.
 
-## Минимальный состав staging
+## Минимальный состав 9_PACKAGER__STAGING
 
 - `Assistant/`, `Branch/` (`name`: `"master"`), `Skill/`, `DialogNode/`, `Dictionary/` — по одному JSON на сущность, имена файлов = `{id}.json`
 - Состав и ID — `docs/F_PLATFORM_API.md`
 
-`metadata.json` в staging **не нужен** для платформы — его создаёт `pack_archive.py` при упаковке. В staging достаточно `manifest.json` с `export_basename` и именем бота.
+`metadata.json` в 9_PACKAGER__STAGING **не нужен** для платформы — его создаёт `pack_archive.py` при упаковке. В 9_PACKAGER__STAGING достаточно `9_PACKAGER__MANIFEST.json` с `export_basename` и именем бота.
 
 ## Парсинг ответов из MD артефактов
 
-При парсинге `dl_responses_result.md` строго соблюдайте:
+При парсинге `7_RESPONSES_AUTHOR__RESPONSES.md` строго соблюдайте:
 - **НИКОГДА не включать строки "—" или "---"** в ответы. Это разделители markdown, а не текст бота.
 - **НИКОГДА не включать пустые строки.**
 - Строка ответа — это любая нe-пустая строка в секции `Ответы:`, которая НЕ является markdown-разделителем.
 
 ## Переменные (Variable) — КРИТИЧЕСКИ
 
-Валидатор должен собрать полный список переменных сессии, используемых ботом. Для каждой переменной **создайте отдельный JSON-файл в папке `Variable/`** staging-каталога:
+Валидатор должен собрать полный список переменных сессии, используемых ботом. Для каждой переменной **создайте отдельный JSON-файл в папке `Variable/`** 9_PACKAGER__STAGING-каталога:
 
 **Формат (пример из реального экспорта):**
 ```json
