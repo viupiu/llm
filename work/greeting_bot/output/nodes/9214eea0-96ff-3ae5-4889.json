@@ -1,0 +1,448 @@
+{
+  "id": "9214eea0-96ff-3ae5-4889",
+  "name": "Для кого нужно придумать поздравление? - Для мужчин мало знакомых",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "xte6i",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cni4p",
+        "data": {},
+        "text": "[@cmb({{начальник~/директор~/босс~/руководитель}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "jgkoh",
+        "data": {},
+        "text": "[@cmb({официально/формально/сдержанн~/делово~}, {{поздравит~/мужчине}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "3m9l9",
+        "data": {},
+        "text": "[@cmb({{корпоративн~/рабоч~}}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 46
+          }
+        ]
+      },
+      {
+        "key": "fhmpi",
+        "data": {},
+        "text": "[@cmb({{{коллеге/коллега} мужчине}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 50
+          }
+        ]
+      },
+      {
+        "key": "bko9q",
+        "data": {},
+        "text": "[@cmb({{{вежливое/нейтральное/стандартное}}}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "uja6c",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "oskft",
+        "data": {},
+        "text": ":lu: Вот вариант для малознакомого мужчины: Поздравляю с днём рождения! Желаю профессиональных успехов, благополучия и всего наилучшего. Пусть каждый день приносит новые достижения.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l5u57",
+        "data": {},
+        "text": ":lu: Держите текст: Прими поздравления с праздником. Желаю крепкого здоровья, стабильности и уверенности в завтрашнем дне. Успехов во всех начинаниях.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p5khq",
+        "data": {},
+        "text": ":lu: Вариант для коллеги-мужчины: Желаю Вам здоровья и сил, карьерных высот и достойных проектов. Пусть работа приносит удовольствие, а дома всегда царят уют и гармония.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hc0hl",
+        "data": {},
+        "text": "[dict(keywords_greeting_men_distant)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 36
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T23:22:34.201155",
+  "updated": "2026-05-28T23:22:35.201156",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:35Z"
+    }
+  ]
+}

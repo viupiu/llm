@@ -1,0 +1,26 @@
+{
+  "variables": [
+    "that_anchor"
+  ],
+  "details": {
+    "that_anchor": "assigned"
+  },
+  "dictionaries": [
+    "keywords_greeting_men",
+    "keywords_greeting_men_close",
+    "keywords_greeting_men_distant",
+    "keywords_greeting_women",
+    "keywords_greeting_women_close",
+    "keywords_greeting_women_distant",
+    "keywords_greeting_children",
+    "keywords_greeting_elderly_men",
+    "keywords_greeting_elderly_women",
+    "keywords_greeting_close",
+    "keywords_greeting_distant",
+    "keywords_intimacy",
+    "common_thankyou",
+    "praise_great",
+    "bye_solong",
+    "bye_gottago"
+  ]
+}

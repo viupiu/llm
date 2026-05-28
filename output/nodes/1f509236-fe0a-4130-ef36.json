@@ -1,0 +1,337 @@
+{
+  "id": "1f509236-fe0a-4130-ef36",
+  "name": "Для кого нужно придумать поздравление? - Для мужчин",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "9355x",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y7fc2",
+        "data": {},
+        "text": "[@cmb({поздравит~}, {{мужчин~/парн~/мужик~/дядьк~/дядя}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "lms97",
+        "data": {},
+        "text": "[@cmb({для него}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 15
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          }
+        ]
+      },
+      {
+        "key": "55gy1",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "37yeu",
+        "data": {},
+        "text": "[@cmb({{мужичк~/мужичок}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 40
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "h12ym",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "e02th",
+        "data": {},
+        "text": ":lu: Вот отличное поздравление для мужчины. С день рождения! Желаю крепкого здоровья, уверенности в каждом дне и чтобы все планы сбывались. Пусть работа закипает, а проблемы обходят стороной!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yakom",
+        "data": {},
+        "text": ":lu: Держи текст для него: Пусть каждый день приносит радость, а удача идёт по жизни плечом к плечу! Здоровья, бодрости и отличного настроения. С праздником!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zrmfn",
+        "data": {},
+        "text": ":lu: На счёт поздравления — вот вариант: С днём рождения! Желаю, чтобы энергия не заканчивалась, цели достигались легко, а рядом всегда были надёжные люди.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9acte",
+        "data": {},
+        "text": "[dict(keywords_greeting_men)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          }
+        ]
+      },
+      {
+        "key": "cx1fo",
+        "data": {},
+        "text": "{{парнишк~/мужик_qual/мужичок}} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 1
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T22:22:38.930455",
+  "updated": "2026-05-28T22:22:39.930456",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T22:22:39Z"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "fd0e683d-06e9-0d1c-d3a5",
+  "name": "Для кого нужно придумать поздравление? - Прощание",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "1gic4",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qjq3w",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dlzu5",
+        "data": {},
+        "text": "[@cmb({{пора/пора идти/пора бежать}}, {пока})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 45
+          }
+        ]
+      },
+      {
+        "key": "sbeyf",
+        "data": {},
+        "text": "[@cmb({всё/конец}, {{пока/до свидания/до встречи}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 50
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 51
+          }
+        ]
+      },
+      {
+        "key": "5qafu",
+        "data": {},
+        "text": "[@cmb({{{мне пора/нужно бежать/у меня дела}}}, {{до/пока}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ylnta",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "sepcd",
+        "data": {},
+        "text": ":lu: До свидания! Было приятно помогать. Хорошего дня! 👋",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "807ms",
+        "data": {},
+        "text": ":lu: Пока! Если нужно будет поздравление — я всегда тут. Всего хорошего!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7ac9c",
+        "data": {},
+        "text": ":lu: До встречи! Пусть день будет отличным. Приходи ещё!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c20xd",
+        "data": {},
+        "text": "[dict(bye_solong)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 17
+          }
+        ]
+      },
+      {
+        "key": "mdlto",
+        "data": {},
+        "text": "[dict(bye_gottago)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T23:22:34.201155",
+  "updated": "2026-05-28T23:22:35.201156",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:35Z"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "711c0894-a330-dc7b-8921",
+  "name": "Для кого нужно придумать поздравление? - Близкие (универсальное)",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "rzbbm",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y5ms6",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_intimacy)]}, {человек~/личност~/близк~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 62
+          }
+        ]
+      },
+      {
+        "key": "wvdza",
+        "data": {},
+        "text": "[@cmb({{{как семья/как воздух/всё значит}}}, {человек~/близк~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "axyf0",
+        "data": {},
+        "text": "[@cmb({{{ближе всех/ближе родных}}}, {человек~/близк~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 55
+          }
+        ]
+      },
+      {
+        "key": "3617q",
+        "data": {},
+        "text": "[@cmb({{дорогому/родному/близкому/любимому}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "eshhq",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "fa2bc",
+        "data": {},
+        "text": ":lu: Вот поздравление для самого близкого человека: Ты — тот, кто делает жизнь лучше и ярче. Спасибо за поддержку, за тепло, за то, что всегда рядом. Люблю и ценю. С днём рождения, родной человек!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "h6o93",
+        "data": {},
+        "text": ":lu: Держи от сердца: Для меня ты — самый близкий и родной. Пусть жизнь будет наполнена счастьем, а я буду рядом, чтобы делить с тобой каждый момент. С праздником!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cj3vn",
+        "data": {},
+        "text": ":lu: Вариант для дорогого человека: Родной мой, ты заслуживаешь только лучшего! Пусть мечты сбываются, здоровье не подводит, а рядом всегда будет любовь и забота.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ydv17",
+        "data": {},
+        "text": "[dict(keywords_greeting_close)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T23:22:34.201155",
+  "updated": "2026-05-28T23:22:35.201156",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:35Z"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "id": "8304ee03-0e8b-411f-210c",
+  "name": "Для кого нужно придумать поздравление? - Универсальное",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "rcv7c",
+        "data": {},
+        "text": "[@cmb({{придумай~/напиш~/текс}}, {поздравл~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 45
+          }
+        ]
+      },
+      {
+        "key": "9vwdp",
+        "data": {},
+        "text": "[@cmb({{хочу/нужн~/надо~/требуе}}, {поздравл~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 47
+          }
+        ]
+      },
+      {
+        "key": "ydrh2",
+        "data": {},
+        "text": "[@cmb({поздравл~}, {{любо~/какое-нибудь/какое-нить/нейтральное/универсальн~/без деталей}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          }
+        ]
+      },
+      {
+        "key": "x4b6c",
+        "data": {},
+        "text": "[@cmb({{придумай~/придумай что-то}}, {к празднику})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 50
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 51
+          }
+        ]
+      },
+      {
+        "key": "3g86o",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "t0u4q",
+        "data": {},
+        "text": "[@cmb({{придумай что-нибудь/тек для поздравления}}, {общ~/празднику})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ot73c",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "uhwpc",
+        "data": {},
+        "text": ":lu: Вот универсальное поздравление, которое подойдёт любому: С днём рождения! Желаю здоровья, счастья и удачи во всём! Пусть каждый день приносит радость, а рядом будут те, кто делает жизнь лучше.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ga9be",
+        "data": {},
+        "text": ":lu: Держи вариант для любого повода: Поздравляю! Пусть жизнь будет яркой, полной приятных моментов и добрых людей. Успехов, хорошего настроения и всего самого наилучшего!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kojps",
+        "data": {},
+        "text": ":lu: Вот нейтральный текст: С праздником! Желаю крепкого здоровья, отличного настроения и выполнения всех планов. Пусть каждый день дарит повод для улыбки.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i1t6n",
+        "data": {},
+        "text": "{{поздравление/поздравить/текс поздравления/поздравительный}} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 1
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T23:22:34.201155",
+  "updated": "2026-05-28T23:22:35.201156",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:35Z"
+    }
+  ]
+}

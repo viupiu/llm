@@ -41,22 +41,22 @@ def clean_name(name: str) -> str:
 
 
 def parse_skills_from_map(map_md_path: Path | None) -> list[str]:
-    """Парсит названия навыков из файла архитектурной карты (### Skill: <name>)."""
+    """Парсит названия навыков из файла архитектурной карты (### Skill: <name>). Дедупликация: dict.fromkeys сохраняет порядок."""
     if map_md_path is None or not map_md_path.exists():
         return []
     text = map_md_path.read_text(encoding="utf-8")
-    return [clean_name(m.group(1)) for m in RE_SKILL_NAME.finditer(text)]
+    return list(dict.fromkeys(clean_name(m.group(1)) for m in RE_SKILL_NAME.finditer(text)))
+
+
+RE_TABLE_NODE = re.compile(r"\|\s*\S+\s*\|\s*`([^`]+)`")
 
 
 def parse_skill_to_nodes_map(map_md_path: Path | None) -> dict[str, list[str]]:
     """
     Парсит из архитектурной карты какие узлы принадлежат какому скиллу.
-    Формат карты:
-      ### Skill: `START`
-      #### Узел: `Bot_Start`
-      ...
-      ### Skill: `MOVIE_REC`
-      ...
+    Поддерживает два формата:
+      1. Table rows: `| G1 | `node_name` | TYPE | ...` (наиболее распространённый)
+      2. Header nodes: `#### Узел: `Bot_Start`` (legacy)
     Возвращает {skill_name: [node_name, ...]}
     """
     if map_md_path is None or not map_md_path.exists():
@@ -72,14 +72,18 @@ def parse_skill_to_nodes_map(map_md_path: Path | None) -> dict[str, list[str]]:
             if current_skill not in skill_to_nodes:
                 skill_to_nodes[current_skill] = []
             continue
+        if not current_skill:
+            continue
+        # 1) Table rows: `| G1 | `node_name` | ...`
+        m_table = RE_TABLE_NODE.search(s)
+        if m_table:
+            node_name = clean_name(m_table.group(1))
+            skill_to_nodes[current_skill].append(node_name)
+            continue
+        # 2) Legacy header format: `#### Узел: `name``
         m_node = re.match(r"#{4,5}\s*Узел:\s*(.+)", s)
-        if m_node and current_skill:
-            raw = m_node.group(1).strip()
-            node_name = clean_name(raw)
-            # Убираем текстовые комментарии в скобках, например "(ивент загрузки)"
-            ci = node_name.find(" (")
-            if ci != -1:
-                node_name = node_name[:ci].strip()
+        if m_node:
+            node_name = clean_name(m_node.group(1))
             skill_to_nodes[current_skill].append(node_name)
     return skill_to_nodes
 

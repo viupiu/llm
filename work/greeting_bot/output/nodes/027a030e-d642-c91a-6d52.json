@@ -1,0 +1,488 @@
+{
+  "id": "027a030e-d642-c91a-6d52",
+  "name": "Для кого нужно придумать поздравление? - Для мужчин близких",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "qn8lt",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vzs3v",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_intimacy)]}, {{муж~/пап~/брат}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          }
+        ]
+      },
+      {
+        "key": "ogi6e",
+        "data": {},
+        "text": "[@cmb({{самый лучший/мой герой/моя опора}}, {{муж~/пап~/брат}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "246ju",
+        "data": {},
+        "text": "[@cmb({{всё значит/всё для меня/он мой мир}}, {{муж~/пап~/брат}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          }
+        ]
+      },
+      {
+        "key": "r7c0q",
+        "data": {},
+        "text": "[@cmb({{самый близкий/единственный}}, {{муж~/пап~/брат}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "iop2j",
+        "data": {},
+        "text": "[@cmb({{поздравить/текс/поздравление}}, {{мужу/папе/брату}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ckpfc",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "4m7af",
+        "data": {},
+        "text": ":lu: Вот поздравление для самого близкого мужчины: Ты — тот, кто делает этот мир лучше просто тем, что существуешь. Спасибо за твою силу, за поддержку, за то, что всегда рядом. Люблю и ценю. С днём рождения, родной!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "f0nuk",
+        "data": {},
+        "text": ":lu: Держи от души: Для меня ты — больше, чем просто человек рядом. Ты — опора, вдохновение и бесконечная любовь. Пусть жизнь будет светлой, а я буду всегда рядом. С праздником, любимый!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "78drr",
+        "data": {},
+        "text": ":lu: Вариант для самого дорогого: Родной мой, ты заслуживаешь лучшего! Спасибо за каждую минуту рядом с тобой. Пусть мечты сбываются, а я буду рядом, чтобы делить с тобой каждую победу.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xfj53",
+        "data": {},
+        "text": "[dict(keywords_greeting_men_close)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T23:22:34.201155",
+  "updated": "2026-05-28T23:22:35.201156",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:35Z"
+    }
+  ]
+}

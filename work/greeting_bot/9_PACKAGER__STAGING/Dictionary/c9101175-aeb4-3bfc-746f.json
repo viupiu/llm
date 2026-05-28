@@ -1,0 +1,113 @@
+{
+  "id": "c9101175-aeb4-3bfc-746f",
+  "name": "keywords_greeting_elderly_men",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "8vm5e",
+        "data": {},
+        "text": "дедушк~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gaiyq",
+        "data": {},
+        "text": "дед~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7fuei",
+        "data": {},
+        "text": "дедуля",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lsyko",
+        "data": {},
+        "text": "старик~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u8zhu",
+        "data": {},
+        "text": "старичок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "iy8js",
+        "data": {},
+        "text": "ветеран",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qv37e",
+        "data": {},
+        "text": "пенcионер",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "beuaz",
+        "data": {},
+        "text": "седой",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bjoal",
+        "data": {},
+        "text": "преклонный",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mxofl",
+        "data": {},
+        "text": "---",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-28T23:22:51.994080",
+  "updated": "2026-05-28T23:22:52.994081",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T23:22:52Z"
+    }
+  ]
+}

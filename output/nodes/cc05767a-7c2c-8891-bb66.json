@@ -1,0 +1,277 @@
+{
+  "id": "cc05767a-7c2c-8891-bb66",
+  "name": "Для кого нужно придумать поздравление? - Для женщин",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "m58fn",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ltbnz",
+        "data": {},
+        "text": "[@cmb({поздравит~}, {{женщин~/девушк~/женк~/тетьк~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 50
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 53
+          }
+        ]
+      },
+      {
+        "key": "5vwnw",
+        "data": {},
+        "text": "[@cmb({для неё}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 14
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      },
+      {
+        "key": "s4gsf",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "6ocj4",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "qv6by",
+        "data": {},
+        "text": ":lu: Вот поздравление для неё: С днём рождения! Желаю быть счастливой, цветущей и окружённой любящими людьми. Пусть каждый день будет наполнен красотой, вдохновением и приятными сюрпризами!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6047p",
+        "data": {},
+        "text": ":lu: Держи вариант: Пусть жизнь дарит только радость, а улыбка никогда не сходит с лица! Здоровья, любви и море отличного настроения. С праздником!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a9ipm",
+        "data": {},
+        "text": ":lu: Вот текст: С праздником! Желаю, чтобы глаза всегда сияли, а сердце билось от счастья. Пусть всё задуманное приходит легко и с радостью.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z0i15",
+        "data": {},
+        "text": "[dict(keywords_greeting_women)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          }
+        ]
+      },
+      {
+        "key": "acrq7",
+        "data": {},
+        "text": "{{девчонк~/женочк~/девушка}} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 1
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T22:22:38.930455",
+  "updated": "2026-05-28T22:22:39.930456",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T22:22:39Z"
+    }
+  ]
+}

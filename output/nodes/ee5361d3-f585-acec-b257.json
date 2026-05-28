@@ -1,0 +1,428 @@
+{
+  "id": "ee5361d3-f585-acec-b257",
+  "name": "Для кого нужно придумать поздравление? - Для детей",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "lqv08",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dpdsg",
+        "data": {},
+        "text": "[@cmb({{малыш~/ребёнк~/крошк~/ребёночк~/детк~/детёныш}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 69
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "edbac",
+        "data": {},
+        "text": "[@cmb({{сын~/дочк~/внук~/внучк~/племянник~/племянниц~}}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          }
+        ]
+      },
+      {
+        "key": "zmx4n",
+        "data": {},
+        "text": "[@cmb({{маленьк~/милый/мило~}}, {ребёнк~/сын~/дочк~/малыш})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "po2tn",
+        "data": {},
+        "text": "[@cmb({{школьник~/дошкольник~/годик~/именины}}, {ребёнк~/малыш})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "tr3st",
+        "data": {},
+        "text": "[@cmb({{весёло~/ярк~/миленьк~}}, {поздравлень~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 48
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "40ic5",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "wfgip",
+        "data": {},
+        "text": ":lu: 🎉 Вот поздравление для малыша! 🎂 С днём рождения! Пусть каждый день будет похож на сказку — с волшебством, весельем и вкусняшками! 🌟 Расти здоровым, счастливым и самым весёлым! 🎈",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qdb4n",
+        "data": {},
+        "text": ":lu: 🎊 Держи вариант для малыша: С днём рождения, солнышко! ☀️ Пусть игрушки будут самыми крутыми, шоколадка — самой большой, а улыбка — самой яркой! 🍭🎁",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hrgy6",
+        "data": {},
+        "text": ":lu: 🌈 Поздравление для ребёночка: Ура, тебе праздник! 🥳 Пусть мечты сбываются, друзья будут верными, а каждый день приносит новые приключения! 🚀💫",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yvmfm",
+        "data": {},
+        "text": "[dict(keywords_greeting_children)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T22:22:38.930455",
+  "updated": "2026-05-28T22:22:39.930456",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T22:22:39Z"
+    }
+  ]
+}
