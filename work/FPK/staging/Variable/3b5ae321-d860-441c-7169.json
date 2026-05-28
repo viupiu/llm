@@ -1,0 +1,18 @@
+{
+  "id": "3b5ae321-d860-441c-7169",
+  "name": "nomatch_counter",
+  "description": "Счётчик подряд идущих попаданий",
+  "type": "user",
+  "value": "0",
+  "life_cycle": "0",
+  "extra": {
+    "api": true,
+    "scope": "session",
+    "secret": false
+  },
+  "is_editable": null,
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

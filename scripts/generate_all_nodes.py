@@ -29,8 +29,13 @@ from archive_core import (
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def clean_name(name: str) -> str:
+    """Убирает обратные кавычки и пробелы из имён узлов/скиллов."""
+    return name.strip().strip("`").strip()
+
+
 def parse_response_blocks(md_text: str) -> dict[str, dict]:
-    """Парсит узлы из 7_RESPONSES_AUTHOR__RESPONSES.md -> {node_name: {answers, conditions}}."""
+    """Парсит узлы из 6_RESPONSES_AUTHOR__RESPONSES.md -> {node_name: {answers, conditions}}."""
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -39,7 +44,7 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
         if not m:
             i += 1
             continue
-        node_name = m.group(1).strip()
+        node_name = clean_name(m.group(1))
         i += 1
         conditions_lines = []
         answers_lines = []
@@ -47,7 +52,7 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
         while i < len(lines):
             line = lines[i]
             stripped = line.strip()
-            if stripped.startswith("## Узел:"):
+            if stripped.startswith("## Узел:") or stripped.startswith("## Словарь:"):
                 break
             if stripped == "Условия:":
                 section = "conditions"
@@ -57,9 +62,9 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
                 section = "answers"
                 i += 1
                 continue
-            if section == "conditions" and stripped and stripped != "Нет":
+            if section == "conditions" and stripped and stripped != "Нет" and stripped != "---":
                 conditions_lines.append(stripped)
-            if section == "answers" and stripped and stripped != "---":
+            if section == "answers" and stripped and stripped != "---" and stripped != "Нет":
                 answers_lines.append(stripped)
             i += 1
         cond = "\n".join(conditions_lines).strip() if conditions_lines else None
@@ -70,7 +75,18 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
 
 
 def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
-    """Парсит узлы из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md -> {node_name: [rule_lines]}. """
+    """Парсит узлы из 3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md -> {node_name: [rule_lines]}.
+
+    Файл имеет структуру:
+      ## Узел: name
+      Условия:
+      %that_anchor=...
+      Ответы:
+      * rule1
+      * rule2
+
+    Извлекаем ТОЛЬКО строки из секции "Ответы:" (DL-правила со звёздочкой).
+    """
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -79,23 +95,50 @@ def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
         if not m:
             i += 1
             continue
-        node_name = m.group(1).strip()
+        node_name = clean_name(m.group(1))
         i += 1
         rule_lines = []
+        section = None  # "conditions" | "answers" | None
         while i < len(lines):
             line = lines[i]
             stripped = line.strip()
-            if stripped.startswith("## Узел:"):
+            # Граница: новый узел, словарь, или конец файла
+            if stripped.startswith("## Узел:") or stripped.startswith("## Словарь:"):
                 break
-            if stripped and not stripped.startswith("#"):
-                rule_lines.append(stripped)
+            if stripped == "Условия:":
+                section = "conditions"
+                i += 1
+                continue
+            if stripped == "Ответы:":
+                section = "answers"
+                i += 1
+                continue
+            if section == "answers" and stripped:
+                # Захватываем только DL-правила (начинаются с * или EVENT)
+                if stripped.startswith("*") or stripped.startswith("EVENT "):
+                    rule_lines.append(stripped)
             i += 1
         nodes[node_name] = rule_lines
     return nodes
 
 
+ML_META_RE = re.compile(
+    r"^-\s*(Intent:|Примеры:|---)$"
+)
+
 def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
-    """Парсит узлы из 5_EXAMPLES_AUTHOR__DATASET.md -> {node_name: [example_lines]}. """
+    """Парсит узлы из 4_EXAMPLES_AUTHOR__DATASET.md -> {node_name: [clean_example_phrases]}.
+
+    Файл имеет структуру:
+      ## Узел: `name`
+      - Intent: `intent_name`
+      - Примеры:
+      - фраза1
+      - фраза2
+      ---
+
+    Извлекаем ТОЛЬКО чистые фразы (без заголовков).
+    """
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -104,19 +147,71 @@ def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
         if not m:
             i += 1
             continue
-        node_name = m.group(1).strip()
+        node_name = clean_name(m.group(1))
         i += 1
         examples = []
+        collecting = False
         while i < len(lines):
             line = lines[i]
             stripped = line.strip()
             if stripped.startswith("## Узел:"):
                 break
-            if stripped:
+            if stripped.startswith("- Примеры:"):
+                collecting = True
+                i += 1
+                continue
+            if stripped == "---":
+                collecting = False
+                i += 1
+                continue
+            if not collecting:
+                i += 1
+                continue
+            # Пропускаем строки вида "- Intent: ..." и подобные метаданные
+            if stripped.startswith("- Intent:") or stripped.startswith("- Примеры:"):
+                i += 1
+                continue
+            # Если строка начинается с "- ", убираем префикс
+            if stripped.startswith("- "):
+                phrase = stripped[2:].strip()
+                if phrase:
+                    examples.append(phrase)
+            elif stripped:
                 examples.append(stripped)
             i += 1
-        nodes[node_name] = examples
+        if node_name in nodes:
+            nodes[node_name].extend(examples)
+        else:
+            nodes[node_name] = examples
     return nodes
+
+
+def split_rule_and_dsl_tags(raw_rule: str) -> tuple[str, str]:
+    """Разделяет строку на DL-правило и DSL-теги.
+
+    Формат в RULES файле: '* @cmb(...) * [%tag] * [@goto(...)]'
+    Первый фрагмент — DL-паттерн (если содержит @cmb/@keyword/[-entity-]).
+    Всё остальное (разделённо ' * ') — DSL-теги для ответа.
+
+    Если строка НЕ содержит @cmb/@keyword/[-entity-] — это не DL-правило,
+    а чистый DSL-тег (e.g. [disableautovars], [%that_anchor=...]) -> в answers.
+    """
+    parts = raw_rule.split(" * ")
+    dl_part = parts[0].strip()
+    if len(parts) > 1:
+        tags_part = " ".join(parts[1:]).strip()
+    else:
+        tags_part = ""
+
+    # Проверка: это реальный DL-паттерн?
+    is_dl_rule = ('@cmb' in dl_part or '@keyword' in dl_part or '[-' in dl_part or
+                  'EVENT ' in dl_part or dl_part.strip() == '*')
+    if is_dl_rule:
+        return dl_part, tags_part
+
+    # Не DL-правило — весь текст идёт в answers
+    combined = dl_part + (" " + tags_part if tags_part else "")
+    return "", combined
 
 
 def lines_to_blocks(lines: list[str]) -> dict:
@@ -175,7 +270,26 @@ def main() -> int:
         cond_from_md = resp.get("conditions") if isinstance(resp, dict) else None
         condition = build_condition(node_name, cond_from_md)
 
-        if not answer_lines and not rule_lines and not ml_lines:
+        # Разделяем DL-правила и DSL-теги: '* @cmb(...) * [%tag] * [@goto(...)]'
+        # DL-часть идёт в dl_rules, теги — в answers.
+        clean_rule_lines = []
+        dsl_tags_from_rules = []
+        for rl in rule_lines:
+            raw = rl.strip()
+            # Обрезаем префикс "* " (звёздочка + пробел из markdown списка)
+            if raw.startswith("* "):
+                raw = raw[2:]
+            elif raw == "*":
+                raw = "*"
+            dl_part, tags_part = split_rule_and_dsl_tags(raw.strip())
+            clean_rule_lines.append(dl_part)
+            if tags_part:
+                dsl_tags_from_rules.append(tags_part)
+
+        # DSL-теги из правил добавляются к ответам
+        merged_answers = answer_lines + dsl_tags_from_rules
+
+        if not merged_answers and not clean_rule_lines and not ml_lines:
             print(f"  SKIP {node_name}: нет данных")
             continue
 
@@ -186,11 +300,11 @@ def main() -> int:
             "parent": None,
             "shortcuts": [],
             "conditions": condition,
-            "dl_rules": lines_to_blocks(rule_lines),
+            "dl_rules": lines_to_blocks(clean_rule_lines),
             "ml_examples": lines_to_blocks(ml_lines),
             "intent_id": None,
             "skill_id": None,
-            "answers": lines_to_blocks(answer_lines),
+            "answers": lines_to_blocks(merged_answers),
             "responses": [],
             "slot_filling": [
                 {

@@ -1,0 +1,509 @@
+{
+  "id": "0820a192-04c9-5309-4b6a",
+  "name": "Что вы хотите посмотреть? - Хочу рекомендацию",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "vzitu",
+        "data": {},
+        "text": "[@cmb({[dict(posovetuj)]}, {{фильм~/кино/~посмотреть/~посмотри~/~что посмотрел~}})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      },
+      {
+        "key": "wplro",
+        "data": {},
+        "text": "[@cmb({{хочу посмотреть/~хочу фильм/~хочу кино/~что посоветовать}})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 66
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          }
+        ]
+      },
+      {
+        "key": "opfm8",
+        "data": {},
+        "text": "[@cmb({{порекомендуй~/подскажи~/ищу~/подкинь~/предложи~/давай~}}, {{фильм~/кино/~что посмотрел~}})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          }
+        ]
+      },
+      {
+        "key": "gvoyk",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ku193",
+        "data": {},
+        "text": "посоветуй что-нибудь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xgdvx",
+        "data": {},
+        "text": "хочу кино",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ossj0",
+        "data": {},
+        "text": "что посмотреть вечером",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nezmn",
+        "data": {},
+        "text": "рекомендуй фильм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "syoix",
+        "data": {},
+        "text": "что новенькое есть?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yaek6",
+        "data": {},
+        "text": "ничего не могу выбрать, помоги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6uv1d",
+        "data": {},
+        "text": "киноману на вечер",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ef4pf",
+        "data": {},
+        "text": "ищу что посмотреть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "padf8",
+        "data": {},
+        "text": "фильм посоветуй",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "v9znd",
+        "data": {},
+        "text": "что интересного можешь показать?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b6d5i",
+        "data": {},
+        "text": "давай какое-нибудь кино",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kyao4",
+        "data": {},
+        "text": "не знаешь что посмотреть?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ibmpz",
+        "data": {},
+        "text": "скинь что-нибудь интересное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "v28bd",
+        "data": {},
+        "text": ":lu: Отличное начало! Тогда вопрос: какой жанр тебе по душе? Комедия, драма, триллер, фантастика или что-то другое? [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "49821",
+        "data": {},
+        "text": ":lu: Давай разбираться! Какой жанр тебе ближе? [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "ibmho",
+        "data": {},
+        "text": "[%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "jxf0h",
+        "data": {},
+        "text": "[%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "manoj",
+        "data": {},
+        "text": "[%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "ydshs",
+        "data": {},
+        "text": "{порекомендуй~/подскажи~/ищу~} [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

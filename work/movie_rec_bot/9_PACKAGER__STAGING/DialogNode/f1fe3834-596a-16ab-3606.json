@@ -1,0 +1,341 @@
+{
+  "id": "f1fe3834-596a-16ab-3606",
+  "name": "С кем планируете смотреть? - Компания",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"С кем планируете смотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "7y6nm",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_viewing_company)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "j6awq",
+        "data": {},
+        "text": "с парнем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ucrx6",
+        "data": {},
+        "text": "с ребёнком",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wsbjb",
+        "data": {},
+        "text": "в одиночку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mp6ns",
+        "data": {},
+        "text": "с коллегами",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6pgsc",
+        "data": {},
+        "text": "вдвоём",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7lzi6",
+        "data": {},
+        "text": "с друзьями",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ri7zk",
+        "data": {},
+        "text": "вся семья",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "je9it",
+        "data": {},
+        "text": "с мамой",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "niedo",
+        "data": {},
+        "text": "с подругой",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lilzg",
+        "data": {},
+        "text": "одни дети будут",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3xk15",
+        "data": {},
+        "text": "с братом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y0lwm",
+        "data": {},
+        "text": "с тёщей",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "76493132-f3dd-1ccf-6a08",
+  "answers": {
+    "blocks": [
+      {
+        "key": "b155i",
+        "data": {},
+        "text": ":lu: Записал. А какой длительности фильм подойдёт — короткий, час-полтора, или побольше? [%company_type=\"[$company_type]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 123
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          }
+        ]
+      },
+      {
+        "key": "xikey",
+        "data": {},
+        "text": ":lu: Понял. По времени что предпочтешь? [%company_type=\"[$company_type]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 123
+          }
+        ]
+      },
+      {
+        "key": "atf33",
+        "data": {},
+        "text": "[%company_type=\"[$company_type]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

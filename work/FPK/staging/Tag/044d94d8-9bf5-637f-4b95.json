@@ -1,0 +1,25 @@
+{
+  "id": "044d94d8-9bf5-637f-4b95",
+  "name": "voice",
+  "is_active": true,
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": "2026-05-26T12:00:00.000000",
+  "description": "",
+  "answers": {
+    "blocks": [
+      {
+        "key": "ftgkw",
+        "data": {},
+        "text": "voice",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "conditions": "",
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

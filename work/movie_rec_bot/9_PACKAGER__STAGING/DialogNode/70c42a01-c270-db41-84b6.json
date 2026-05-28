@@ -1,0 +1,121 @@
+{
+  "id": "70c42a01-c270-db41-84b6",
+  "name": "Что вы хотите посмотреть? - *",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "kr89d",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "9gf5w",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "76493132-f3dd-1ccf-6a08",
+  "answers": {
+    "blocks": [
+      {
+        "key": "78s3y",
+        "data": {},
+        "text": "[nothing] [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 10
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          }
+        ]
+      },
+      {
+        "key": "c9pys",
+        "data": {},
+        "text": "[disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

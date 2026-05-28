@@ -1,0 +1,99 @@
+{
+  "id": "5f16f644-4a1b-0963-3bbb",
+  "name": "common_no",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "dmn9u",
+        "data": {},
+        "text": "нет",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zw1ev",
+        "data": {},
+        "text": "нет спасибо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ia2vl",
+        "data": {},
+        "text": "не нужно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r5i5h",
+        "data": {},
+        "text": "не надо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y3agi",
+        "data": {},
+        "text": "нет не переводи",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "meh3g",
+        "data": {},
+        "text": "не хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "li53k",
+        "data": {},
+        "text": "не обязательно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7ddc3",
+        "data": {},
+        "text": "нет всё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gm7a8",
+        "data": {},
+        "text": "не надо спасибо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

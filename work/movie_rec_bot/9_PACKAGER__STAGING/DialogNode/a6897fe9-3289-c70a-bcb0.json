@@ -1,0 +1,91 @@
+{
+  "id": "a6897fe9-3289-c70a-bcb0",
+  "name": "LOAD_EVENT_start",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"CIAS\"",
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "2xts7",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "bd1b18c4-656b-c1e4-4fc3",
+  "answers": {
+    "blocks": [
+      {
+        "key": "71pmd",
+        "data": {},
+        "text": "Здравствуйте! Я помогу подобрать фильм под ваше настроение. Расскажите, что вы хотите посмотреть? [@goto(\"Bot_Start\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 117
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

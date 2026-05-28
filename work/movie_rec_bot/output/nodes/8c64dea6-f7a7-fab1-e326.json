@@ -1,0 +1,91 @@
+{
+  "id": "8c64dea6-f7a7-fab1-e326",
+  "name": "С кем планируете смотреть?",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "7lzot",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "j0gi3",
+        "data": {},
+        "text": "С кем планируете смотреть — одни, с компанией, семьёй? [disableautovars] [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 115
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

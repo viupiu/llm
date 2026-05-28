@@ -1,0 +1,368 @@
+{
+  "id": "eacaa0b7-e0cc-1bb4-d1d9",
+  "name": "Какой жанр вам по душе? - Жанр",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какой жанр вам по душе?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "3sm6r",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_genres)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "zxsnf",
+        "data": {},
+        "text": "комедия",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9tfky",
+        "data": {},
+        "text": "триллер",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "t5xrx",
+        "data": {},
+        "text": "фантастика",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hqff2",
+        "data": {},
+        "text": "мне драму",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "osuj9",
+        "data": {},
+        "text": "люблю мультфильмы",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2e6ey",
+        "data": {},
+        "text": "боевик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x04in",
+        "data": {},
+        "text": "ужас",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bg6gy",
+        "data": {},
+        "text": "мистика",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7i3ef",
+        "data": {},
+        "text": "мелодрама",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "f91qs",
+        "data": {},
+        "text": "вестерн",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o2ut6",
+        "data": {},
+        "text": "приключения",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u4rl2",
+        "data": {},
+        "text": "сатиру",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uqwrv",
+        "data": {},
+        "text": "био",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fld89",
+        "data": {},
+        "text": "аниме",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g5du5",
+        "data": {},
+        "text": "нуар",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "76493132-f3dd-1ccf-6a08",
+  "answers": {
+    "blocks": [
+      {
+        "key": "8fpjk",
+        "data": {},
+        "text": ":lu: Отлично, запомнил! А какое настроение тебе ближе? [%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 118
+          }
+        ]
+      },
+      {
+        "key": "6d2w0",
+        "data": {},
+        "text": ":lu: Принято. По настроению что хочешь — весёлое, мрачное, напряжённое? [%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          }
+        ]
+      },
+      {
+        "key": "4enih",
+        "data": {},
+        "text": "[%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

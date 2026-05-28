@@ -30,8 +30,14 @@ from archive_core import (
 
 RE_DICT_NAME = re.compile(r"^[a-z][a-z0-9_]*$")
 RE_SKILL_NAME = re.compile(r"### Skill:\s*(.+)")
+RE_DICT_HEADER = re.compile(r"^##\s*Словарь:\s*([a-z][a-z0-9_]*)\s*$")
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def clean_name(name: str) -> str:
+    """Убирает ВСЕ обратные кавычки и пробелы из имён узлов/скиллов."""
+    return name.strip().replace("\u0060", "").strip()
 
 
 def parse_skills_from_map(map_md_path: Path | None) -> list[str]:
@@ -39,7 +45,43 @@ def parse_skills_from_map(map_md_path: Path | None) -> list[str]:
     if map_md_path is None or not map_md_path.exists():
         return []
     text = map_md_path.read_text(encoding="utf-8")
-    return [m.group(1).strip() for m in RE_SKILL_NAME.finditer(text)]
+    return [clean_name(m.group(1)) for m in RE_SKILL_NAME.finditer(text)]
+
+
+def parse_skill_to_nodes_map(map_md_path: Path | None) -> dict[str, list[str]]:
+    """
+    Парсит из архитектурной карты какие узлы принадлежат какому скиллу.
+    Формат карты:
+      ### Skill: `START`
+      #### Узел: `Bot_Start`
+      ...
+      ### Skill: `MOVIE_REC`
+      ...
+    Возвращает {skill_name: [node_name, ...]}
+    """
+    if map_md_path is None or not map_md_path.exists():
+        return {}
+    text = map_md_path.read_text(encoding="utf-8")
+    skill_to_nodes: dict[str, list[str]] = {}
+    current_skill = None
+    for line in text.splitlines():
+        s = line.strip()
+        m_skill = RE_SKILL_NAME.match(s)
+        if m_skill:
+            current_skill = clean_name(m_skill.group(1))
+            if current_skill not in skill_to_nodes:
+                skill_to_nodes[current_skill] = []
+            continue
+        m_node = re.match(r"#{4,5}\s*Узел:\s*(.+)", s)
+        if m_node and current_skill:
+            raw = m_node.group(1).strip()
+            node_name = clean_name(raw)
+            # Убираем текстовые комментарии в скобках, например "(ивент загрузки)"
+            ci = node_name.find(" (")
+            if ci != -1:
+                node_name = node_name[:ci].strip()
+            skill_to_nodes[current_skill].append(node_name)
+    return skill_to_nodes
 
 
 def _dict_line_to_block(text: str) -> dict:
@@ -62,11 +104,53 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        # Пропускаем заголовки узлов и маркеры
+        # Поддержка формата "## Словарь: name"
+        m = RE_DICT_HEADER.match(line)
+        if m:
+            name = m.group(1)
+            if name in seen:
+                i += 1
+                continue
+            seen.add(name)
+            i += 1
+            body = []
+            while i < len(lines):
+                t = lines[i].strip()
+                if not t:
+                    i += 1
+                    continue
+                if t.startswith("## ") or t.startswith("#"):
+                    break
+                if RE_DICT_HEADER.match(t):
+                    break
+                # Пропускаем DL-правила (паттерны с [@cmb, [dict, * и т.д.)
+                if t.startswith("*") or t.startswith("[") or t.startswith("{"):
+                    i += 1
+                    continue
+                body.append(t)
+                i += 1
+            blocks = [_dict_line_to_block(l) for l in body if l.strip()]
+            if not blocks:
+                continue
+            did = new_short_id()
+            dictionaries.append({
+                "id": did,
+                "name": name,
+                "description": "",
+                "content": normalize_blocks_field({"blocks": blocks}),
+                "is_common": True,
+                "is_hidden": False,
+                "is_active": True,
+                "meta": {},
+                "created": format_dos_datetime(),
+                "updated": None,
+                "creator": DEFAULT_CREATOR,
+                "editors": [],
+            })
+            continue
         if line.startswith("## ") or line.startswith("#"):
             i += 1
             continue
-        # Имя словаря: snake_case с маленькой буквы
         if RE_DICT_NAME.match(line):
             name = line
             if name in seen:
@@ -84,7 +168,6 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
                     break
                 if RE_DICT_NAME.match(t):
                     break
-                # Пропускаем DL-правила (паттерны с [@cmb, [dict, * и т.д.)
                 if t.startswith("*") or t.startswith("[") or t.startswith("{"):
                     i += 1
                     continue
@@ -157,6 +240,13 @@ def main() -> int:
     if not skill_names:
         print("WARNING: No skills found in map file, nodes will have skill_id=None", file=sys.stderr)
 
+    # Парсим привязку узлов к скиллам
+    skill_to_nodes = parse_skill_to_nodes_map(args.map_md)
+    node_to_skill: dict[str, str] = {}
+    for sk, nns in skill_to_nodes.items():
+        for nn in nns:
+            node_to_skill[nn] = sk
+
     # Создаём skills из карты
     skill_ids = {}
     for skill_name in skill_names:
@@ -214,17 +304,24 @@ def main() -> int:
     node_count = 0
     for np in sorted(nodes_dir.glob("*.json")):
         node = json.loads(np.read_text(encoding="utf-8"))
-        node_name = node.get("name", "")
+        node_name = clean_name(node.get("name", ""))
+        node["name"] = node_name
 
-        # Присваиваем skill_id — если есть хотя бы один скилл, вешаем туда
-        if skill_ids:
+        # Присваиваем skill_id по маппингу из架构图
+        target_skill = node_to_skill.get(node_name)
+        if target_skill and target_skill in skill_ids:
+            node["skill_id"] = skill_ids[target_skill]
+        elif skill_ids:
+            # Fallback: первый скилл (START) для узлов без явной привязки
             node["skill_id"] = list(skill_ids.values())[0]
+            print(f"  WARNING: {node_name} не найден в карте навыков, назначен на '{list(skill_ids.keys())[0]}'", file=sys.stderr)
 
         node = normalize_dialog_node(node)
         node = normalize_entity_export_fields(node, "DialogNode", creator=creator, created=now)
         write_entity(out_dir, "DialogNode", node)
         cond = node.get("conditions") or ""
-        print(f"  DialogNode: {node['id']} ({node_name}){f' cond={cond}' if cond else ''}")
+        assigned_skill = node_to_skill.get(node_name, list(skill_ids.keys())[0] if skill_ids else "?")
+        print(f"  DialogNode: {node['id']} ({node_name}) skill={assigned_skill}{f' cond={cond}' if cond else ''}")
         node_count += 1
 
     # Dictionaries

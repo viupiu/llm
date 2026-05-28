@@ -1,0 +1,368 @@
+{
+  "id": "d775a203-e69a-5b51-d1b6",
+  "name": "Какое настроение вам ближе? - Настроение",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какое настроение вам ближе?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "9p8o7",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_moods)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "39gca",
+        "data": {},
+        "text": "весёлое",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xaevx",
+        "data": {},
+        "text": "хочу посмеяться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "por6f",
+        "data": {},
+        "text": "грустное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g4mpn",
+        "data": {},
+        "text": "чтобы поплакать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mtzlp",
+        "data": {},
+        "text": "романтичное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c2dyd",
+        "data": {},
+        "text": "драйвовое",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c2gnw",
+        "data": {},
+        "text": "спокойное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dpquu",
+        "data": {},
+        "text": "чтобы подумать над смыслом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0e2dz",
+        "data": {},
+        "text": "вдохновляющее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zspix",
+        "data": {},
+        "text": "мрак",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "97e1b",
+        "data": {},
+        "text": "жизнерадостное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yj3nu",
+        "data": {},
+        "text": "умиротворённое",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mp8yi",
+        "data": {},
+        "text": "эмоциональное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2f0cz",
+        "data": {},
+        "text": "без эмоций вообще",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wxln9",
+        "data": {},
+        "text": "чтобы захватить дух",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "76493132-f3dd-1ccf-6a08",
+  "answers": {
+    "blocks": [
+      {
+        "key": "ud9cy",
+        "data": {},
+        "text": ":lu: Отлично, настроение зафиксировал. С кем планируете смотреть? [%mood=\"[$mood]\"] [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 66
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 126
+          }
+        ]
+      },
+      {
+        "key": "lahsu",
+        "data": {},
+        "text": ":lu: Замётано. С кем будете смотреть? [%mood=\"[$mood]\"] [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          }
+        ]
+      },
+      {
+        "key": "xn2gl",
+        "data": {},
+        "text": "[%mood=\"[$mood]\"] [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 14
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

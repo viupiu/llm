@@ -1,0 +1,350 @@
+{
+  "id": "34bd6fa2-10b6-3ddc-978e",
+  "name": "Что вы хотите посмотреть? - Похожий фильм",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "i5ov5",
+        "data": {},
+        "text": "[@cmb({{похожий на/~как/~как фильм/типа~/фильм типа/кино типа/~с~/~что-то похожее/~что-то подобное/что нибудь как}}, [-movie-])]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 114
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 117
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 126
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "9abyu",
+        "data": {},
+        "text": "как матрица",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vc6dg",
+        "data": {},
+        "text": "что-то вроде интерстеллара",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "83yzz",
+        "data": {},
+        "text": "похоже на пираты карибского мор",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5dvdx",
+        "data": {},
+        "text": "что-нибудь в стиле паразитов",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pd61y",
+        "data": {},
+        "text": "фильм как бойцовский клуб",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9sxkq",
+        "data": {},
+        "text": "похоже на вавилон",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sbe7l",
+        "data": {},
+        "text": "типа инцеста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tje2q",
+        "data": {},
+        "text": "похожее на темный рыцарь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z3mof",
+        "data": {},
+        "text": "как наследие",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x4myg",
+        "data": {},
+        "text": "что-то в духе шрека",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2koic",
+        "data": {},
+        "text": "похожее на странные случаи доктора стрэнджа",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r5waq",
+        "data": {},
+        "text": "вроде охотника на людей",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2q5z2",
+        "data": {},
+        "text": "что-то как в джунглях",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "imh1k",
+        "data": {},
+        "text": ":lu: Понял, ищешь что-то похожее! Какой длительности фильм тебе подойдёт — короткий, час-полтора или побольше? [%reference_movie=\"[&1]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 186
+          }
+        ]
+      },
+      {
+        "key": "am1nt",
+        "data": {},
+        "text": ":lu: Нашёл референс. А по времени нет предпочтений? [%reference_movie=\"[&1]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          }
+        ]
+      },
+      {
+        "key": "vtdno",
+        "data": {},
+        "text": "[%reference_movie=\"[&1]\"] [%that_anchor=\"Какую длительность предпочитаете?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

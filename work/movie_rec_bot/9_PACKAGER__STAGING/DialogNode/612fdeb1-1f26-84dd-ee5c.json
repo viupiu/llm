@@ -1,0 +1,403 @@
+{
+  "id": "612fdeb1-1f26-84dd-ee5c",
+  "name": "Какое настроение вам ближе? - Не знаю",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какое настроение вам ближе?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "0za3r",
+        "data": {},
+        "text": "[@cmb({[dict(common_no)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          }
+        ]
+      },
+      {
+        "key": "747ff",
+        "data": {},
+        "text": "[@cmb({[dict(dontwant)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          }
+        ]
+      },
+      {
+        "key": "2n3oe",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "17xyq",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "dl3ho",
+        "data": {},
+        "text": "нет предпочтений",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0pf44",
+        "data": {},
+        "text": "как угодно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gbb2s",
+        "data": {},
+        "text": "не задумывала",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xkt21",
+        "data": {},
+        "text": "без разницы",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "301o5",
+        "data": {},
+        "text": "не уверена",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "osgl3",
+        "data": {},
+        "text": "какое получится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l84gi",
+        "data": {},
+        "text": "не думала об этом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y4s3n",
+        "data": {},
+        "text": "как под настроение",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "76493132-f3dd-1ccf-6a08",
+  "answers": {
+    "blocks": [
+      {
+        "key": "tneg9",
+        "data": {},
+        "text": ":lu: Ничего страшного, пропустим! С кем планируете смотреть — одни, с компанией, семьёй? [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          }
+        ]
+      },
+      {
+        "key": "wzq5d",
+        "data": {},
+        "text": ":lu: Без проблем. С кем будете смотреть? [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          }
+        ]
+      },
+      {
+        "key": "ebqt8",
+        "data": {},
+        "text": "[%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 42
+          }
+        ]
+      },
+      {
+        "key": "tqkul",
+        "data": {},
+        "text": "[%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 42
+          }
+        ]
+      },
+      {
+        "key": "6upau",
+        "data": {},
+        "text": "{не знаю/без понятия/без разницы/ты решай/решай сам~/мне все равно/любой/подойдёт любой/подойдёт что угодно/скучаю/как хочешь/ты выбери/выбирай любой} [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 193
+          }
+        ]
+      },
+      {
+        "key": "736g7",
+        "data": {},
+        "text": "без {понятия/разницы} [%that_anchor=\"С кем планируете смотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 4
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

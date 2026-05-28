@@ -1,0 +1,566 @@
+{
+  "id": "190ec1b7-09dd-51e2-b3bf",
+  "name": "Что вы хотите посмотреть? - Благодарность",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "7ebyd",
+        "data": {},
+        "text": "[@cmb({[dict(common_thankyou)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      },
+      {
+        "key": "pd0qe",
+        "data": {},
+        "text": "[@cmb({[dict(praise_great)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          }
+        ]
+      },
+      {
+        "key": "g5536",
+        "data": {},
+        "text": "[@cmb({{ты ~}}, {[dict(praise_great)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 13
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "ehka1",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r6zxg",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "aw5yv",
+        "data": {},
+        "text": "спасибо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wussc",
+        "data": {},
+        "text": "благодарю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ji0ir",
+        "data": {},
+        "text": "круто",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "q5453",
+        "data": {},
+        "text": "молодец",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "co2w4",
+        "data": {},
+        "text": "спс",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jrsj5",
+        "data": {},
+        "text": "спасибо большое",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "eygm3",
+        "data": {},
+        "text": "офигително",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dgugw",
+        "data": {},
+        "text": "класс, спасибо!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "je3n6",
+        "data": {},
+        "text": "ты лучший",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ma4pq",
+        "data": {},
+        "text": "спасибо за подборку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9axvc",
+        "data": {},
+        "text": "супер!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uvn0m",
+        "data": {},
+        "text": "благодарю тебя",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yeowt",
+        "data": {},
+        "text": "очень помогли",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0dhcu",
+        "data": {},
+        "text": "ты чо, серьёзно, это ж класс",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "39nv7",
+        "data": {},
+        "text": "спсб",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "abad334e-4126-25ee-d603",
+  "answers": {
+    "blocks": [
+      {
+        "key": "mwm4e",
+        "data": {},
+        "text": ":lu: Давай подберём ещё что-нибудь, если надо! [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "9of9w",
+        "data": {},
+        "text": ":lu: Всегда рад помочь! Спрашивай ещё. [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 55
+          }
+        ]
+      },
+      {
+        "key": "6ygbg",
+        "data": {},
+        "text": "[disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          }
+        ]
+      },
+      {
+        "key": "wzkz1",
+        "data": {},
+        "text": "[disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          }
+        ]
+      },
+      {
+        "key": "5f5up",
+        "data": {},
+        "text": "[disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          }
+        ]
+      },
+      {
+        "key": "3a3qd",
+        "data": {},
+        "text": "{оценил тебя/реально крут/реально классный/реально молодец/реально топ/без тебя бы не справил~/ты меня спас/респект~/тебе респект/млodeц~/ты молод~} [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          }
+        ]
+      },
+      {
+        "key": "wpzav",
+        "data": {},
+        "text": "{благодарю/~выражаю благодарность} [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 51
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

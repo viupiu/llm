@@ -1,0 +1,158 @@
+{
+  "id": "2ebc7882-1ae5-c121-e387",
+  "name": "hello_all",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "08gxy",
+        "data": {},
+        "text": "привет",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ftdwi",
+        "data": {},
+        "text": "=>здравствуй",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b984f",
+        "data": {},
+        "text": "=>здравствуйте",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1t386",
+        "data": {},
+        "text": "=>хай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6rxi6",
+        "data": {},
+        "text": "=>хей",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oyzw2",
+        "data": {},
+        "text": "=>приветик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wknfd",
+        "data": {},
+        "text": "=>приветики",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ov5w3",
+        "data": {},
+        "text": "=>прив",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o34gc",
+        "data": {},
+        "text": "=>здарова",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hs3jq",
+        "data": {},
+        "text": "=>здаров",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z60zl",
+        "data": {},
+        "text": "=>здаровай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "38tpu",
+        "data": {},
+        "text": "=>здравствуй~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bstkb",
+        "data": {},
+        "text": "=>hello",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uv48a",
+        "data": {},
+        "text": "=>hi",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zxdk0",
+        "data": {},
+        "text": "=>hey",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-28T17:05:04.906565",
+  "updated": "2026-05-28T17:05:05.906566",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T17:05:05Z"
+    }
+  ]
+}

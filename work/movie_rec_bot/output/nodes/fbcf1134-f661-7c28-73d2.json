@@ -1,0 +1,520 @@
+{
+  "id": "fbcf1134-f661-7c28-73d2",
+  "name": "Что вы хотите посмотреть? - Компания",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "j4go5",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_viewing_company)]}, {{смотреть/~с кем/~с кем планируете/~посмотрел~}})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "2n48y",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_viewing_company)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          }
+        ]
+      },
+      {
+        "key": "30yyk",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "4j0on",
+        "data": {},
+        "text": "с девушкой",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1fdev",
+        "data": {},
+        "text": "одна буду смотреть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jjvx3",
+        "data": {},
+        "text": "с детьми",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sasz8",
+        "data": {},
+        "text": "с друзьями",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6ep10",
+        "data": {},
+        "text": "вдвоём",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tivlu",
+        "data": {},
+        "text": "с парнем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4lojk",
+        "data": {},
+        "text": "вся семья будет",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9yonh",
+        "data": {},
+        "text": "втроём с подругами",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "imyo4",
+        "data": {},
+        "text": "с ребенком 7 лет",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kcnlo",
+        "data": {},
+        "text": "один, одному",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rr8e2",
+        "data": {},
+        "text": "компанией приедем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x9uxm",
+        "data": {},
+        "text": "с коллегами после работы",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "sjhpu",
+        "data": {},
+        "text": ":lu: Записал. А какой жанр вам по душе? [%company_type=\"[$company_type]\"] [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          }
+        ]
+      },
+      {
+        "key": "xgdgn",
+        "data": {},
+        "text": ":lu: Понял, с кем смотреть. Какой жанр предпочитаете? [%company_type=\"[$company_type]\"] [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          }
+        ]
+      },
+      {
+        "key": "2r0yc",
+        "data": {},
+        "text": "[%company_type=\"[$company_type]\"] [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "7nlak",
+        "data": {},
+        "text": "[%company_type=\"[$company_type]\"] [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "9tvzx",
+        "data": {},
+        "text": "{сын~/ребят~/пацан~/дружк~/девчон~/девиц~/мужик~/жён~/дедул~/дитя~/компаний~/подружк~/парней~/одна/сам} [%company_type=\"[$company_type]\"] [%that_anchor=\"Какой жанр вам по душе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

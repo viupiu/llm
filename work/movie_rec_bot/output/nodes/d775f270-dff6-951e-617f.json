@@ -1,0 +1,667 @@
+{
+  "id": "d775f270-dff6-951e-617f",
+  "name": "Что вы хотите посмотреть? - Жанр",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы хотите посмотреть?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "cogfd",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_genres)]}, {{хочу/~хочется/~посоветуй/~посмотри~/~фильм~/~кино/~что посмотрел~/интересуе~}})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 114
+          }
+        ]
+      },
+      {
+        "key": "ifx5p",
+        "data": {},
+        "text": "[@cmb({{покажи/дай/~хочу/~мне}}, {[dict(keywords_genres)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "h4sd2",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_genres)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      },
+      {
+        "key": "wtbie",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "vrwun",
+        "data": {},
+        "text": "хочу комедию",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "aaxgq",
+        "data": {},
+        "text": "посоветуй драму",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "k0w1i",
+        "data": {},
+        "text": "что-то фантастика",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "twegr",
+        "data": {},
+        "text": "боевики порекомендуй",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zq6ny",
+        "data": {},
+        "text": "хоррор",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "k96dh",
+        "data": {},
+        "text": "ищу триллер",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hxmkm",
+        "data": {},
+        "text": "романтический фильм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1jzmk",
+        "data": {},
+        "text": "аниме",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1rfkv",
+        "data": {},
+        "text": "мультфильм посоветуй",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jl0yo",
+        "data": {},
+        "text": "доку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "e1j7q",
+        "data": {},
+        "text": "что-нибудь из нуаров",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4tucp",
+        "data": {},
+        "text": "историческое кино",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "d97l7",
+        "data": {},
+        "text": "криминальная драма",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "70nqa",
+        "data": {},
+        "text": "фантастику хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y2rbo",
+        "data": {},
+        "text": "детектив",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "a4g5k",
+        "data": {},
+        "text": ":lu: Ясно, разберём этот жанр! Ещё вопрос: какое настроение вам ближе — весёлое, атмосферное, напряжённое, какое-то другое? [%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "qiuc0",
+        "data": {},
+        "text": ":lu: Включил жанр. А по настроению чего хочется? [%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 69
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          }
+        ]
+      },
+      {
+        "key": "k8es1",
+        "data": {},
+        "text": "[%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "nntj9",
+        "data": {},
+        "text": "[%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "9bc1f",
+        "data": {},
+        "text": "[%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "x1fcr",
+        "data": {},
+        "text": "{ужастик~/хоррор~/мульт~/документалк~/сфай/комик~/фантастику~} [%genre=\"[$genre]\"] [%that_anchor=\"Какое настроение вам ближе?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 126
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

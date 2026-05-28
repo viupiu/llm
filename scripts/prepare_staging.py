@@ -32,6 +32,7 @@ from archive_core import (
 ROOT = Path(__file__).resolve().parents[2]
 
 RE_DICT_NAME = re.compile(r"^[a-z][a-z0-9_]*$")
+RE_DICT_HEADER = re.compile(r"^##\s*Словарь:\s*([a-z][a-z0-9_]*)\s*$")
 
 
 def _dict_line_to_block(text: str) -> dict:
@@ -68,8 +69,10 @@ def parse_dictionary_body_lines(body_lines: list[str]) -> list[dict]:
 def parse_dictionaries_from_md(md_text: str) -> list[dict]:
     """Парсит блоки словарей из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md (формат Автора ДЛ)."""
     dictionaries = []
+    seen = set()
     lines = md_text.splitlines()
     i = 0
+    # Try to find legacy "** Словари **" section start
     while i < len(lines):
         if "Словари" in lines[i] and lines[i].strip().startswith("**"):
             i += 1
@@ -81,14 +84,63 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
         if not line:
             i += 1
             continue
+        # Поддержка формата "## Словарь: name"
+        if RE_DICT_HEADER.match(line):
+            name = RE_DICT_HEADER.match(line).group(1)
+            if name in seen:
+                i += 1
+                continue
+            seen.add(name)
+            i += 1
+            body: list[str] = []
+            while i < len(lines):
+                t = lines[i].strip()
+                if not t:
+                    i += 1
+                    continue
+                if t.startswith("## ") or t.startswith("#"):
+                    break
+                if RE_DICT_HEADER.match(t):
+                    break
+                if RE_DICT_NAME.match(t):
+                    break
+                if t.startswith("*") or t.startswith("[") or t.startswith("{"):
+                    i += 1
+                    continue
+                body.append(t)
+                i += 1
+            blocks = parse_dictionary_body_lines(body)
+            if not blocks:
+                continue
+            did = new_short_id()
+            dictionaries.append(
+                {
+                    "id": did,
+                    "name": name,
+                    "description": "",
+                    "content": normalize_blocks_field({"blocks": blocks}),
+                    "is_common": True,
+                    "is_hidden": False,
+                    "is_active": True,
+                    "meta": {},
+                    "created": format_dos_datetime(),
+                    "updated": None,
+                    "creator": DEFAULT_CREATOR,
+                    "editors": [],
+                }
+            )
+            continue
         if line.startswith("**") and "Словари" not in line:
             break
-        if line.startswith("//") or line.startswith("#"):
+        if line.startswith("//") or line.startswith("#") and not RE_DICT_HEADER.match(line):
             i += 1
             continue
-        # Имя словаря: snake_case с маленькой буквы (it_topics, med_topics)
         if RE_DICT_NAME.match(line):
             name = line
+            if name in seen:
+                i += 1
+                continue
+            seen.add(name)
             i += 1
             body: list[str] = []
             while i < len(lines):
@@ -104,7 +156,6 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
                 i += 1
             blocks = parse_dictionary_body_lines(body)
             if not blocks:
-                i += 1
                 continue
             did = new_short_id()
             dictionaries.append(

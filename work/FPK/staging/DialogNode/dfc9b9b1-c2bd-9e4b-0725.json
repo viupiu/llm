@@ -1,0 +1,66 @@
+{
+  "id": "dfc9b9b1-c2bd-9e4b-0725",
+  "name": "delo@ и ещё помочь? - Да",
+  "description": "",
+  "parent": "6b4b1874-05b4-adc5-0fbc",
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"delo@fpc.ru, могу вам помочь чем-нибудь еще?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "0fdu3",
+        "data": {},
+        "text": "[dict(common_yes)]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "dac1c0d1-3a54-693e-7e97",
+  "answers": {
+    "blocks": [
+      {
+        "key": "y6a58",
+        "data": {},
+        "text": "[@goto(\"Чем я могу Вам помощь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "X34n5iXVgB",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

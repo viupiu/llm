@@ -1,0 +1,34 @@
+{
+  "variables": [
+    "that_anchor",
+    "genre",
+    "mood",
+    "reference_movie",
+    "company_type",
+    "duration",
+    "constraints"
+  ],
+  "details": {
+    "that_anchor": "assigned",
+    "genre": "assigned",
+    "mood": "assigned",
+    "reference_movie": "assigned",
+    "company_type": "assigned",
+    "duration": "assigned",
+    "constraints": "assigned"
+  },
+  "dictionaries": [
+    "common_yes",
+    "common_no",
+    "common_how",
+    "common_like_1",
+    "posovetuj",
+    "dontwant",
+    "soglasen",
+    "keywords_genres",
+    "keywords_moods",
+    "keywords_viewing_company",
+    "keywords_duration",
+    "keywords_constraints"
+  ]
+}

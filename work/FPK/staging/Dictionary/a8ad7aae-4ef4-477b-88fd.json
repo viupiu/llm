@@ -1,0 +1,90 @@
+{
+  "id": "a8ad7aae-4ef4-477b-88fd",
+  "name": "user_type_legal",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "82xxd",
+        "data": {},
+        "text": "юридическ~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vsz43",
+        "data": {},
+        "text": "юрлиц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sx487",
+        "data": {},
+        "text": "сотрудник~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7kxwr",
+        "data": {},
+        "text": "организац~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3fspz",
+        "data": {},
+        "text": "фирм~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ymhba",
+        "data": {},
+        "text": "компан~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "shcqn",
+        "data": {},
+        "text": "корпоративн~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "78yx2",
+        "data": {},
+        "text": "кадр~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": false,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}

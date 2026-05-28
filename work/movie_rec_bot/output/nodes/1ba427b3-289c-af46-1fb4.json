@@ -1,0 +1,450 @@
+{
+  "id": "1ba427b3-289c-af46-1fb4",
+  "name": "Есть ли дополнительные пожелания? - Всё понятно",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Есть ли дополнительные пожелания?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "mhejo",
+        "data": {},
+        "text": "[@cmb({[dict(common_yes)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 27
+          }
+        ]
+      },
+      {
+        "key": "xz6ns",
+        "data": {},
+        "text": "[@cmb({[dict(soglasen)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          }
+        ]
+      },
+      {
+        "key": "41ibd",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "qkn6w",
+        "data": {},
+        "text": "всё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jnq51",
+        "data": {},
+        "text": "достаточно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p5zzy",
+        "data": {},
+        "text": "ничего больше",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "v3oj7",
+        "data": {},
+        "text": "готово",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "t9qs8",
+        "data": {},
+        "text": "ок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pirp0",
+        "data": {},
+        "text": "подойдёт",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "npcdt",
+        "data": {},
+        "text": "да, всё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "biq6i",
+        "data": {},
+        "text": "ничего, хватит",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u6rts",
+        "data": {},
+        "text": "ок, супер",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uq8an",
+        "data": {},
+        "text": "вот и всё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fghri",
+        "data": {},
+        "text": "всё, спасибо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "igqic",
+        "data": {},
+        "text": "не надо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "y0lme",
+        "data": {},
+        "text": ":lu: Отлично! Сейчас подберу идеальный фильм для этого вечера... [@goto(\"Finalize_Recommendation\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          }
+        ]
+      },
+      {
+        "key": "rcnx6",
+        "data": {},
+        "text": ":lu: Супер, всё понятно! Ищу варианты... [@goto(\"Finalize_Recommendation\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      },
+      {
+        "key": "ug4qp",
+        "data": {},
+        "text": "[@goto(\"Finalize_Recommendation\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          }
+        ]
+      },
+      {
+        "key": "gr03p",
+        "data": {},
+        "text": "[@goto(\"Finalize_Recommendation\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          }
+        ]
+      },
+      {
+        "key": "02a3f",
+        "data": {},
+        "text": "{всё/хватит~/достаточн~/довольн~/ничего} [@goto(\"Finalize_Recommendation\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 47
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

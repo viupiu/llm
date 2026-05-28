@@ -1,0 +1,321 @@
+{
+  "id": "7e931d53-ea98-0693-f1cd",
+  "name": "Finalize_Recommendation",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "aovsd",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "yn4nv",
+        "data": {},
+        "text": ":lu: [if(%genre)]{Жанр \"[%genre]\" учтён. } [if(%mood)]{Настроение \"[%mood]\" — запомнил. } [if(%company_type)]{Учту, что смотрите \"[%company_type]\". } [if(%duration)]{Длительность \"[%duration]\" — учтено. } [if(%reference_movie)]{Похожее на \"[%reference_movie]\" — в работе. } [if(%constraints)]{Ограничение: \"[%constraints]\" — всё проверю. } Вот что я нашёл под ваши параметры: смотрите с удовольствием! [%that_anchor=\"Что вы хотите посмотреть?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 15
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 203
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 205
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 208
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 225
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 226
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 227
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 240
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 257
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 272
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 274
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 277
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 290
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 291
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 292
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 307
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 320
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 338
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 402
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 443
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

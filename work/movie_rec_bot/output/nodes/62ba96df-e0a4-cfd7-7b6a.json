@@ -1,0 +1,350 @@
+{
+  "id": "62ba96df-e0a4-cfd7-7b6a",
+  "name": "Какую длительность предпочитаете? - Длительность",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какую длительность предпочитаете?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "23rki",
+        "data": {},
+        "text": "[@cmb({[dict(keywords_duration)]})]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 34
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "l1e6o",
+        "data": {},
+        "text": "короткий фильм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hxq84",
+        "data": {},
+        "text": "часа на два",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g52fz",
+        "data": {},
+        "text": "не длинный",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w0gpf",
+        "data": {},
+        "text": "полторы-две",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4m7zx",
+        "data": {},
+        "text": "минут на 80",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5cb4v",
+        "data": {},
+        "text": "часа на полтора",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8kagy",
+        "data": {},
+        "text": "до 90 мин",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "shei4",
+        "data": {},
+        "text": "не больше часа",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "famjy",
+        "data": {},
+        "text": "часа на три",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m4bse",
+        "data": {},
+        "text": "минут на сто",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b4gjk",
+        "data": {},
+        "text": "не важно, главное интересный",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2szrm",
+        "data": {},
+        "text": "короткий, пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0ju7q",
+        "data": {},
+        "text": "часа на два с половиной",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "tto1g",
+        "data": {},
+        "text": ":lu: Отлично! Есть ещё какие-нибудь пожелания? Без крови, без грустного и так далее. [%duration=\"[$duration]\"] [%that_anchor=\"Есть ли дополнительные пожелания?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          }
+        ]
+      },
+      {
+        "key": "vhxaz",
+        "data": {},
+        "text": ":lu: Записал. Ещё есть ограничения по контенту — например, без скримеров, без насилия? [%duration=\"[$duration]\"] [%that_anchor=\"Есть ли дополнительные пожелания?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 162
+          }
+        ]
+      },
+      {
+        "key": "vwo2z",
+        "data": {},
+        "text": "[%duration=\"[$duration]\"] [%that_anchor=\"Есть ли дополнительные пожелания?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T16:57:55.116838",
+  "updated": "2026-05-28T16:57:56.116839",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T16:57:56Z"
+    }
+  ]
+}

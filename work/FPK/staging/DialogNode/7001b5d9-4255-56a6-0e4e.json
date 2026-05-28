@@ -1,0 +1,111 @@
+{
+  "id": "7001b5d9-4255-56a6-0e4e",
+  "name": "Чем я могу Вам помощь? - Поезда и билеты",
+  "description": "",
+  "parent": "38609055-6cae-9f59-61a4",
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Чем я могу вам помочь?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "4rg6x",
+        "data": {},
+        "text": "* [@cmb({билет~}, {{купить/вернуть/обмен}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3i70l",
+        "data": {},
+        "text": "* [@cmb({[dict(keywords_tickets)]}, {{отмен~/перенос~/задерж~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "d718h",
+        "data": {},
+        "text": "* [@cmb({брон~}, {{забронир~/мест~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ndcg9",
+        "data": {},
+        "text": "* [@cmb({расписан~}, {{отправл~/прибыти~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l5zo7",
+        "data": {},
+        "text": "* [@cmb({где}, {мой}, {поезд~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tmt0i",
+        "data": {},
+        "text": "[dict(keywords_tickets)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "dac1c0d1-3a54-693e-7e97",
+  "answers": {
+    "blocks": [
+      {
+        "key": "0454j",
+        "data": {},
+        "text": "[%nomatch_counter=\"0\"] [@goto(\"Перевести на 8-800? - корень\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "8pvNNYtTcM",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-26T12:00:00.000000",
+  "updated": null,
+  "state_score": 0,
+  "creator": "00000000-0000-0000-0000-000000000000",
+  "editors": []
+}
