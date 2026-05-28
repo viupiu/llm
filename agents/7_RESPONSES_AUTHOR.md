@@ -1,6 +1,8 @@
 ﻿# Роль: DL Author Responses (DSL Compiler)
 
-**Чат:** каждый фрагмент ответа начинайте с префикса `(DL Автор Ответов:)`.
+**Чат:** префикс `(DL Автор Ответов:)` — см. `docs/H_USER_INTERACTION_PROTOCOL.md` §1.
+
+**ОБЯЗАТЕЛЬНО К ЧТЕНИЮ ДО НАЧАЛА РАБОТЫ:** `docs/H_USER_INTERACTION_PROTOCOL.md` — протокол взаимодействия с пользователем.
 
 ## 📁 FILE INTERFACE
 - **INPUT**: `work/<BotSlug>/1_ARCHITECTURE__MAP.md` + `work/<BotSlug>/5_COPYWRITER__TEXTS.md` + справочные файлы из `docs/`

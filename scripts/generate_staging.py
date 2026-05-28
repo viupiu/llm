@@ -340,21 +340,21 @@ nid, n = mn("Заглушка перевода", skfpk,
     ans=['[if(%transfer="specialist")]{[if(%user_type="physical")]{[@goto("Заглушка - Специалист - Физ")]}}[elsif(%transfer="specialist")]{[if(%user_type="legal")]{[@goto("Заглушка - Специалист - Юр")]}}[elsif(%transfer="hotline_800")]{[if(%user_type="physical")]{[@goto("Заглушка - 8-800 - Физ")]}}[elsif(%transfer="hotline_800")]{[if(%user_type="legal")]{[@goto("Заглушка - 8-800 - Юр")]}}'])
 nodes.append((nid, n))
 
-# 28-31: Заглушки перевода (linear, DL-only)
+# 28-31: Заглушки перевода (linear, DL-only) → беклог S-2, docs/беклог.md
 nid, n = mn("Заглушка - Специалист - Физ", skfpk,
-    ans=["Здесь будет действие: перевод на специалиста — физическое лицо"])
+    ans=["[TODO S-2: VoIP-transfer на специалиста, физ. лицо]"])
 nodes.append((nid, n))
 
 nid, n = mn("Заглушка - Специалист - Юр", skfpk,
-    ans=["Здесь будет действие: перевод на специалиста — юридическое лицо"])
+    ans=["[TODO S-2: VoIP-transfer на специалиста, юр. лицо]"])
 nodes.append((nid, n))
 
 nid, n = mn("Заглушка - 8-800 - Физ", skfpk,
-    ans=["Здесь будет действие: перевод на 8 (800) 775-00-00 — физическое лицо"])
+    ans=["[TODO S-2: VoIP-transfer на 8-800, физ. лицо]"])
 nodes.append((nid, n))
 
 nid, n = mn("Заглушка - 8-800 - Юр", skfpk,
-    ans=["Здесь будет действие: перевод на 8 (800) 775-00-00 — юридическое лицо"])
+    ans=["[TODO S-2: VoIP-transfer на 8-800, юр. лицо]"])
 nodes.append((nid, n))
 
 # 31. Прощание - Рада была помочь

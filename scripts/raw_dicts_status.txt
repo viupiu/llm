@@ -1,0 +1,31 @@
+=== RAW DICTS PENDING IMPORT (0) ===
+
+=== RAW DICTS ALREADY IN REGISTRY - skipped (28) ===
+  viupiu_adj (6440 lines) <- dictionary_viupiu_adj.json
+  viupiu_adj_fem (6409 lines) <- dictionary_viupiu_adj_fem.json
+  viupiu_adv (5 lines) <- dictionary_viupiu_adv.json
+  viupiu_no_space (3 lines) <- dictionary_viupiu_no_space.json
+  viupiu_noun (14801 lines) <- dictionary_viupiu_noun.json
+  viupiu_parts_of_body (96 lines) <- dictionary_viupiu_parts_of_body.json
+  viupiu_penis (4 lines) <- dictionary_viupiu_penis.json
+  viupiu_prep (100 lines) <- dictionary_viupiu_prep.json
+  viupiu_stop (15 lines) <- dictionary_viupiu_stop.json
+  viupiu_verb (9336 lines) <- dictionary_viupiu_verb.json
+  viupiu_wontsay (75 lines) <- dictionary_viupiu_wontsay.json
+  vocatives_girl (34 lines) <- dictionary_vocatives_girl.json
+  vocatives_man (64 lines) <- dictionary_vocatives_man.json
+  vopros (78 lines) <- dictionary_vopros.json
+  voskl (118 lines) <- dictionary_voskl.json
+  vtb_cities (141 lines) <- dictionary_vtb_cities.json
+  word_eshe (23 lines) <- dictionary_word_eshe.json
+  word_food_fruits (59 lines) <- dictionary_word_food_fruits.json
+  word_geography_cityrussian (336 lines) <- dictionary_word_geography_cityrussian.json
+  word_konsultant (8 lines) <- dictionary_word_konsultant.json
+  word_now (49 lines) <- dictionary_word_now.json
+  word_skolko (51 lines) <- dictionary_word_skolko.json
+  word_vopros (12 lines) <- dictionary_word_vopros.json
+  word_what (19 lines) <- dictionary_word_what.json
+  work_work_2_pres (68 lines) <- dictionary_work_work_2_pres.json
+  yota_moscow (9 lines) <- dictionary_yota_moscow.json
+  you_lie (90 lines) <- dictionary_you_lie.json
+  znayka_drugs (552 lines) <- dictionary_znayka_drugs.json

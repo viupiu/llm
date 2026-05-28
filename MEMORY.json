@@ -1,0 +1,16 @@
+{
+  "context": {
+    "sessions": [
+      {
+        "id": "2026-05-28-dict-pipeline",
+        "date": "2026-05-28",
+        "summary": "Transfer dictionary ingestion to LIBRARIAN, exact-match dedup, safe delete policy, import 20 dicts, consistency checks."
+      },
+      {
+        "id": "2026-05-28-semantic-descriptions",
+        "date": "2026-05-28",
+        "summary": "20 placeholder + 3 tautology descriptions fixed in COMMON_DICTIONARIES.md. Removed vtb_cities (user deleted raw_dicts, word_geography_cityrussian remains). Added usage notes to overlap pairs: common_yes+soglasen, otkaz+dontwant, common_like_2+common_like_2_pres. D-4 logged in backlog for detailed usage guidance. Registry: 131 entries, 0 placeholders, 0 tautologies, 0 mismatches."
+      }
+    ]
+  }
+}

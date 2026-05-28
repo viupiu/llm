@@ -33,8 +33,8 @@ def run_pipeline(task: str):
 
     return result.stdout
 
-        # здесь у тебя позже будет:
-        # architect → creative → ml → dl → validator
+        # TODO: S-1 — Реализовать full pipeline: architect → creative → ml → dl → validator
+        # См. docs/беклог.md
 
         # -------------------------
         # 2. GIT COMMIT STAGE

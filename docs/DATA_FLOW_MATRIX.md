@@ -11,7 +11,7 @@
 
 | # | Агент | Файл-промпт | Входные файлы (созданные другими агентами) | Создаваемый файл | Зависит от |
 |---|-------|-------------|-------------------------------------------|------------------|------------|
-| 0 | Оркестратор | `agents/1_ORCHESTRATOR.md` | ТЗ пользователя (чат, файлы, картинки) | `work/<BotSlug>/0_ORCHESTRATOR__BRIEF.md` | Пользователь |
+| 0 | Оркестратор | `agents/1_ORCHESTRATOR.md` | ТЗ пользователя (чат, файлы, картинки) + `docs/беклог.md` (Backlog Memory Loop) | `work/<BotSlug>/0_ORCHESTRATOR__BRIEF.md` + `docs/беклог.md` (Post-Task Backlog Check) | Пользователь |
 | 0.5 | Менеджер Глоссария | `agents/10_GLOSSARY_MANAGER.md` | Любой файл агента + `0_GLOSSARY__TERMS.md` | `docs/GLOSSARY_TERMS.md` (обновления) | Активируется по запросу на любом этапе |
 | 1 | Архитектор | `agents/2_ARCHITECT.md` | `0_ORCHESTRATOR__BRIEF.md` | `work/<BotSlug>/1_ARCHITECTURE__MAP.md` | Оркестратор |
 | 2 | Креативщик | `agents/3_CREATIVE.md` | `1_ARCHITECTURE__MAP.md` | `work/<BotSlug>/2_CREATIVE__PHRASES.md` | Архитектор |
@@ -23,6 +23,7 @@
 | 7 | Валидатор | `agents/8_VALIDATOR.md` | `1_ARCHITECTURE__MAP.md` + `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` + `4_EXAMPLES_AUTHOR__DATASET.md` + `6_RESPONSES_AUTHOR__RESPONSES.md` | `work/<BotSlug>/7_VALIDATOR__VALIDATION.md` | Все предыдущие агенты |
 | 8 | Упаковщик | `agents/9_PACKAGER.md` | `6_RESPONSES_AUTHOR__RESPONSES.md` + `7_VALIDATOR__VALIDATION.md` | `work/<BotSlug>/9_PACKAGER__STAGING/` → ZIP | Валидатор + Автор Ответов |
 | 9 | Координатор | `agents/12_COORDINATOR.md` | Запросы Оркестратора | Устное ответное сообщение Оркестратору | — |
+| 13 | Библиотекарь | `agents/13_LIBRARIAN.md` | `docs/reference/COMMON_DICTIONARIES.md` + `docs/reference/raw_dicts/*.json` | Обновлённый `COMMON_DICTIONARIES.md` + Import Report. Удаляет успешно импортированные файлы из `raw_dicts/` | Сквозной агент референсного слоя (между проектами). Ответственный за весь dictionary ingestion pipeline |
 
 ## Исключения из конвейера
 - **Автор Примеров (#4)** пропускается, если узлов с реальным вводом пользователя ≤ 2.
