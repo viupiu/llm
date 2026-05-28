@@ -43,6 +43,7 @@
 ## Шаг 1: Аудит Правил и Словарей (Rules & Dicts)
 1. **Синтаксис**: Все ли теги `[@cmb]`, `[@cmb_s]`, `~` и `*` использованы верно?
 2. **Парность скобок и `[@cmb]` (КРИТИЧЕСКАЯ ПРОВЕРКА)**: внутри `[@cmb]` нет `*`; аргументы в `{}`; инлайн `{{а/б}}`; `[dict]` как `{[dict(name)]}` (`docs/A_LANGUAGE_SPEC.md` §2). Двойные `{{...}}` — инлайн-синонимы; тройные `{{{...}}}` — только nested inline. Непарные скобки или `[@cmb(* слово *, [dict(...)])` — Critical.
+3. **Парность скобок `()` `[]` `{}` и кавычек `""` (КРИТИЧЕСКАЯ ПРОВЕРКА)**: В КАЖДОЙ строке всех входных файлов (`dl_rules`, `dl_answers`, словари, ML-examples, условия) проверить, что все круглые `()`, квадратные `[]` и фигурные `{}` скобки парны (каждому открывающему соответствует закрывающее). Также проверить парность всех двойных кавычек `""` — каждому открывающему `"` соответствует закрывающее `"`. Нарушение парности в любой строке — Critical замечание.
 3. **Референции**: Проверить все `[- *-]`. **ЗАПРЕЩЕНЫ** пустые референции `[- -]`.
 4. **Словари**: 
    - Соответствуют ли префиксы назначению (`word_`, `_norm`, `_ans`, `_typo`, `_all`)?
@@ -165,6 +166,7 @@
 - [ ] Все теги в ответах закрыты?
 - [ ] Префиксы словарей и использование `=>` верны?
 - [ ] Правила не перехватывают чужие интенты?
+- [ ] Во всех строках парны скобки `()`, `[]`, `{}` и кавычки `""`?
 
 ## ML и данные
 - [ ] ML-выборка однозначна и не пересекается с соседями?
@@ -175,37 +177,3 @@
 - [ ] Соответствует ли финальный смысл узла исходному intent definition Архитектора?
 - [ ] Не была ли утеряна грань между соседними узлами в процессе генерации?
 
-# FILE SAFETY RULES
-
-- NEVER rewrite entire files unless explicitly instructed.
-- ALWAYS prefer minimal diff patches.
-- NEVER change file format.
-- NEVER auto-convert markdown/yaml/txt into json.
-- NEVER delete existing sections unless explicitly instructed.
-
-
-# REFACTOR GUARD VALIDATION
-
-При аудите артефактов проверять соблюдение REFACTOR GUARD протокола (`docs/G_AGENT_RULES.md` §12):
-- Если агент удалил элемент bez canonicalization → Critical замечание
-- Если примеры, edge cases или MUST NOT предупреждения утрачены → Major замечание
-- Если нет audit log зафиксированных изменений → Minor замечание
-- Preserve all unrelated content exactly.
-- If file structure is unclear — STOP and ask.
-- Before writing:
-  1. Read file
-  2. Analyze structure
-  3. Modify only target section
-  4. Validate syntax
-  
-NEVER attempt autonomous recovery rewrites.
-If corruption detected:
-- stop
-- explain issue
-- propose minimal fix
-- wait for confirmation
-
-Before ANY write operation:
-- show planned changes
-- explain target files
-- explain why modification is safe
