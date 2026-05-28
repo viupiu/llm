@@ -1,0 +1,418 @@
+{
+  "id": "f9381093-6f21-8bbf-55f9",
+  "name": "Для кого нужно придумать поздравление? - Для старших мужчин",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "a32av",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9w27i",
+        "data": {},
+        "text": "[@cmb({{дедушк~/дед~/старик~/старичк~/ветеран}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 62
+          }
+        ]
+      },
+      {
+        "key": "mnn5x",
+        "data": {},
+        "text": "[@cmb({уважительно/с уважением/с добром}, {дедушк~/дед~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "ys3wi",
+        "data": {},
+        "text": "[@cmb({{на юбилей/на 70 лет/на 80 лет}}, {дедушк~/дед~/старику})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "65vfc",
+        "data": {},
+        "text": "[@cmb({{тёпло~/душевно~/с теплом}}, {дедушк~/деду/дедулю})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          }
+        ]
+      },
+      {
+        "key": "nqapd",
+        "data": {},
+        "text": "[@cmb({{преклонн~/пенcионер}}, {поздравит~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 44
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "fov4o",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "4lmo1",
+        "data": {},
+        "text": ":lu: Вот поздравление с уважением: Дорогой юбиляр! Пусть здоровье не подводит, а каждый день приносит радость от близких и друзей. Спасибо за мудрость, за пример, за то, что Вы есть. С днём рождения!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4sj9i",
+        "data": {},
+        "text": ":lu: Держите трогательный вариант: С праздником! Вы — человек, на которого можно положиться, от которого идёт тепло и мудрость. Желаю Вам крепкого здоровья, долгих лет и благополучия. Вы заслуживаете самого лучшего.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bxh5j",
+        "data": {},
+        "text": ":lu: Вариант для уважаемого человека: Уважаемый! Поздравляю с днём рождения! Пусть дом будет полон тепла, а сердце — спокойствия. Здоровья, радости и повода для гордости каждый день.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kogzj",
+        "data": {},
+        "text": "[dict(keywords_greeting_elderly_men)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 36
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T21:43:23.130756",
+  "updated": "2026-05-28T21:43:24.130757",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:43:24Z"
+    }
+  ]
+}

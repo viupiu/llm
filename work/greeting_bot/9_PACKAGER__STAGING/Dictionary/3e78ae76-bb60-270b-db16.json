@@ -1,0 +1,167 @@
+{
+  "id": "3e78ae76-bb60-270b-db16",
+  "name": "keywords_distant",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "etpzf",
+        "data": {},
+        "text": "мало знаком~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6if1c",
+        "data": {},
+        "text": "мало знакомый",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jsbdm",
+        "data": {},
+        "text": "мало знакомому",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oqq9t",
+        "data": {},
+        "text": "мало знакомого",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nw3j7",
+        "data": {},
+        "text": "малознакомый",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ggzdn",
+        "data": {},
+        "text": "не очень близкий",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m7aai",
+        "data": {},
+        "text": "не близкий",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jhqnt",
+        "data": {},
+        "text": "не близкому",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "atggx",
+        "data": {},
+        "text": "не близкого",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dq1lt",
+        "data": {},
+        "text": "от знакомых",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "iuufd",
+        "data": {},
+        "text": "от знакомого",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cb1tx",
+        "data": {},
+        "text": "для знакомых",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0ssg5",
+        "data": {},
+        "text": "для знакомого",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cs854",
+        "data": {},
+        "text": "знакомый",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "eoxgt",
+        "data": {},
+        "text": "знакомому человеку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bc14o",
+        "data": {},
+        "text": "человек",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-28T21:44:01.631939",
+  "updated": "2026-05-28T21:44:02.631940",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:44:02Z"
+    }
+  ]
+}

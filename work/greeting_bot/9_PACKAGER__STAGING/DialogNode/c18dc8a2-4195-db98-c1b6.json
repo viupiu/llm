@@ -1,0 +1,397 @@
+{
+  "id": "c18dc8a2-4195-db98-c1b6",
+  "name": "Для кого нужно придумать поздравление? - Благодарность",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "fk5kx",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jlyh8",
+        "data": {},
+        "text": "[@cmb({{спасиб~/пасиб~/спсб~/спс}}, {большое})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 46
+          }
+        ]
+      },
+      {
+        "key": "har36",
+        "data": {},
+        "text": "[@cmb({{круто/классн~/супер/отлично}}, {спасиб~/благодарю})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "86nnx",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bq3sd",
+        "data": {},
+        "text": "[@cmb({{молодцы/вы лучшие}}, {спасиб~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "3tacx",
+        "data": {},
+        "text": "[@cmb({именно то}, {нужно/искал/хотел})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "1oaty",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "2ad416a0-6506-78d0-9a70",
+  "answers": {
+    "blocks": [
+      {
+        "key": "00quw",
+        "data": {},
+        "text": ":lu: Пожалуйста! Если понадобится ещё — обращайся. Рад помочь! 😊",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "neql4",
+        "data": {},
+        "text": ":lu: Не вопрос! Всегда рад помочь с поздравлениями. Приходи ещё!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p4nhx",
+        "data": {},
+        "text": ":lu: Всё четко! Если нужно будет новое — я тут. Хорошего дня!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pfygx",
+        "data": {},
+        "text": "[dict(common_thankyou)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "2s51d",
+        "data": {},
+        "text": "[dict(praise_great)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 19
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T21:43:23.130756",
+  "updated": "2026-05-28T21:43:24.130757",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:43:24Z"
+    }
+  ]
+}

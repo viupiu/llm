@@ -1,0 +1,131 @@
+{
+  "id": "caddc952-6c31-8f88-633d",
+  "name": "keywords_greeting_women_distant",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "qp41d",
+        "data": {},
+        "text": "начальниц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r3ttt",
+        "data": {},
+        "text": "начальнице",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "s7oya",
+        "data": {},
+        "text": "начальница отдела",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "narex",
+        "data": {},
+        "text": "директорш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sdrz5",
+        "data": {},
+        "text": "директриса",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "scxuj",
+        "data": {},
+        "text": "руководительниц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "czl7r",
+        "data": {},
+        "text": "руководительница",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u3ftm",
+        "data": {},
+        "text": "коллега",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ciah4",
+        "data": {},
+        "text": "коллеге",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zhdsn",
+        "data": {},
+        "text": "коллеге женщине",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "06nci",
+        "data": {},
+        "text": "женщине коллеге",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "64yuh",
+        "data": {},
+        "text": "---",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-28T21:44:01.631939",
+  "updated": "2026-05-28T21:44:02.631940",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:44:02Z"
+    }
+  ]
+}

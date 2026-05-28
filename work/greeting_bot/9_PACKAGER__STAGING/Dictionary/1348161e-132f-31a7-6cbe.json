@@ -1,0 +1,140 @@
+{
+  "id": "1348161e-132f-31a7-6cbe",
+  "name": "keywords_greeting_men_distant",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "70g4q",
+        "data": {},
+        "text": "начальник~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o3s4f",
+        "data": {},
+        "text": "начальнице",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zpbir",
+        "data": {},
+        "text": "начальник отдела",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wk2ri",
+        "data": {},
+        "text": "босс",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mz0bu",
+        "data": {},
+        "text": "директор",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gbxoj",
+        "data": {},
+        "text": "директору",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2tq1u",
+        "data": {},
+        "text": "руководитель",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3vd28",
+        "data": {},
+        "text": "руководителю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z1gwe",
+        "data": {},
+        "text": "коллега",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lvf6h",
+        "data": {},
+        "text": "коллеге",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fk2to",
+        "data": {},
+        "text": "коллеге мужчине",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xm4i0",
+        "data": {},
+        "text": "мужчине коллеге",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9vn4z",
+        "data": {},
+        "text": "---",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-28T21:44:01.631939",
+  "updated": "2026-05-28T21:44:02.631940",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:44:02Z"
+    }
+  ]
+}

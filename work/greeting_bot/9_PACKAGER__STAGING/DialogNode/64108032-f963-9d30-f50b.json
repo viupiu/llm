@@ -1,0 +1,81 @@
+{
+  "id": "64108032-f963-9d30-f50b",
+  "name": "Для кого нужно придумать поздравление?",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "kocx2",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "2ad416a0-6506-78d0-9a70",
+  "answers": {
+    "blocks": [
+      {
+        "key": "acegk",
+        "data": {},
+        "text": "Для кого нужно придумать поздравление? [%that_anchor=\"Для кого нужно придумать поздравление?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T21:43:23.130756",
+  "updated": "2026-05-28T21:43:24.130757",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:43:24Z"
+    }
+  ]
+}

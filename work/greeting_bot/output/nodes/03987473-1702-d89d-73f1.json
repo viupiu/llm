@@ -1,0 +1,181 @@
+{
+  "id": "03987473-1702-d89d-73f1",
+  "name": "Для кого нужно придумать поздравление? - *",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Для кого нужно придумать поздравление?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "ppol2",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "n9pd6",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "wrwlj",
+        "data": {},
+        "text": ":lu: Не понял, для кого вам поздравление? Напишите, например: «для мамы», «для коллеги», «для ребёнка» — и я придумаю текст! [%that_anchor=\"Для кого нужно придумать поздравление?\"] [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 197
+          }
+        ]
+      },
+      {
+        "key": "ds8w5",
+        "data": {},
+        "text": ":lu: Хм, не совсем понял. Подскажите, для кого нужно поздравление? Например: «для близкого», «для начальника», «для внучки»... [%that_anchor=\"Для кого нужно придумать поздравление?\"] [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 199
+          }
+        ]
+      },
+      {
+        "key": "lanif",
+        "data": {},
+        "text": ":lu: Сори, не разобрали. Для кого вам поздравление? Напишите, и я помогу! 😄 [%that_anchor=\"Для кого нужно придумать поздравление?\"] [disableautovars]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          }
+        ]
+      },
+      {
+        "key": "xbaqc",
+        "data": {},
+        "text": "(DL Автор Ответов:) Задача выполнена.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 0
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-28T21:43:23.130756",
+  "updated": "2026-05-28T21:43:24.130757",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-28T21:43:24Z"
+    }
+  ]
+}
