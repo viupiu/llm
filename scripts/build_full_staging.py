@@ -64,27 +64,64 @@ def parse_skill_to_nodes_map(map_md_path: Path | None) -> dict[str, list[str]]:
     text = map_md_path.read_text(encoding="utf-8")
     skill_to_nodes: dict[str, list[str]] = {}
     current_skill = None
+    known_skills: set[str] = set()
+    # Collect ownership overrides from "(пусто — узел N `Name` ... принадлежит `SKILL`)"
+    ownership_overrides: list[tuple[str, str]] = []  # (node_name, owner_skill)
+    # First pass: collect known skill names from "### Skill: NAME" headers
+    for m in RE_SKILL_NAME.finditer(text):
+        known_skills.add(clean_name(m.group(1)))
+    # Second pass: map nodes to skills
+    in_tree_section = False
     for line in text.splitlines():
         s = line.strip()
-        m_skill = RE_SKILL_NAME.match(s)
-        if m_skill:
-            current_skill = clean_name(m_skill.group(1))
-            if current_skill not in skill_to_nodes:
-                skill_to_nodes[current_skill] = []
+        # Detect "## 2. Дерево узлов" (or similar section header with number)
+        if re.match(r"^#+\s*\d+\.\s*", s) and "дерево" in s.lower():
+            in_tree_section = True
             continue
+        # Section header ### NAME — if NAME is a known skill, it sets current_skill
+        m_section = re.match(r"^#{3}\s+(.+)$", s)
+        if m_section and in_tree_section:
+            section_name = clean_name(m_section.group(1))
+            if section_name in known_skills:
+                current_skill = section_name
+                if current_skill not in skill_to_nodes:
+                    skill_to_nodes[current_skill] = []
+                continue
         if not current_skill:
             continue
-        # 1) Table rows: `| G1 | `node_name` | ...`
-        m_table = RE_TABLE_NODE.search(s)
-        if m_table:
-            node_name = clean_name(m_table.group(1))
-            skill_to_nodes[current_skill].append(node_name)
+        # Check for "(пусто — узел N `Name` описан в таблице ... принадлеж(ит|ит навыку) `SKILL`)"
+        if s.startswith("(пусто"):
+            пусто_m = re.search(r"[`\u0060]([^`\u0060]+)[`\u0060]", s)
+            if пусто_m:
+                node_name = clean_name(пусто_m.group(1))
+                ownership_overrides.append((node_name, current_skill))
+                if node_name not in skill_to_nodes.get(current_skill, []):
+                    skill_to_nodes.setdefault(current_skill, []).append(node_name)
+            continue
+        # 1) Table rows: any `|` row in the nodes table
+        if s.startswith("|"):
+            cells = [c.strip() for c in s.split("|") if c.strip()]
+            if len(cells) >= 2:
+                second_cell = clean_name(cells[1])
+                # Skip separator row (---)
+                if re.match(r"^[-:]+$", second_cell):
+                    continue
+                # Skip header row
+                if "название" in second_cell.lower() or "name" in second_cell.lower():
+                    continue
+                if second_cell and second_cell not in skill_to_nodes.get(current_skill, []):
+                    skill_to_nodes.setdefault(current_skill, []).append(second_cell)
             continue
         # 2) Legacy header format: `#### Узел: `name``
         m_node = re.match(r"#{4,5}\s*Узел:\s*(.+)", s)
         if m_node:
             node_name = clean_name(m_node.group(1))
-            skill_to_nodes[current_skill].append(node_name)
+            skill_to_nodes.setdefault(current_skill, []).append(node_name)
+    # Post-process: ownership overrides move nodes FROM table-parsed skills TO the designated owner
+    for node_name, owner_skill in ownership_overrides:
+        for other_skill, other_nodes in list(skill_to_nodes.items()):
+            if other_skill != owner_skill and node_name in other_nodes:
+                other_nodes.remove(node_name)
     return skill_to_nodes
 
 

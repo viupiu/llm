@@ -1,0 +1,141 @@
+{
+  "id": "eb7ddd41-b35b-fb9e-30ad",
+  "name": "Какая у тебя беда?",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "syfa0",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "hoc6g",
+        "data": {},
+        "text": ":lu: Ну, ну… В чём дело? Расскажу варианты — выбери, что ближе к твоей катастрофе: опоздание, невыполнение задачи, отсутствие и молчание в переписке. [%that_anchor=\"Какая у тебя беда?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 184
+          }
+        ]
+      },
+      {
+        "key": "tmud9",
+        "data": {},
+        "text": ":lu: Окей, давай по порядку. Что случилось — опоздал, задачу не сделал, вовсе пропал или просто промолчал? [%that_anchor=\"Какая у тебя беда?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          }
+        ]
+      },
+      {
+        "key": "e1jk7",
+        "data": {},
+        "text": ":lu: Знаю, знаю, было такое у всех Ладно, выбери свою ситуацию из списка внизу — и держи отмажку. [%that_anchor=\"Какая у тебя беда?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          }
+        ]
+      },
+      {
+        "key": "iyouu",
+        "data": {},
+        "text": ":lu: Передохни. Сейчас будет лучше. Выбери свой тип бедствия [%that_anchor=\"Какая у тебя беда?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

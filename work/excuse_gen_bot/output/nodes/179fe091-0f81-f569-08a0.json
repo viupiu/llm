@@ -1,0 +1,855 @@
+{
+  "id": "179fe091-0f81-f569-08a0",
+  "name": "Ещё отмазку? - Да",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Ещё отмазку?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "m7yzv",
+        "data": {},
+        "text": "* [dict(common_yes)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 19
+          }
+        ]
+      },
+      {
+        "key": "whadh",
+        "data": {},
+        "text": "* [dict(soglasen)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 17
+          }
+        ]
+      },
+      {
+        "key": "xrd1b",
+        "data": {},
+        "text": "* [dict(common_want_1_pres)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 27
+          }
+        ]
+      },
+      {
+        "key": "nmql3",
+        "data": {},
+        "text": "* [dict(word_eshe)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "nx1ww",
+        "data": {},
+        "text": "да",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pqicq",
+        "data": {},
+        "text": "ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x77br",
+        "data": {},
+        "text": "ещё одну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yz5xd",
+        "data": {},
+        "text": "хочу ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b0dp4",
+        "data": {},
+        "text": "давай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "czbdf",
+        "data": {},
+        "text": "конечно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sgcd1",
+        "data": {},
+        "text": "ок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "47t9z",
+        "data": {},
+        "text": "пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zk55i",
+        "data": {},
+        "text": "ищу ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7oe87",
+        "data": {},
+        "text": "нужна ещё отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i8ehd",
+        "data": {},
+        "text": "ещё одно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cg7jb",
+        "data": {},
+        "text": "да, ещё одну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2tdet",
+        "data": {},
+        "text": "давай другую",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "10jzw",
+        "data": {},
+        "text": "следующий вариант",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mrpa3",
+        "data": {},
+        "text": "давай ещё вариант",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yjd1y",
+        "data": {},
+        "text": "а есть ещё варианты?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pjy9h",
+        "data": {},
+        "text": "да, пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tfbbp",
+        "data": {},
+        "text": "ещё одну!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "96vip",
+        "data": {},
+        "text": "придумай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nu17y",
+        "data": {},
+        "text": "да, давай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "v9b0p",
+        "data": {},
+        "text": "дай ещё одну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ybnmb",
+        "data": {},
+        "text": "а можно ещё?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "79n5q",
+        "data": {},
+        "text": "да, нужно ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7tmsl",
+        "data": {},
+        "text": "хочу ещё одну отмазку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o5gh6",
+        "data": {},
+        "text": "ну давай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4c3na",
+        "data": {},
+        "text": "ещё, пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tvn5r",
+        "data": {},
+        "text": "давай, давай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x2oqa",
+        "data": {},
+        "text": "ещё вариант, пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lcrd3",
+        "data": {},
+        "text": "да, хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nog0l",
+        "data": {},
+        "text": "давай ещё что-нибудь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3byqx",
+        "data": {},
+        "text": "ещё одну хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x5bi3",
+        "data": {},
+        "text": "да, ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uec9h",
+        "data": {},
+        "text": "ещё разок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7iq9c",
+        "data": {},
+        "text": "ну, ещё одну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z2bv2",
+        "data": {},
+        "text": "можно ещё одну?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m2q5o",
+        "data": {},
+        "text": "давай ещё придумай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tb4eo",
+        "data": {},
+        "text": "а что-нибудь покреативнее?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9tpe5",
+        "data": {},
+        "text": "да, давай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zpstj",
+        "data": {},
+        "text": "ещё одну, пожалуйста",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kis8a",
+        "data": {},
+        "text": "нет нет, давай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7yzks",
+        "data": {},
+        "text": "даа, ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m929v",
+        "data": {},
+        "text": "хочу ещё одну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l8vnt",
+        "data": {},
+        "text": "ой, давай ещё одну!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bqlmy",
+        "data": {},
+        "text": "да, ещё одну!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7wmjt",
+        "data": {},
+        "text": "ещё, ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tcvxu",
+        "data": {},
+        "text": "ой давай ещё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j7a2h",
+        "data": {},
+        "text": "а есть что-нибудь похуже?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lzzxw",
+        "data": {},
+        "text": "да, нужен ещё вариант",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "7qazf",
+        "data": {},
+        "text": ":lu: Круто! Давай, выбирай — что теперь прикрываем? Опять опоздание или что-нибудь новое? [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 126
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          }
+        ]
+      },
+      {
+        "key": "1di9o",
+        "data": {},
+        "text": ":lu: Отлично, погнали! Ещё одна беда — ещё одна легенда. Выбирай [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 69
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "ji241",
+        "data": {},
+        "text": ":lu: Ура, я знал, что ты не уйдёшь без второго раунда! Что случилось теперь? [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 114
+          }
+        ]
+      },
+      {
+        "key": "yjix0",
+        "data": {},
+        "text": ":lu: Поехали! Мой конвейер отмазок ещё полон. Какую беду берём? [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "17ej0",
+        "data": {},
+        "text": ":lu: Супер, продолжаем! Выбери категорию — и получишь следующую порцию оправданий. [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

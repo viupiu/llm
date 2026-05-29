@@ -1,0 +1,2656 @@
+{
+  "id": "a86414b3-d6a8-4459-f267",
+  "name": "Какая у тебя беда? - Не ответил",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какая у тебя беда?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "8gdlq",
+        "data": {},
+        "text": "* [dict(keywords_excuse_silence)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "tgl7q",
+        "data": {},
+        "text": "не ответил на сообщение, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fjl8i",
+        "data": {},
+        "text": "отмазка за молчание в чате",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ortww",
+        "data": {},
+        "text": "не ответил на звонок, что сказать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tndry",
+        "data": {},
+        "text": "игнорил друга три дня, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0tjwv",
+        "data": {},
+        "text": "промолчал в переписке, как объяснить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "guzrp",
+        "data": {},
+        "text": "не вышел на звонок, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w9x90",
+        "data": {},
+        "text": "игнорил сообщение начальника, что придумать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yickh",
+        "data": {},
+        "text": "молчал в групповом чате, все спрашивают где я был",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "94zo7",
+        "data": {},
+        "text": "не ответил на сообщение от девушки, нужна отмазка которая прокатит",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a8tia",
+        "data": {},
+        "text": "пропустил звонок и не перезвонил, что написать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8odju",
+        "data": {},
+        "text": "не отвечал два дня, все думают что я пропал",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gwgeq",
+        "data": {},
+        "text": "не ответил на сообщение в whatsapp, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xbqvr",
+        "data": {},
+        "text": "молчал в переписке с клиентом, как выйти из ситуации",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "grqp3",
+        "data": {},
+        "text": "не вышел в чат, нужен ответ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nx0dt",
+        "data": {},
+        "text": "проигнорил сообщение, теперь неловко",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9qmr1",
+        "data": {},
+        "text": "не ответил на смс, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vfyhw",
+        "data": {},
+        "text": "пропустила вызов, теперь нужно объяснить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qyywh",
+        "data": {},
+        "text": "молчу в диалоге уже неделю, как начать снова",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "umfgq",
+        "data": {},
+        "text": "не отвечал на сообщения, нужна правдоподобная отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vgok0",
+        "data": {},
+        "text": "не ответил на звонок мамы, что придумать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nkh7w",
+        "data": {},
+        "text": "проигнорил вопрос в общем чате, все на меня смотрят",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4v7r1",
+        "data": {},
+        "text": "не написал в ответ, а теперь неловко разговаривать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a5srd",
+        "data": {},
+        "text": "молчал в скайпе, а мне нужно было ответить клиенту",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x4zis",
+        "data": {},
+        "text": "не ответил на тикет в техподдержке, что писать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jqsmz",
+        "data": {},
+        "text": "проигнорил сообщение, а теперь человек обижен",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jezvb",
+        "data": {},
+        "text": "не вышел в телеграм, нужно объяснить почему пропадал",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xltzs",
+        "data": {},
+        "text": "не ответил на голосовое сообщение, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fsy52",
+        "data": {},
+        "text": "пропустила звонок от начальника, нужен текст",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1njnh",
+        "data": {},
+        "text": "молчу, потому что не знаю что ответить, а нужно придумать причину молчания",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5f7ke",
+        "data": {},
+        "text": "не отвечал на звонки, все думают что со мной что-то случилось",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "d2apv",
+        "data": {},
+        "text": "игнорил сообщения 5 дней, придумай оправдание",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "umufh",
+        "data": {},
+        "text": "не ответил на сообщение в работе, коллега расстроена",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "quulq",
+        "data": {},
+        "text": "промолчал на зов в дискорде, тиммейты спрашивают",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j4l4f",
+        "data": {},
+        "text": "не ответил на письмо, а теперь просрочка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sfpta",
+        "data": {},
+        "text": "молчал в чате с поддержкой, а мне нужно было уточнить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "h54xm",
+        "data": {},
+        "text": "не вышел на видеозвонок, нужно объяснить клиенту",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jra45",
+        "data": {},
+        "text": "проигнорил сообщение бывшего, теперь совесть мучает",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fx0m9",
+        "data": {},
+        "text": "не отвечал на вопросы в чате, потому что забыл про них",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ec9mj",
+        "data": {},
+        "text": "не ответил на звонок, потому что телефон разрядился, но эта причина уже избитая, нужна другая",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0krkp",
+        "data": {},
+        "text": "тишина в переписке три дня, нужна причина чтобы не казалось что я игнорю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "634pp",
+        "data": {},
+        "text": "не ответил на голосовое, не мог слушать на работе, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z7djm",
+        "data": {},
+        "text": "молчал в переписке, пока не собрался с мыслями, но нужно что-то более убедительное",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "41cmb",
+        "data": {},
+        "text": "не ответил на сообщение от босса, и это было три дня назад",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5y46x",
+        "data": {},
+        "text": "проигнорил звонки, был на совещании, но на самом деле спал",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wk9hk",
+        "data": {},
+        "text": "не ответил, потому что не знал что ответить, но это звучит странно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dygkf",
+        "data": {},
+        "text": "молчала в переписке, потому что не хотела разговаривать, но нужна более мягкая причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2dt35",
+        "data": {},
+        "text": "не ответила на звонок, была в душе, но это звучит как отмазка, придумай что-то лучше",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "e39add00-44f9-48cc-5abf",
+  "answers": {
+    "blocks": [
+      {
+        "key": "ag90f",
+        "data": {},
+        "text": ":lu: Телефон был рядом. Но я его не видел. Как это возможно? Телефон лежит в 30 см, а я его не замечаю. Видимо, связь между глазами и телефоном — слабая. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          }
+        ]
+      },
+      {
+        "key": "173bs",
+        "data": {},
+        "text": ":lu: Я видел ваше сообщение. Но ответ отложил. Потом забыл. Потом увидел заново. Потом уже было поздно. Цикл молчания замкнулся. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          }
+        ]
+      },
+      {
+        "key": "hzvkb",
+        "data": {},
+        "text": ":lu: Мой телефон ушёл в авiareжим. Я не в авiareжиме был — он сам. Кнопка на боку. Случайное касание. И связь — потерялась. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "puzxb",
+        "data": {},
+        "text": ":lu: Я думал, что ответил. Проверь историю переписки. Там моего ответа нет. Я действительно думал, что отправил. Это была галлюцинация. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          }
+        ]
+      },
+      {
+        "key": "mxta5",
+        "data": {},
+        "text": ":lu: Знаете, бывает такое: читаешь сообщение, думаешь ответ, потом отвлекаешься, и мозг отключает напоминание о неотвеченном. Это защита. Но неэффективная. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "o3iaj",
+        "data": {},
+        "text": ":lu: Я открыл сообщение. Ответ начал писать. Потом перестал. Потом забыл. Потом открыл сообщение снова. Ответ пропал вместе с фокусом. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          }
+        ]
+      },
+      {
+        "key": "3hdir",
+        "data": {},
+        "text": ":lu: У меня телефон сегодня работал в режиме: «Принимает, но не показывает». Я думал, что сообщений нет. Они были. Просто телефон скрывал. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          }
+        ]
+      },
+      {
+        "key": "7uhy8",
+        "data": {},
+        "text": ":lu: Я не хотел отвечать. Потому что не знал, что ответить. Потом хотел — было поздно. Теперь хочу — уже бесконечно поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "ecfkx",
+        "data": {},
+        "text": ":lu: Телефон разрядился. Это всегда так: в тот момент, когда важно, батарея — 0. В момент, когда не важно — 100. Несправедливость технологий. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          }
+        ]
+      },
+      {
+        "key": "wqg47",
+        "data": {},
+        "text": ":lu: Я просто не мог ответить. Потому что сообщение было такое, что ответ требовал обдумывания. Обдумывание заняло весь день. Ответ — где-то в голове. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          }
+        ]
+      },
+      {
+        "key": "ebpxp",
+        "data": {},
+        "text": ":lu: Знаете, иногда вы просто не знаете, как начать ответ. Вы открываете приложение. Закрываете. Открываете. Закрываете. Проходит время. Молчит. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          }
+        ]
+      },
+      {
+        "key": "aamc0",
+        "data": {},
+        "text": ":lu: Я был в звонке. Потом в другом. Потом в третьем. Потом в переписке. Потом в тишине. К концу дня я просто устал от коммуникации. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          }
+        ]
+      },
+      {
+        "key": "wihs4",
+        "data": {},
+        "text": ":lu: У меня телефон работал странно: сигналы приходили, но экран не включался. Я думал, что всё ок. Не было. Экран — это всё. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 126
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          }
+        ]
+      },
+      {
+        "key": "qwi2s",
+        "data": {},
+        "text": ":lu: Я забыл, что писал. Потом забыл, что не писал. Потом забыл, что вообще должно было быть письмо. Теперь вы мне напомнили. Спасибо. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          }
+        ]
+      },
+      {
+        "key": "aolcw",
+        "data": {},
+        "text": ":lu: Я думал, что ты уже ответил. Проверил. Нет, не ответил. Это был я. То есть нет. Это была галлюцинация совместного ответа. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          }
+        ]
+      },
+      {
+        "key": "eha5x",
+        "data": {},
+        "text": ":lu: Слушайте, я знаю, что не ответил. Это был не план. Это просто случилось. Я прочитал, отложил, забыл. Классическая формула молчания. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          }
+        ]
+      },
+      {
+        "key": "hphja",
+        "data": {},
+        "text": ":lu: Мой телефон сегодня был в режиме: «Принимает все, показывает ничего». Я думал, что тишина — это норма. Не была. Это была проблема. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          }
+        ]
+      },
+      {
+        "key": "hppmi",
+        "data": {},
+        "text": ":lu: Я просто не нашёл слов. Сообщение было таким, что все ответы казались неправильными. Пока я искал правильный — время ушло. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          }
+        ]
+      },
+      {
+        "key": "xf2a2",
+        "data": {},
+        "text": ":lu: У меня было много сообщений. Я прочитал ваши. Захотел ответить. Забыл. Нашёл снова. Забыл снова. Теперь нахожу третий раз. Сейчас отвечу. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          }
+        ]
+      },
+      {
+        "key": "fpwso",
+        "data": {},
+        "text": ":lu: Я думал, что отвечаю в уме. Оказалось, что нужно нажать кнопку «Отправить». Теперь я понял: мыслей недостаточно. Нужны действия. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          }
+        ]
+      },
+      {
+        "key": "hokbm",
+        "data": {},
+        "text": ":lu: Моему мозгу пришлось переработать слишком много информации. Ответ на ваше сообщение — где-то в процессе. Просто процесс завис. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          }
+        ]
+      },
+      {
+        "key": "32ipx",
+        "data": {},
+        "text": ":lu: Я был в состоянии: «Сейчас отвечу». Потом: «Через минуту». Потом: «Потом». Потом: «Извини». Каждый раз — новый обещание. Ни одного выполнения. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          }
+        ]
+      },
+      {
+        "key": "1t418",
+        "data": {},
+        "text": ":lu: Не ответил, потому что не понял. Потом понял. Потом решил: лучше молчать. Потом пожалел. Ситуация — классический парадокс: чем больше думаешь, тем сложнее сказать. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 199
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 200
+          }
+        ]
+      },
+      {
+        "key": "94cpy",
+        "data": {},
+        "text": ":lu: Телефон был в кармане. Визуально — рядом. Фактически — недоступен. Я не почувствовал вибрацию. Не услышал звук. Не увидел уведомление. Три провала одновременно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 196
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 197
+          }
+        ]
+      },
+      {
+        "key": "htqvf",
+        "data": {},
+        "text": ":lu: Я просто не знал, как это сделать так, чтобы не обидеть. Чтобы не звучало плохо. Чтобы было нормально. Пока искал правильный тон — время ушло. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          }
+        ]
+      },
+      {
+        "key": "188j0",
+        "data": {},
+        "text": ":lu: Это не было игнорированием. Это была пауза. Длинная пауза. Пауза, которая перешла в молчание. Молчание, которое стало проблемой. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          }
+        ]
+      },
+      {
+        "key": "ra9ck",
+        "data": {},
+        "text": ":lu: Я открыл чат. Потом закрыл. Потом открыл другой. Потом забыл. Потом вернулся. В этот момент вы уже не ждали. А я — уже поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          }
+        ]
+      },
+      {
+        "key": "smn3t",
+        "data": {},
+        "text": ":lu: У меня сегодня были проблемы с интернетом. Он работал, но не хотел. Как ребёнок. То подключён, то нет. Сообщения ушли — но не все. Ваши — среди тех, что не дошли. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 198
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 199
+          }
+        ]
+      },
+      {
+        "key": "h1525",
+        "data": {},
+        "text": ":lu: Я читал ваше сообщение три раза. Каждый раз понимал по-разному. К четвёртому разу — вообще ничего не понял. Лучше помолчать, чем ответить неправильно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "0dxjm",
+        "data": {},
+        "text": ":lu: Молчание — это не всегда игнор. Иногда это: «Думаю». Я думал. Долго. Слишком долго. Теперь жду, когда будет не поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "itzqo",
+        "data": {},
+        "text": ":lu: Я просто забыл про телефон. Он был здесь. Я был здесь. Но телефон и я не были связаны. Как странные планеты на орбите. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "88rws",
+        "data": {},
+        "text": ":lu: Я хотел ответить, но у меня нет слов, которые бы вас устроили. Пока искал — время ушло. Теперь ищу оправдание. Вроде, это работает. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          }
+        ]
+      },
+      {
+        "key": "npnj2",
+        "data": {},
+        "text": ":lu: Телефон был в зарядке. Зарядка была в другой комнате. Я не хотел вставать. Встал — уже было поздно. Цепочка лени: зарядка → комната → опоздание с ответом. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 191
+          }
+        ]
+      },
+      {
+        "key": "h20tb",
+        "data": {},
+        "text": ":lu: Я думал, что вы заняты. Потом подумал: ок, отвечу позже. Позже наступило. Я не ответил. Теперь уже не знаю: занят ли вы. Скорее всего — нет. А я — всё ещё молчу. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 197
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 198
+          }
+        ]
+      },
+      {
+        "key": "5nzn3",
+        "data": {},
+        "text": ":lu: Это не было намеренным. Это было: открыл-забыл-залип-забыл-вернулся-уже-поздно. Цепочка из пяти забываний. Каждое сильнее предыдущего. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          }
+        ]
+      },
+      {
+        "key": "qmayc",
+        "data": {},
+        "text": ":lu: Я просто не мог начать. Ваш вопрос был таким, что мозг решил: нужно подготовиться. Подготовка заняла слишком много. Ответ так и не был отправлен. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          }
+        ]
+      },
+      {
+        "key": "3kcri",
+        "data": {},
+        "text": ":lu: Знаете, когда вы читаете сообщение и думаете: «Ну, сейчас отвечу»? В этот момент мозг включает таймер. Таймер заканчивается. Вы забываете. Вот что произошло. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 194
+          }
+        ]
+      },
+      {
+        "key": "rrmz9",
+        "data": {},
+        "text": ":lu: Я не отвечал, потому что ждал идеального момента. Идеальный момент никогда не пришёл. Теперь я жду следующего. Или, может, уже поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          }
+        ]
+      },
+      {
+        "key": "z10fi",
+        "data": {},
+        "text": ":lu: Мой телефон сегодня реши сам: «Нужен перерыв». И ушёл. Без предупреждения. Без объяснений. Я просто смотрел на чёрный экран и понимал: ответа не будет. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 187
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 188
+          }
+        ]
+      },
+      {
+        "key": "68ekd",
+        "data": {},
+        "text": ":lu: Я просто запутался: в каком чате писать? Здесь? Там? В другом? Пока разбирался — вы уже не ждали. А я — запутался окончательно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          }
+        ]
+      },
+      {
+        "key": "kvpq5",
+        "data": {},
+        "text": ":lu: Это была тишина. Не моя. Телефонного. Телефон молчал. Я молчал. Мир молчал. Потом все заговорили одновременно. Без координации. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          }
+        ]
+      },
+      {
+        "key": "osq0d",
+        "data": {},
+        "text": ":lu: Я просто думал, что сообщение не важно. Оказалось — важно. Очень. Теперь я думал, что можно было ответить раньше. Да. Можно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          }
+        ]
+      },
+      {
+        "key": "avy39",
+        "data": {},
+        "text": ":lu: Мой мозг сказал: «Отвечай потом». Потом — это сейчас. Сейчас — это уже поздно. Теперь я отвечаю. Но опоздал. Опять. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

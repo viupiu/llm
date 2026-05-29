@@ -167,3 +167,11 @@ Engine stores the hash of the last selected string per dictionary name. For `sud
 | `[disableautovars]` | Продлить жизнь якоря/метки |
 | `[nothing]` | Намеренно пустая реплика |
 | `[%voice.end_call="True"]` | Завершение звонка (runtime effect) |
+
+### Anti-repeat mechanism
+
+**MUST:** Для предотвращения повторов используйте `:lu:` (limit usage) или `[udict(name)]` — они обеспечивают автоматическое перебирание элементов словаря без повторов в рамках цикла/сессии.
+
+**MUST NOT:** Не использовать ручные счётчики (`%excuse_count`, `%last_excuse_style` и т.п.) для anti-repeat. Это избыточно и усложняет архитектуру.
+
+**Инцидент (2026-05-29, Excuse Gen Bot):** Архитектор предложил `%excuse_count` + `%last_excuse_style` для защиты от повторов. Правильный подход — встроенные механизмы `:lu:` / `[udict()]`.

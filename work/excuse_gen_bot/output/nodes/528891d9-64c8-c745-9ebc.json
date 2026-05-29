@@ -1,0 +1,321 @@
+{
+  "id": "528891d9-64c8-c745-9ebc",
+  "name": "Ещё отмазку? - *",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Ещё отмазку?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "ogg7q",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "96jyq",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "rnkyr",
+        "data": {},
+        "text": ":lu: Эм, я не совсем понял. Да или нет? Ещё одна отмазка — или пока всё? Просто скажи, а я сделаю гениально. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 118
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          }
+        ]
+      },
+      {
+        "key": "uim7z",
+        "data": {},
+        "text": ":lu: Окей, я тут, но мне нужна ясность. Ещё хочешь? Да / Нет — и я сразу знаю, что делать. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 106
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 122
+          }
+        ]
+      },
+      {
+        "key": "0ji8x",
+        "data": {},
+        "text": ":lu: Хм, это звучит как «может быть». А давай конкретно: ещё отмазку или пока хватит? [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 117
+          }
+        ]
+      },
+      {
+        "key": "7so2w",
+        "data": {},
+        "text": ":lu: Подожди-ка, мне нужно понять: ты хочешь ещё или прощаешься? Да или нет — и поехали! [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          }
+        ]
+      },
+      {
+        "key": "b7ps3",
+        "data": {},
+        "text": ":lu: Твоя мысль ускользнула. Давай проще: ещё отмазка — да? Или пока всё? [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

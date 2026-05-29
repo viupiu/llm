@@ -1,0 +1,161 @@
+{
+  "id": "b7500962-ee8f-277a-e22a",
+  "name": "Ещё отмазку?",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "r6wlo",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "a7hyk",
+        "data": {},
+        "text": ":lu: Ну что, ещё одну? У меня ещё куча идей, и они уже не терпят [%that_anchor=\"Ещё отмазку?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          }
+        ]
+      },
+      {
+        "key": "69eon",
+        "data": {},
+        "text": ":lu: Отмазка принята? Или хочешь ещё попробовать удачу? [%that_anchor=\"Ещё отмазку?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          }
+        ]
+      },
+      {
+        "key": "5bpn9",
+        "data": {},
+        "text": ":lu: Хм, тебе понравилось? Могу выжать ещё. Хочешь? [%that_anchor=\"Ещё отмазку?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          }
+        ]
+      },
+      {
+        "key": "0rxk9",
+        "data": {},
+        "text": ":lu: Это была твоя любимая? Или попробуем что-нибудь другое? [%that_anchor=\"Ещё отмазку?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          }
+        ]
+      },
+      {
+        "key": "r1g69",
+        "data": {},
+        "text": ":lu: Отмазка — как пицца: чем больше, тем лучше. Ещё кусочек? [%that_anchor=\"Ещё отмазку?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

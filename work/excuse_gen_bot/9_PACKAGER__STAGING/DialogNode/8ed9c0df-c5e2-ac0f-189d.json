@@ -1,0 +1,2456 @@
+{
+  "id": "8ed9c0df-c5e2-ac0f-189d",
+  "name": "Какая у тебя беда? - Не сделал задачу",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какая у тебя беда?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "hjjoz",
+        "data": {},
+        "text": "* [dict(keywords_excuse_task)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "7xrfl",
+        "data": {},
+        "text": "не сделал задачу, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2bzl7",
+        "data": {},
+        "text": "придумай оправдание что я не сдал отчёт",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vyliz",
+        "data": {},
+        "text": "не закрыл тикет, что сказать менеджеру",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gvyhw",
+        "data": {},
+        "text": "нужно объяснить почему задача не готова",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fmbz9",
+        "data": {},
+        "text": "придумай причину за несданное дз",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pnwl3",
+        "data": {},
+        "text": "отчёт не готов, нужны оправдания",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8n16s",
+        "data": {},
+        "text": "не доделал презентацию к утру, что писать руководителю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1z462",
+        "data": {},
+        "text": "забыл сделать домашку, нужен текст для преподов",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "54x7s",
+        "data": {},
+        "text": "не отправил документы клиенту, как объяснить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "436c2",
+        "data": {},
+        "text": "не успел сделать задачу до дедлайна, отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rfdy6",
+        "data": {},
+        "text": "код не готов, нужен ответ для тимлида",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a8cs9",
+        "data": {},
+        "text": "придумай смешное оправдание за невыполненную задачу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3ya8p",
+        "data": {},
+        "text": "не сделал работу, а дедлайн уже завтра",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "iv1e7",
+        "data": {},
+        "text": "задачу забил про неё, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i8axv",
+        "data": {},
+        "text": "не успел заполнить таблицу, что придумать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g8xsi",
+        "data": {},
+        "text": "нужно обоснование почему я не сделал задачу на работе",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ef1zc",
+        "data": {},
+        "text": "не сдал курсовую вовремя, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zac11",
+        "data": {},
+        "text": "задачу скинули мне месяц назад, а я не сделал, как выйти сухим",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a8x4p",
+        "data": {},
+        "text": "не сделал отчёт по продажам, начальник будет в ярости",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "n6yzu",
+        "data": {},
+        "text": "отмазка для ситуации когда ты не выполнил задачу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "97nix",
+        "data": {},
+        "text": "не доделал макет, дизайнер у меня отмазки не придумает",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mg924",
+        "data": {},
+        "text": "забыл про дедлайн, что теперь говорить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l606i",
+        "data": {},
+        "text": "не подготовил материалы к встрече, нужна причина",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zx75r",
+        "data": {},
+        "text": "задачу не закрыл, в трекере висит красным",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y0csb",
+        "data": {},
+        "text": "не сделал нормоконтроль, что написать заказчику",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ebzxa",
+        "data": {},
+        "text": "придумай историю про то что я не закончил проект",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3gi8b",
+        "data": {},
+        "text": "не обнулил базу данных, а сегодня проверка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5kukl",
+        "data": {},
+        "text": "нужно придумать почему я не выполнил поручение директора",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ywdff",
+        "data": {},
+        "text": "не сделал сводку за неделю, нужен серьёзный ответ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "042az",
+        "data": {},
+        "text": "не отправил письмо партнёру, а оно было срочно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8yr8f",
+        "data": {},
+        "text": "задача горит, а я ничего не сделал, что придумать срочно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "851b3",
+        "data": {},
+        "text": "не дописал документацию, нужно оправдание для продуктового",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cu9i3",
+        "data": {},
+        "text": "забыл сделать резервную копию, теперь всем хана, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "211o2",
+        "data": {},
+        "text": "не подготовил слайды к питчу, а завтра инвесторы",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4ks86",
+        "data": {},
+        "text": "не закрыл заявку на хостинге, клиент ждёт",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tm0bg",
+        "data": {},
+        "text": "нууу не сделал задачу, короче нужен текст",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3z01s",
+        "data": {},
+        "text": "не успел отредактировать видео, дедлайн вчера был",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lo7e1",
+        "data": {},
+        "text": "задача была на этой неделе и я её совсем не трогал, нужна помощь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lx1ka",
+        "data": {},
+        "text": "не сделал тестовый отчёт, а начальник спрашивает каждые 5 минут",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "km4tv",
+        "data": {},
+        "text": "придумай отмазку, забыл про задачу которую мне дали вчера",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bdrq1",
+        "data": {},
+        "text": "не сдал практикум, препод уже ждёт",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "za6d8",
+        "data": {},
+        "text": "не завершил миграцию данных, что говорить команде",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hv0if",
+        "data": {},
+        "text": "забыл сделать бэкап, всё пропало, как объяснить ситуацию",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6w2cf",
+        "data": {},
+        "text": "задачу назначили мне, а я на больничном был, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "im8c3",
+        "data": {},
+        "text": "не заполнил форму, она уже просрочена",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sjt1x",
+        "data": {},
+        "text": "думал что это делает кто-то другой, а теперь надо объяснять",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ivvs8",
+        "data": {},
+        "text": "не написал код, а сегодня ревью",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "e39add00-44f9-48cc-5abf",
+  "answers": {
+    "blocks": [
+      {
+        "key": "ipcr0",
+        "data": {},
+        "text": ":lu: Это не прокрастинация. Это метод. Я проверяю, можно ли задачу не делать. Можно. Результаты эксперимента: задача не сделана, выводы очевидны. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          }
+        ]
+      },
+      {
+        "key": "mst82",
+        "data": {},
+        "text": ":lu: Знаете, иногда задача не делается не потому, что она сложная. А потому что она слишком лёгкая и мозг отказывается тратить на неё энергию. Биологическая защита. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 195
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          }
+        ]
+      },
+      {
+        "key": "3kvkn",
+        "data": {},
+        "text": ":lu: Я начал! Я-то реально начал. Потом понял: если я начал, значит, я обязан закончить. А закончить мне лень. То есть начало — ещё хуже. Реверс начал. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 183
+          }
+        ]
+      },
+      {
+        "key": "jw4a1",
+        "data": {},
+        "text": ":lu: Всё дело в порядке. Я не сделал задачу, потому что ещё не дошёл до правильного настроения. А настроение придёт, когда задача будет готова. Замкнутый круг, как всегда. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 187
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 202
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 203
+          }
+        ]
+      },
+      {
+        "key": "ozifw",
+        "data": {},
+        "text": ":lu: Мой компьютер сегодня решил: «Сегодня — день перезагрузок». Перезагрузил меня, перезагрузил рабочий стол, перезагрузил терпение. К концу дня ничего не осталось кроме пароля. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 188
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 209
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 210
+          }
+        ]
+      },
+      {
+        "key": "keegv",
+        "data": {},
+        "text": ":lu: Знаете, как бывает — открываешь файл, а он пустой? Вот только сегодня был наоборот: файл был полный, а времени — ноль. И я не знал, с какой стороны подступиться. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 197
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 198
+          }
+        ]
+      },
+      {
+        "key": "r8jgm",
+        "data": {},
+        "text": ":lu: Я думал, что у меня есть ещё вчера. Это были галюцинации. Галюцинации времени. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 114
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 115
+          }
+        ]
+      },
+      {
+        "key": "gxm16",
+        "data": {},
+        "text": ":lu: Потому что задача — она не просто задача. Она — вызов. Вызов, к которому я не был готов. Сегодня я был морально не подготовлен. Завтра попробую снова. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "7fb3v",
+        "data": {},
+        "text": ":lu: Моя прокрастинация достигла золотого уровня. Я получил награду: «Мастер откладывания на потом». Медаль ещё не вручили, но заслужил. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          }
+        ]
+      },
+      {
+        "key": "q5y3x",
+        "data": {},
+        "text": ":lu: Открою секрет: я сделал задачу в уме. В голове всё идеально. На бумаге — ничего. Это называется «ментальный рендер». [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 122
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 126
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          }
+        ]
+      },
+      {
+        "key": "i4x8l",
+        "data": {},
+        "text": ":lu: Телефон начал показывать: «У вас 3 уведомления о задаче». Я подумал: ладно, посмотрю потом. Потом прошло 8 часов. И я всё ещё думал: «потом». [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          }
+        ]
+      },
+      {
+        "key": "loa4k",
+        "data": {},
+        "text": ":lu: Я просто ждал, пока задача станет проще. Но она не упрощалась. А время шло. Теперь задача — такая же сложная, только времени — ноль. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          }
+        ]
+      },
+      {
+        "key": "4z63b",
+        "data": {},
+        "text": ":lu: Компьютер завис. Потом интернет пропал. Потом программа вылетела. Потом я сдался. В итоге все четыре причины сработали вместе. Совпадение? [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          }
+        ]
+      },
+      {
+        "key": "i0hrn",
+        "data": {},
+        "text": ":lu: План был: сделать задачу, попить кофе, потом отдохнуть. В результате: попил кофе, отдохнул, задача осталась на первый план. Приоритеты — вещь хрупкая. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "facd9",
+        "data": {},
+        "text": ":lu: Я сделал задачу! Но в черновиках. Черновики — это такое странное место: задача лежит, ждёт, надеется. Но не отправлена. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          }
+        ]
+      },
+      {
+        "key": "8moim",
+        "data": {},
+        "text": ":lu: Тихая революция прокрастинации: я решил, что если я не начну, то не закончу. Таким образом я избежал разочарования. Но не избежал дедлайна. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          }
+        ]
+      },
+      {
+        "key": "rm5s8",
+        "data": {},
+        "text": ":lu: Соседи сделали ремонт. Утром. Без предупреждения. Шум, пыль, вибрация, потерянные нервы. На фоне этого задача показалась второй по степени важности. После тишины. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 198
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 199
+          }
+        ]
+      },
+      {
+        "key": "nwrvj",
+        "data": {},
+        "text": ":lu: Я просто думал, что всё будет сделано само собой. Не было. Мир не работает по этому принципу. Я — тоже. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 118
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          }
+        ]
+      },
+      {
+        "key": "21b74",
+        "data": {},
+        "text": ":lu: Окей, вот честно: я начал с кофепивкой. Потом с чисткой стола. Потом с организацией папок. Задача так и осталась в списке: «после». После чего — это отдельный вопрос. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 187
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 202
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 203
+          }
+        ]
+      },
+      {
+        "key": "siqmk",
+        "data": {},
+        "text": ":lu: Задача была на работе. Я думал, что работа — это там. Но оказалось, что работа — это и здесь. И здесь не было времени. Как такое возможно? [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          }
+        ]
+      },
+      {
+        "key": "2o16o",
+        "data": {},
+        "text": ":lu: Я думал, что срок — условность. Оказалось, нет. Оказалось, что срок — это срок. И задачи — это задачи. И я — тот, кто их не сделал. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          }
+        ]
+      },
+      {
+        "key": "q7zkb",
+        "data": {},
+        "text": ":lu: Программа обновилась. Всё перестало открываться. Я сидел, смотрел на экран, и думал: это не я, это технологии. Технологии виноваты. Всегда. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          }
+        ]
+      },
+      {
+        "key": "7t8b3",
+        "data": {},
+        "text": ":lu: Я думал, что задача была на завтра. Проверил календарь. Нет, на сегодня. Теперь я думал, что календарь — это враг. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 123
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          }
+        ]
+      },
+      {
+        "key": "5x750",
+        "data": {},
+        "text": ":lu: Вот что произошло: я хотел сделать задачу, но зашёл в интернет посмотреть одну вещь. Потом три вещи. Потом 40. Потом вечер. Задача ждала. Она не дождёшься. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 191
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 192
+          }
+        ]
+      },
+      {
+        "key": "96ktc",
+        "data": {},
+        "text": ":lu: Я не откладывал задачу. Я стратегически перенёс её на потом. Это разные вещи. Просто потом наступило раньше, чем я планировал. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          }
+        ]
+      },
+      {
+        "key": "h4yjk",
+        "data": {},
+        "text": ":lu: Мозг просто заблокировал задачу. Не по моей вине. Это была защита. Мозг подумал: «Нет, ты не хочешь этого делать». И оказался прав. Но не прав перед дедлайном. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 195
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          }
+        ]
+      },
+      {
+        "key": "rx5hm",
+        "data": {},
+        "text": ":lu: Я начал с простого. Потом понял, что простое — это сложно. Потом понял, что сложное — это невозможно. Теперь я понимаю, что невозможно — это реально. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 185
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 186
+          }
+        ]
+      },
+      {
+        "key": "l0w3a",
+        "data": {},
+        "text": ":lu: Случилось то, что случается каждый раз: я думал, что у меня время. Его не было. Я думал, что успею. Не успел. Теперь у меня задача, которая ждёт меня завтра. И послезавтра. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 208
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 209
+          }
+        ]
+      },
+      {
+        "key": "2uysi",
+        "data": {},
+        "text": ":lu: Я решил: сделаю задачу, когда будет вдохновение. Вдохновения не было. Не было. Оно куда-то ушло. В другой проект. В другой мир. В параллельную реальность. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 191
+          }
+        ]
+      },
+      {
+        "key": "llai0",
+        "data": {},
+        "text": ":lu: Мой монитор погас. Я подумал: ок, отдохну глаза. Потом экран включился: «Вы уверены, что хотите закрыть?» Я нажал «Да». Теперь я сомневаюсь. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          }
+        ]
+      },
+      {
+        "key": "6gioh",
+        "data": {},
+        "text": ":lu: Телефон — это зло. Я зашёл проверить одно сообщение. Выхода не было. 3 часа промчались. Задача стояла в углу. Она плакала. Или это был я. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          }
+        ]
+      },
+      {
+        "key": "t7ay6",
+        "data": {},
+        "text": ":lu: Я просто думал, что завтра будет больше времени. Это были иллюзии. Завтра — это тоже 24 часа. Только вчерашних часов — ноль. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          }
+        ]
+      },
+      {
+        "key": "kky2a",
+        "data": {},
+        "text": ":lu: Открою вам секрет: я не забыл про задачу. Я её просто отложил. Есть разница? Возможно. Но начальник, видимо, не видит. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          }
+        ]
+      },
+      {
+        "key": "pijzj",
+        "data": {},
+        "text": ":lu: Думал, если я не буду смотреть на задачу, она сама решится. Не решилась. Задача, видимо, не знает саморешения. Пока я её решаю. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          }
+        ]
+      },
+      {
+        "key": "f8yds",
+        "data": {},
+        "text": ":lu: У меня был план: сначала разберусь, потом сделаю. Разобрался. Стало понятно. Стало ясно. Стало страшно. Теперь я не знаю, с чего начать. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          }
+        ]
+      },
+      {
+        "key": "pxiqu",
+        "data": {},
+        "text": ":lu: Таблица Excel вылетела. Без сохранения. Без предупреждения. Без жалости. Я просто смотрел на чёрный экран и понимал: моя задача — тоже чёрный экран. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          }
+        ]
+      },
+      {
+        "key": "fcs7o",
+        "data": {},
+        "text": ":lu: Я думал, что задача — это на потом. Потом — это сегодня. Сегодня — это опоздание. Опоздание — это задача. Задача — это я. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          }
+        ]
+      },
+      {
+        "key": "87g6r",
+        "data": {},
+        "text": ":lu: Компьютер говорит: «У вас 0 места на диске». Я удалил всё, что мог. Но задача — не файл. Её не удалить. Её надо сделать. Я думал, что просто очистил пространство. Очистил только диск. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 189
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 192
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 198
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 204
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 219
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 220
+          }
+        ]
+      },
+      {
+        "key": "a204y",
+        "data": {},
+        "text": ":lu: Я подошёл к задаче с неправильной стороны. Потом с другой. Потом с третьей. Потом понял: все стороны — неправильные. Теперь я стою посередине и жду помощи. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 191
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 192
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

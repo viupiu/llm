@@ -1,7 +1,7 @@
 {
-  "export_basename": "GreetingBot",
-  "assistant_id": "700fe766-63c6-1c9e-78f4-f12f08ae8167",
-  "assistant_name": "Бот-поздравляльщик",
+  "export_basename": "greeting_bot",
+  "assistant_id": "40cf3934-1ed9-ab53-abd3-31ebadad466b",
+  "assistant_name": "Greeting Bot",
   "project_id": "205473",
   "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b"
 }

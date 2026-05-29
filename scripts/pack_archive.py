@@ -11,7 +11,7 @@
   Dictionary/{short-id}.json  — по необходимости
 
 Пример:
-  python pack_archive.py --staging work/<BotSlug>/staging --out archives/exported/<имя>_prod.zip
+   python pack_archive.py --staging work/<BotSlug>/staging --out archives/exported/<имя>.zip
 """
 
 from __future__ import annotations
@@ -68,7 +68,7 @@ def main() -> int:
     assistants = list((staging / "Assistant").glob("*.json"))
     assistant_id = json.loads(assistants[0].read_text(encoding="utf-8"))["id"]
     basename = manifest.get("export_basename", "bot_master")
-    default_name = f"{basename}_{assistant_id}_prod.zip"
+    default_name = f"{basename}_{assistant_id}.zip"
     out = args.out or (ROOT / "archives" / "exported" / default_name)
     out = out if out.is_absolute() else ROOT / out
 

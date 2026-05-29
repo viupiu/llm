@@ -2,7 +2,7 @@
 """
 Распаковка эталонного ZIP в каталог staging (для правок и повторной упаковки).
 
-  python unpack_archive.py --zip archives/exported/<имя>_prod.zip --out work/<BotSlug>/staging
+  python unpack_archive.py --zip archives/exported/<имя>.zip --out work/<BotSlug>/staging
 """
 
 from __future__ import annotations

@@ -36,7 +36,7 @@ python scripts/build_full_staging.py `
 ```
 
 3. Проверка: `python scripts/validate_archive.py --staging-dir work/<BotSlug>/9_PACKAGER__STAGING`
-4. ZIP: `python scripts/pack_archive.py --staging-dir work/<BotSlug>/9_PACKAGER__STAGING --out archives/exported/<имя>_prod.zip`
+4. ZIP: `python scripts/pack_archive.py --staging work/<BotSlug>/9_PACKAGER__STAGING --out archives/exported/<имя>.zip`
 
 ### `conditions` в DialogNode
 

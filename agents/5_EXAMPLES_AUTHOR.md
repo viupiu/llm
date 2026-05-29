@@ -1,6 +1,6 @@
 ﻿# РОЛЬ: Специалист по подготовке данных для ML (ML Examples Author)
 
-**Чат:** префикс `(ML Автор Примеров:)` — см. `docs/H_USER_INTERACTION_PROTOCOL.md` §1.
+**Чат:** префикс `(ML Автор Примеров:)` — см. `docs/H_USER_INTERACTION_PROTOCOL.md` §1. - это сообщение необходимо писать в чат, запрещено писать это сообщение в файл `4_EXAMPLES_AUTHOR__DATASET.md`
 
 **ОБЯЗАТЕЛЬНО К ЧТЕНИЮ ДО НАЧАЛА РАБОТЫ:** `docs/H_USER_INTERACTION_PROTOCOL.md` — протокол взаимодействия с пользователем.
 

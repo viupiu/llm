@@ -35,7 +35,13 @@ def clean_name(name: str) -> str:
 
 
 def parse_response_blocks(md_text: str) -> dict[str, dict]:
-    """Парсит узлы из 6_RESPONSES_AUTHOR__RESPONSES.md -> {node_name: {answers, conditions}}."""
+    """Парсит узлы из 6_RESPONSES_AUTHOR__RESPONSES.md -> {node_name: {answers, conditions}}.
+
+    Если в разделе "Ответы:" есть строка вида [%that_anchor="..."], она
+    добавляется в конец каждой строки ответа (для задавателей вопросов).
+    Секция "---" заканчивает блок узла. Чеклисты и заголовки уровня ###
+    не захватываются.
+    """
     nodes = {}
     lines = md_text.splitlines()
     i = 0
@@ -49,11 +55,21 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
         conditions_lines = []
         answers_lines = []
         section = "unknown"
-        while i < len(lines):
+        node_done = False
+        while i < len(lines) and not node_done:
             line = lines[i]
             stripped = line.strip()
-            if stripped.startswith("## Узел:") or stripped.startswith("## Словарь:"):
+            # Граница: следующий узел
+            if re.match(r"^## Узел:", stripped):
                 break
+            # Граница: чеклист, секция уровня # или ###
+            if re.match(r"^#\s", stripped):
+                break
+            # Разделитель --- заканчивает блок узла
+            if stripped == "---":
+                node_done = True
+                i += 1
+                continue
             if stripped == "Условия:":
                 section = "conditions"
                 i += 1
@@ -67,6 +83,19 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
             if section == "answers" and stripped and stripped != "---" and stripped != "Нет":
                 answers_lines.append(stripped)
             i += 1
+
+        # Если есть [%that_anchor="..."], приклеиваем к концу каждой строки
+        that_anchor = None
+        remaining = []
+        for al in answers_lines:
+            anchor_m = re.match(r"^\[%that_anchor=(.+?)\]\s*$", al)
+            if anchor_m:
+                that_anchor = "[%that_anchor=" + anchor_m.group(1) + "]"
+            else:
+                remaining.append(al)
+        if that_anchor and remaining:
+            answers_lines = [line + " " + that_anchor for line in remaining]
+
         cond = "\n".join(conditions_lines).strip() if conditions_lines else None
         if cond and cond.lower() == "нет":
             cond = None
@@ -77,15 +106,10 @@ def parse_response_blocks(md_text: str) -> dict[str, dict]:
 def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
     """Парсит узлы из 3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md -> {node_name: [rule_lines]}.
 
-    Файл имеет структуру:
+    Файл имеет структуру (узел может не иметь секций "Условия:" / "Ответы:"):
       ## Узел: name
-      Условия:
-      %that_anchor=...
-      Ответы:
       * rule1
-      * rule2
-
-    Извлекаем ТОЛЬКО строки из секции "Ответы:" (DL-правила со звёздочкой).
+      EVENT 00b2... *
     """
     nodes = {}
     lines = md_text.splitlines()
@@ -98,25 +122,15 @@ def parse_rule_blocks(md_text: str) -> dict[str, list[str]]:
         node_name = clean_name(m.group(1))
         i += 1
         rule_lines = []
-        section = None  # "conditions" | "answers" | None
         while i < len(lines):
             line = lines[i]
             stripped = line.strip()
-            # Граница: новый узел, словарь, или конец файла
-            if stripped.startswith("## Узел:") or stripped.startswith("## Словарь:"):
+            # Граница: любой заголовок уровня ##
+            if re.match(r"^## ", stripped):
                 break
-            if stripped == "Условия:":
-                section = "conditions"
-                i += 1
-                continue
-            if stripped == "Ответы:":
-                section = "answers"
-                i += 1
-                continue
-            if section == "answers" and stripped:
-                # Захватываем только DL-правила (начинаются с * или EVENT)
-                if stripped.startswith("*") or stripped.startswith("EVENT "):
-                    rule_lines.append(stripped)
+            # Правила: начинаются с * или EVENT
+            if re.match(r"^\*", stripped) or stripped.startswith("EVENT "):
+                rule_lines.append(stripped)
             i += 1
         nodes[node_name] = rule_lines
     return nodes
@@ -131,13 +145,14 @@ def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
 
     Файл имеет структуру:
       ## Узел: `name`
-      - Intent: `intent_name`
-      - Примеры:
-      - фраза1
-      - фраза2
-      ---
+      **Интент:** `intent_name`
+      **Кол-во примеров:** N
 
-    Извлекаем ТОЛЬКО чистые фразы (без заголовков).
+      1. фраза1
+      2. фраза2
+
+    Поддерживает нумерованный список (1. 2. ...) и маркированный (- фраза).
+    Узлы с комментарием <!-- DL-only --> пропускаются (examples = []).
     """
     nodes = {}
     lines = md_text.splitlines()
@@ -154,35 +169,31 @@ def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
         while i < len(lines):
             line = lines[i]
             stripped = line.strip()
-            if stripped.startswith("## Узел:"):
+            if re.match(r"^## ", stripped):
                 break
-            if stripped.startswith("- Примеры:"):
+            # Метаданные: **Интент:**, **Кол-во примеров:**, ---
+            if re.match(r"^\*\*|\s*---\s*$", stripped):
+                i += 1
+                continue
+            # Запуск сбора при виде нумерованного или маркированного списка
+            if re.match(r"^\d+\.\s", stripped) or stripped.startswith("- "):
                 collecting = True
+                # Извлекаем текст из "1. фраза" или "- фраза"
+                num_m = re.match(r"^\d+\.\s+(.+)$", stripped)
+                if num_m:
+                    phrase = num_m.group(1).strip()
+                    if phrase:
+                        examples.append(phrase)
+                elif stripped.startswith("- "):
+                    phrase = stripped[2:].strip()
+                    if phrase:
+                        examples.append(phrase)
                 i += 1
                 continue
-            if stripped == "---":
-                collecting = False
-                i += 1
-                continue
-            if not collecting:
-                i += 1
-                continue
-            # Пропускаем строки вида "- Intent: ..." и подобные метаданные
-            if stripped.startswith("- Intent:") or stripped.startswith("- Примеры:"):
-                i += 1
-                continue
-            # Если строка начинается с "- ", убираем префикс
-            if stripped.startswith("- "):
-                phrase = stripped[2:].strip()
-                if phrase:
-                    examples.append(phrase)
-            elif stripped:
+            if collecting and stripped:
                 examples.append(stripped)
             i += 1
-        if node_name in nodes:
-            nodes[node_name].extend(examples)
-        else:
-            nodes[node_name] = examples
+        nodes[node_name] = examples
     return nodes
 
 
@@ -206,6 +217,8 @@ def split_rule_and_dsl_tags(raw_rule: str) -> tuple[str, str]:
     # Проверка: это реальный DL-паттерн?
     is_dl_rule = ('@cmb' in dl_part or '@keyword' in dl_part or '[-' in dl_part or
                   'EVENT ' in dl_part or dl_part.strip() == '*')
+    if not is_dl_rule and '[dict(' in dl_part:
+        is_dl_rule = True
     if is_dl_rule:
         return dl_part, tags_part
 
@@ -276,11 +289,12 @@ def main() -> int:
         dsl_tags_from_rules = []
         for rl in rule_lines:
             raw = rl.strip()
-            # Обрезаем префикс "* " (звёздочка + пробел из markdown списка)
-            if raw.startswith("* "):
-                raw = raw[2:]
-            elif raw == "*":
+            # Не обрезаем "* " — ведущая * может быть DL-wildcard: "* [dict(...)] *"
+            # Если это голый markdown-маркер "* ", сохраняем как "*"
+            if raw == "*":
                 raw = "*"
+            else:
+                raw = raw.strip()
             dl_part, tags_part = split_rule_and_dsl_tags(raw.strip())
             clean_rule_lines.append(dl_part)
             if tags_part:

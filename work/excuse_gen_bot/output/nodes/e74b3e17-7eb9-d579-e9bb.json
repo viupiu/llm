@@ -1,0 +1,221 @@
+{
+  "id": "e74b3e17-7eb9-d579-e9bb",
+  "name": "Fallback",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "fy7ga",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "5cs1i",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "wni4i",
+        "data": {},
+        "text": ":lu: Привет! Я — генератор оправданий для всех, кому иногда надо выкрутиться. Поможу с отмазками для опоздания, невыполненных задач, отсутствий и молчания в переписке. Выбери свою ситуацию — и готовься смейся. [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 210
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 213
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 214
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 217
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 219
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 225
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 246
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 247
+          }
+        ]
+      },
+      {
+        "key": "vzzem",
+        "data": {},
+        "text": ":lu: Здарова! Я — твой личный мастер отмазок. Работает на любой вкус: от абсурда до псевдо-правдоподобия. Чем именно могу помочь? Опоздание? Задача? Отсутствие? Молчание? [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 207
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 208
+          }
+        ]
+      },
+      {
+        "key": "3fnn7",
+        "data": {},
+        "text": ":lu: Эй! Ты попал в бота, который придумывает оправдания. Да-да, такие тоже существуют. Выбирай ситуацию из списка, и я выкручу тебя из любой жопы. [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

@@ -1,0 +1,2647 @@
+{
+  "id": "3d7517d3-9a95-e25d-50cb",
+  "name": "Какая у тебя беда? - Опоздание",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какая у тебя беда?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "mrxan",
+        "data": {},
+        "text": "* [dict(keywords_excuse_late)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "jvv2d",
+        "data": {},
+        "text": "опоздал на работу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pyc99",
+        "data": {},
+        "text": "придумай оправдание за опоздание",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bsb63",
+        "data": {},
+        "text": "проспал на 40 минут, нужна отмазка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c5ld4",
+        "data": {},
+        "text": "почему я опоздал на встречу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qsqff",
+        "data": {},
+        "text": "опоздал на совещание, что сказать начальнику",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o3737",
+        "data": {},
+        "text": "трафик жёсткий, опаздываю на час",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2tidn",
+        "data": {},
+        "text": "не успел на урок, нужно объяснить преподу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "61hnm",
+        "data": {},
+        "text": "помоги придумать причину опоздания",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vdp7q",
+        "data": {},
+        "text": "опоздал на собеседование, как выйти из ситуации",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "knj09",
+        "data": {},
+        "text": "задержался по дороге, что написать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2ygf2",
+        "data": {},
+        "text": "опоздал на поезд, придумай историю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tgq34",
+        "data": {},
+        "text": "светофоры стою уже 20 минут, опаздываю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "f5gr4",
+        "data": {},
+        "text": "отмазка за опоздание на работу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4k1s2",
+        "data": {},
+        "text": "опоздал на тренировку, тренер убьёт",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j4h3w",
+        "data": {},
+        "text": "у меня пробки на вожжах, нужен повод",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7cb77",
+        "data": {},
+        "text": "опаздываю на свидание, что написать чтобы не подумали что не хочу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oh9no",
+        "data": {},
+        "text": "помогите, опоздал на важный звонок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dg3oz",
+        "data": {},
+        "text": "проснулся, уже опоздал на 2 часа, что делать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tig72",
+        "data": {},
+        "text": "придумай смешное оправдание за опоздание на собрание",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ebrbk",
+        "data": {},
+        "text": "не успел поймать такси, опаздываю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "opb3o",
+        "data": {},
+        "text": "опоздал в школу, ребёнка ждут",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ma378",
+        "data": {},
+        "text": "нужна отмазка почему я пришёл поздно",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "k797a",
+        "data": {},
+        "text": "опоздал на экзамен, можно ещё зайти",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "agh3i",
+        "data": {},
+        "text": "придумай что-нибудь, я опоздал на дедлайн встречи",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z1b16",
+        "data": {},
+        "text": "пробки такие что я вообще приеду ли, нужна отмазка на крайний случай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "n16gj",
+        "data": {},
+        "text": "опоздал на автобус, опаздываю на работу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dczp6",
+        "data": {},
+        "text": "почему я опоздал, придумай правдоподобную причину",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6sj8c",
+        "data": {},
+        "text": "опаздываю минут на 15, что написать коллеге",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r9qkp",
+        "data": {},
+        "text": "опоздал на утреннюю планёрку, нужен текст для шефа",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dts0z",
+        "data": {},
+        "text": "не успел на самолёт, что сказать авиакомпании",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "h0nja",
+        "data": {},
+        "text": "опоздал, потому что кот уронил мне на голову цветок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rob6c",
+        "data": {},
+        "text": "задержался в метро, поезда не ходят",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "isde2",
+        "data": {},
+        "text": "придумай оправдание, я опоздал на день рождения подруги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g9lsq",
+        "data": {},
+        "text": "опаздываю, подъезжаю, но придумай мне какую-нибудь историю на случай если спросят",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "k9mq4",
+        "data": {},
+        "text": "опоздал на встречу с клиентом, нужен серьёзный ответ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "29d08",
+        "data": {},
+        "text": "короче проехал мимо остановки и теперь назад ехать, как объяснить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "iyxcs",
+        "data": {},
+        "text": "опоздал на 10 минут, но мне нужно чтобы выглядело как 30 минут, чтобы никто ничего не заподозрил",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fs8u9",
+        "data": {},
+        "text": "эээ опоздал на работу, что сказать чтобы не уволили",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rmpgp",
+        "data": {},
+        "text": "опаздываю на 50 минут, нужны веские причины",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3hu6x",
+        "data": {},
+        "text": "опоздал на лекцию, уже всё началось",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w6xf2",
+        "data": {},
+        "text": "нужна красивая отмазка за опоздание на корпоратив",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cqd58",
+        "data": {},
+        "text": "не успел, пробки бесконечные, что придумать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fqlqr",
+        "data": {},
+        "text": "опоздал на собеседование на 20 минут, как извиниться красиво",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hpcnc",
+        "data": {},
+        "text": "опоздал на смену, а я ещё и забыл сказать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xpj4e",
+        "data": {},
+        "text": "придумай что-нибудь такое чтобы шеф поверил почему я опоздал",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ep72i",
+        "data": {},
+        "text": "задерживается мой поезд, опоздаю на встречу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "6mnw1",
+        "data": {},
+        "text": ":lu: Знаю, что светофор на перекрёстке просто НЕНАВИДИТ меня. Стоял на красном 40 минут. Честно, я думал, он меня запомнил по лицу. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          }
+        ]
+      },
+      {
+        "key": "707sp",
+        "data": {},
+        "text": ":lu: Подъехал к остановке, а там кот с котёнком. Ну вы поняли — кто тут возьмёт? Прошло 30 минут, пока я их всех перетащил в безопасное место. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          }
+        ]
+      },
+      {
+        "key": "jytjk",
+        "data": {},
+        "text": ":lu: Сосед вызвал лифт, а я ждал автобус. В общем: стоял один в лифте. 20 минут. Двери открывались — один раз там был другой человек, но он просто помотал головой и ушёл в другую дверь. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 189
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 195
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 201
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 216
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 217
+          }
+        ]
+      },
+      {
+        "key": "szlxg",
+        "data": {},
+        "text": ":lu: Моя будильная сигнализация сегодня звучала как музыка. Как вы такое устроили?! Я думал, это подкаст, и слушал с полным вниманием. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          }
+        ]
+      },
+      {
+        "key": "56xb2",
+        "data": {},
+        "text": ":lu: Оказывается, дорога до работы — это лабиринт. Каждый новый поворот открывает новую развёзку. Я трижды объехал одну и ту же пробку, как будто это level design какой-то. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 188
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 203
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 204
+          }
+        ]
+      },
+      {
+        "key": "5317f",
+        "data": {},
+        "text": ":lu: Слушайте, знаете, когда вы в автобусе, а у вас нет времени? Вот. Именно такое было ощущение. Только автобус уехал, а я остался. Как всегда. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          }
+        ]
+      },
+      {
+        "key": "7kbw9",
+        "data": {},
+        "text": ":lu: Произошёл тот редчайший случай, когда весь транспортный коллапс города случился именно тогда, когда мне нужно было куда-то подъехать. Совпадение? Не думаю. Город просто знает, когда меня зажать. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 200
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 203
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 204
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 207
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 209
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 215
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 230
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 231
+          }
+        ]
+      },
+      {
+        "key": "tqfdc",
+        "data": {},
+        "text": ":lu: Кот встал на стол, когда я собирался одеваться. Потом ещё раз. Потом ещё. К 9 утра у меня был опыт в переговорах с котами. Завёл целую дипломатическую миссию. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 195
+          }
+        ]
+      },
+      {
+        "key": "jd30f",
+        "data": {},
+        "text": ":lu: Знайте, я НЕ опоздал. Просто время в моём районе течёт медленнее. Это научно доказано — по крайней мере, для людей, которым куда-то надо бежать. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          }
+        ]
+      },
+      {
+        "key": "77frj",
+        "data": {},
+        "text": ":lu: Я просто проверял новую дорогу. Знаете, такая исследовательская миссия. Карта сбилась, наводчики врут, люди в пробках смотрели на меня с жалостью. Но я не сдаюсь. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 198
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 199
+          }
+        ]
+      },
+      {
+        "key": "nx6eo",
+        "data": {},
+        "text": ":lu: У меня случился экзистенциальный кризис в душе. Стол между плиткой мылом и полотенцем — вечный выбор, который определил ход всей моей дальнейшей жизни сегодня. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 195
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          }
+        ]
+      },
+      {
+        "key": "awbua",
+        "data": {},
+        "text": ":lu: На подъезде была бабушка. Она рассказывала историю про своего внука. И про соседского кота. И про то, какая она молодая. Я не мог уйти. Мораля обязала меня выслушать всю. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 191
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 206
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 207
+          }
+        ]
+      },
+      {
+        "key": "dnayx",
+        "data": {},
+        "text": ":lu: Курсор на экране пропал. Я искал его. Нашёл — он был в другом мониторе. Потом пропал в третьем. К тому моменту я уже работал в IT. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          }
+        ]
+      },
+      {
+        "key": "vy5cl",
+        "data": {},
+        "text": ":lu: Вчера я перенёс рабочий стол. Сегодня не мог найти ключ. Ключ был в столе. Но я же не знал, что я его там оставил. Цикл замкнут. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          }
+        ]
+      },
+      {
+        "key": "vn31w",
+        "data": {},
+        "text": ":lu: Лифт сломался. Думал, это шутка. Потом понял — это реал. На 9 этаже. Бежать? Не бежать? В итоге побег начался после 6-го этажа. Результат вы видите. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          }
+        ]
+      },
+      {
+        "key": "dhgyu",
+        "data": {},
+        "text": ":lu: Знаете, когда вы просыпаетесь, а будильник уже кончился? И вы думаете: «О, я не опаздываю»? И только через 20 минут осознаёте ошибку? Вот это я. Это был я. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 191
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 192
+          }
+        ]
+      },
+      {
+        "key": "k7xd5",
+        "data": {},
+        "text": ":lu: На дороге — ремонт. Но не обычный, а тот, который занимает год. Знаете, такие ремонты. Где рабочих трое, и двое курируют. А третий смотрит. Я просто стал свидетелем. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 201
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 202
+          }
+        ]
+      },
+      {
+        "key": "vktvp",
+        "data": {},
+        "text": ":lu: У нас в доме сегодня было событие: кто-то оставил дверь в подъезд открытой, и там стоял ветер. Ветер + моя куртка = 15 минут борьбы с атмосферой. Вы не поверите. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 197
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 198
+          }
+        ]
+      },
+      {
+        "key": "1icr9",
+        "data": {},
+        "text": ":lu: Мне снилось, что я уже на работе. Я проснулся, и мозг решил: ок, я там, можно не вставать. Через 40 минут реальность вернулась с неутешительными новостями. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 191
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 192
+          }
+        ]
+      },
+      {
+        "key": "pt80y",
+        "data": {},
+        "text": ":lu: Автомобиль ушёл. Я стоял. Я махал рукой. Я не был услышан. В 21 веке, когда есть приложения, вызовы, маршруты — автобус просто уехал. Без объяснений. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 185
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 186
+          }
+        ]
+      },
+      {
+        "key": "1yhp8",
+        "data": {},
+        "text": ":lu: У меня в кармане были ключи. От другой двери. От той, которая не нужна. Пока я искал настоящие ключи, солнце сменило фазу. Как это возможно за 10 минут?! [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 189
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 190
+          }
+        ]
+      },
+      {
+        "key": "3hb2s",
+        "data": {},
+        "text": ":lu: Мой телефон сказал: «Пробки, 30 минут». Я решил: «Норм, успеем». Это была ложь. Ложь телефона. Теперь он заблокирован от навигатора. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          }
+        ]
+      },
+      {
+        "key": "fc7rv",
+        "data": {},
+        "text": ":lu: Самое страшное: я забыл, что сегодня вообще нужно было куда-то. Проснулся, позавтракал, посмотрел мем, и вдруг — а-а-а. Как? Когда? Почему?! [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 155
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 161
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          }
+        ]
+      },
+      {
+        "key": "zicuo",
+        "data": {},
+        "text": ":lu: Я просто думал, что опаздывать — это норм! Нет, серьёзно, я сидел и говорил себе: «Человек — это человек, он не робот». Пока робот не опоздал больше меня. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 191
+          }
+        ]
+      },
+      {
+        "key": "fzli0",
+        "data": {},
+        "text": ":lu: В метро был тот самый вагон. Знаете. Там никого нет, потому что все остальные поняли. А когда я понял это уже было поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 131
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 132
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          }
+        ]
+      },
+      {
+        "key": "1c264",
+        "data": {},
+        "text": ":lu: Я пошёл на работу пешком. Показалось хорошей идеей. Потом понял, что живу не так близко, как хотелось бы. Сейчас живу на 40 минут пешком от оптимизма. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "byk5v",
+        "data": {},
+        "text": ":lu: Кофе-машина сломалась. Не могу объяснить, почему это так критично, но вы понимаете. Просто поверьте — без кофе я ещё не в себе. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          }
+        ]
+      },
+      {
+        "key": "sthcy",
+        "data": {},
+        "text": ":lu: Мой ботинки решили не работать. Левый был на правом, правый на левом, и мозги не могли это принять. Поменял. Потом ещё раз. Потом ещё. Обувь победила. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "0k7ie",
+        "data": {},
+        "text": ":lu: У меня на голове была шапка, но я думал, что нет. У меня не было шапки, но я думал, что есть. В итоге ходил 10 минут, пытаясь понять, холодно мне или нет. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 191
+          }
+        ]
+      },
+      {
+        "key": "j0wts",
+        "data": {},
+        "text": ":lu: А вы знаете, как это — выйти из дома, дойти до машины, и вспомнить, что что-то забыл? Ну вот. Я забыл всё. Всё что было. Пришлось вернуться. Потом вспомнил ещё. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 196
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 197
+          }
+        ]
+      },
+      {
+        "key": "slpjp",
+        "data": {},
+        "text": ":lu: Я просто наблюдал за птицами. Серьёзно. Они летали в неправильном направлении. Я хотел их поправить. Не получилось. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          }
+        ]
+      },
+      {
+        "key": "pazce",
+        "data": {},
+        "text": ":lu: Мой GPS подвёл. Он сказал: «Сверните направо». Я поверил. Повернуть направо оказалось поворотом в лес. Лес, между прочим, был закрыт. Но я уже внутри. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 159
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          }
+        ]
+      },
+      {
+        "key": "u5rqs",
+        "data": {},
+        "text": ":lu: Хотел сделать утреннюю зарядку. Потом осознал: я уже в движении, просто медленнее. Зарядка превратилась в медленный забег до работы. Результат — опоздание + здоровье. Win-win, если не считать дедлайны. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 207
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 210
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 211
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 214
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 216
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 222
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 237
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 238
+          }
+        ]
+      },
+      {
+        "key": "omg3m",
+        "data": {},
+        "text": ":lu: В метро кто-то уронил сумку, потом ещё сумку, потом ещё. Я стоял и не знал: помогать, пропустить, или просто сесть. В итоге все три варианта одновременно. Это заняло время. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 182
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 185
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 187
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 208
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 209
+          }
+        ]
+      },
+      {
+        "key": "y3xov",
+        "data": {},
+        "text": ":lu: Вот честно: я просто не хочу опаздывать. Проблема в том, что вселенная этого не знает. Вселенная решила: сегодня — тот самый день. И я оказался в том самом автобусе. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 186
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 201
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 202
+          }
+        ]
+      },
+      {
+        "key": "a0ytf",
+        "data": {},
+        "text": ":lu: Я забыл, что работа начинается ровно в 9. Думал — в 9:30. Подумал, что перепроверил. Не перепроверил. Это был классический case: «уверенность без фактов». [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 190
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 191
+          }
+        ]
+      },
+      {
+        "key": "10be6",
+        "data": {},
+        "text": ":lu: Я просто думал, что если я начну собираться рано, то всё получится. Но чем раньше я начал, тем больше вещей обнаруживал, которые ещё не готовы. Замкнутый круг. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 169
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 174
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 180
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 195
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          }
+        ]
+      },
+      {
+        "key": "vw1qc",
+        "data": {},
+        "text": ":lu: Мой сосед стучал. Стучал по стене. Я стучал в ответ. У нас получилось что-то вроде ритм-батла. Победил я. Но проиграл — опоздал. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          }
+        ]
+      },
+      {
+        "key": "w5w4m",
+        "data": {},
+        "text": ":lu: На подъезде — табличка: «Внимание, скользок». Я поверил. Ходил слишком медленно. К тому времени, когда осознал, что табличка была от вчера — уже было поздно. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 170
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 178
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 194
+          }
+        ]
+      },
+      {
+        "key": "zo7i7",
+        "data": {},
+        "text": ":lu: Я решил пойти старым путём. Замечателная идея, если бы не тот факт, что старый путь разобрали под стройку. Теперь я иду новым путём, который ещё не проложили. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 179
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 195
+          }
+        ]
+      },
+      {
+        "key": "tluhl",
+        "data": {},
+        "text": ":lu: Кот. Кот. Всё из-за кота. Он лёг на дверь. Потом на мою куртку. Потом на телефон. Сейчас он сидит и смотрит. Смысл победы неясен. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 138
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          }
+        ]
+      },
+      {
+        "key": "3lpaf",
+        "data": {},
+        "text": ":lu: Телефон умер. Я думал, он просто не показывает время. Вытащил его из зарядки — он умер. Вернул — ничего. Умер окончательно в тот момент. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 146
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 149
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 151
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 157
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 173
+          }
+        ]
+      },
+      {
+        "key": "tyxtr",
+        "data": {},
+        "text": ":lu: Я просто думал, что опоздаю на 5 минут. Но 5 минут превратились в 30. Как? Не знаю. Время — это иллюзия. [br][br] [@goto(\"Ещё отмазку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 114
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 117
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

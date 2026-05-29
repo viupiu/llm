@@ -1,0 +1,271 @@
+{
+  "id": "53a7ce73-bc9b-c0ee-82c2",
+  "name": "Какая у тебя беда? - *",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Какая у тебя беда?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "u8v26",
+        "data": {},
+        "text": "*",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ayghl",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "bsmmx",
+        "data": {},
+        "text": ":lu: Хм, это звучит загадочно Но я пока умею генерировать отмазки только для 4 ситуаций: опоздание, невыполнение задачи, отсутствие и молчание в переписке. Выбери одну из них — или просто пересформулируй! [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 205
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 208
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 209
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 212
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 214
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 220
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 241
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 242
+          }
+        ]
+      },
+      {
+        "key": "s2qs3",
+        "data": {},
+        "text": ":lu: Ой, не уловил Я бот, а не телепат. Выбери из списка: опоздание, задача, отсутствие или молчание. Тогда точно попадём в цель! [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 130
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 134
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 167
+          }
+        ]
+      },
+      {
+        "key": "9wzhf",
+        "data": {},
+        "text": ":lu: Эммм… Я пока не знаю, как это оправдать. Но если это опоздание, задача, отсутствие или молчание — я с радостью помогу! Выбери категорию [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 141
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 150
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 178
+          }
+        ]
+      },
+      {
+        "key": "ru1io",
+        "data": {},
+        "text": ":lu: Слушай, я тут для конкретности. Опоздание, задача, отсутствие или молчание? Выбери — и получишь отмажку. А абстрактные ситуации я пока не покрываю. Извини, учусь! [br][br] [@goto(\"Какая у тебя беда?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 171
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 172
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 175
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 177
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 204
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 205
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T12:44:49.695331",
+  "updated": "2026-05-29T12:44:50.695332",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T12:44:50Z"
+    }
+  ]
+}

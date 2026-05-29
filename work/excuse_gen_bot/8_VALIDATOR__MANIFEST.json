@@ -1,0 +1,23 @@
+{
+  "variables": [
+    "that_anchor"
+  ],
+  "details": {
+    "that_anchor": "assigned"
+  },
+  "dictionaries": [
+    "keywords_excuse_late",
+    "keywords_excuse_task",
+    "keywords_excuse_absence",
+    "keywords_excuse_silence",
+    "common_yes",
+    "soglasen",
+    "common_want_1_pres",
+    "word_eshe",
+    "common_no",
+    "otkaz",
+    "dontwant",
+    "bye_gottago",
+    "bye_solong"
+  ]
+}

@@ -22,7 +22,7 @@ python prepare_staging.py `
 python validate_archive.py ..\work\GenderCheck_Bot
 
 # 3. Упаковать ZIP для импорта в ДОС
-python pack_archive.py --staging ..\work\GenderCheck_Bot\9_PACKAGER__STAGING --out ..\archives\exported\<имя>_prod.zip
+python pack_archive.py --staging ..\work\GenderCheck_Bot\9_PACKAGER__STAGING --out ..\archives\exported\<имя>.zip
 ```
 
 ## Команды

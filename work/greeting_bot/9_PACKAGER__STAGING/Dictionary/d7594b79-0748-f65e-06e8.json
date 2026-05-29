@@ -1,0 +1,59 @@
+{
+  "id": "d7594b79-0748-f65e-06e8",
+  "name": "keywords_greeting_women_close",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "gis22",
+        "data": {},
+        "text": "жена~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x0ja1",
+        "data": {},
+        "text": "мам~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g3j1v",
+        "data": {},
+        "text": "сестр~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mg3qx",
+        "data": {},
+        "text": "подруг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-29T00:36:05.579177",
+  "updated": "2026-05-29T00:36:06.579178",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T00:36:06Z"
+    }
+  ]
+}
