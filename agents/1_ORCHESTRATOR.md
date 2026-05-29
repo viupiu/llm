@@ -162,6 +162,9 @@
 1. **Архитектор** (`2_ARCHITECT.md`) $\to$ Читает **`0_ORCHESTRATOR__BRIEF.md`** $\to$ `work/<BotSlug>/1_ARCHITECTURE__MAP.md`.
 2. **Креативщик** (`3_CREATIVE.md`) $\to$ Читает **`1_ARCHITECTURE__MAP.md`** $\to$ `work/<BotSlug>/2_CREATIVE__PHRASES.md`.
 3. **DL Автор Правил** (`4_RULES_AUTHOR.md`) $\to$ Читает `1_ARCHITECTURE__MAP.md` + `2_CREATIVE__PHRASES.md` $\to$ `work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`.
+3.25. **Dictionary Validator** (`scripts/dictionary_validator.py`) $\to$ **Автоматический шаг, выполняет Оркестратор.** Запускается IMMEDIATELY после сохранения `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`. Команда: `python scripts/dictionary_validator.py --rules work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md --ref-dir docs/reference/dictionaries/`. При ERROR — перейти к DL_FIXER. При WARNING — продолжить. При PASSED — перейти к DL Linter.
+3.3. **DL Linter** (`scripts/dl_linter.py`) $\to$ **Автоматический шаг, выполняет Оркестратор.** Запускается после Dictionary Validator (при PASSED или WARNING). Команда: `python scripts/dl_linter.py work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`. При ERROR — перейти к DL_FIXER. При WARNING — продолжить. При PASSED — перейти к DL FIXER check.
+3.4. **DL_FIXER** (`DL_FIXER.md`) $\to$ Запускается, если Dictionary Validator или DL Linter вернули ERROR. Читает `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` + отчёты валидаторов $\to$ применяет минимальные патчи $\to$ сохраняет исправленный файл. После исправлений Оркестратор **обязан** перезапустить Dictionary Validator и DL Linter заново. Максимум 3 итерации DL_FIXER. Если после 3 попыток ошибки остаются — эскалировать пользователю с отчётом.
 3.5. **Тестировщик** (`11_TESTER.md`) $\to$ Читает `2_CREATIVE__PHRASES.md` + `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` $\to$ Отчитывается Оркестратору со списком непокрытых фраз. Если фразы непокрыты — Оркестратор возвращает задачу назад (Автор Правил или Креативщик) по решению пользователя.
 4. **ML Автор Примеров** (`5_EXAMPLES_AUTHOR.md`) $\to$ Читает `1_ARCHITECTURE__MAP.md` + `2_CREATIVE__PHRASES.md` $\to$ `work/<BotSlug>/4_EXAMPLES_AUTHOR__DATASET.md`.
 5. **Копирайтер** (`6_COPYWRITER.md`) $\to$ Читает **`1_ARCHITECTURE__MAP.md`** $\to$ `work/<BotSlug>/5_COPYWRITER__TEXTS.md`.
@@ -171,6 +174,9 @@
 - **Имя архива**: только `<BotSlug>.zip`. UUID ассистента и любые другие суффиксы запрещены. `export_basename` в манифесте должен совпадать с названием папки в `work/`. Инцидент 2026-05-29: архив получил название `excuse_gen_bot_3bf03490-...zip` вместо `excuse_gen_bot.zip`.
 
 ## 2. Операционные правила
+- **Dictionary Validator — автоматический gate (НЕОТМЕНИМОЕ)**: После ЛЮБОГО завершения DL Автора Правил (включая повторные исправления) Оркестратор **обязан** сразу запустить `python scripts/dictionary_validator.py --rules work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md --ref-dir docs/reference/dictionaries/`. Запуск — без напоминаний пользователя, без "потом сделаю", без "пропущу на этот раз". При ERROR — передать отчёт DL_FIXER. При PASSED или только WARNING — перейти к DL Linter. Переход к следующему агенту БЕЗ запуска валидатора **категорически запрещён**.
+- **DL Linter — автоматический gate (НЕОТМЕНИМОЕ)**: После успешного прохождения Dictionary Validator (PASSED/WARNING) Оркестратор **обязан** сразу запустить `python scripts/dl_linter.py work/<BotSlug>/3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md`. При ERROR — передать отчёт DL_FIXER. При PASSED или только WARNING — перейти к Тестировщику.
+- **DL_FIXER — ремонтный агент (ПИЛОТНЫЙ)**: При ERROR от Dictionary Validator или DL Linter Оркестратор запускает DL_FIXER (`DL_FIXER.md`) с отчётом об ошибках. DL_FIXER применяет минимальные патчи и сохраняет файл. После DL_FIXER Оркестратор **обязан** перезапустить Dictionary Validator $\to$ DL Linter заново. Лимит: 3 итерации DL_FIXER. Если после 3 попыток ошибки остаются — эскалировать пользователю. **ВАЖНО:** Не удалять существующий Dictionary Validator и DL Linter. Сначала внедрить DL_FIXER и проверить его работу на реальных ошибках. Только после получения статистики по нескольким ботам принимать решение о дальнейшем изменении конвейера.
 - **Строгое следование примерам пользователя**: Если пользователь предоставляет синтаксические примеры (DL-конструкции, паттерны переменных, условия), вы ОБЯЗАНЫ передать их агентам в точном виде. Запрещено модифицировать, «улучшать» или переинтерпретировать примеры пользователя. Перед передачей downstream-агенту — сверить синтаксис с примером пользователя.
 - **Рабочая папка проекта:** `work/<BotSlug>/` — slug из `docs/FACTORY_PROJECTS_MEMORY.md` (активный проект). См. `work/README.md`.
 - **Обязательное логирование:** каждый результат агента — в `work/<BotSlug>/` (файлы уровня бота или `current_node/` для поузловых черновиков).
@@ -431,9 +437,12 @@ COMMANDS:
 
 ## Служебные скрипты
 
-| Скрипт | Команда пользователя | Описание |
+| Скрипт/Агент | Команда пользователя | Описание |
 |--------|---------------------|----------|
 | `scripts/merge_raw_dictionaries.py` | «объединить словари», «слий словари в референс», «merge dictionaries» | Сливает JSON из `docs/reference/raw_dicts/` → `COMMON_DICTIONARIES.md`. **Ответственность: Библиотекарь.** |
+| `scripts/dictionary_validator.py` | **Автоматически** | Детерминированная проверка целостности словарей. Запускает **Оркестратор** после ЛЮБОГО завершения DL Автора Правил. 6 проверок: отсутствующий, неизвестный, усечённый, include-зависимости, невостребованные (WARNING), дубликаты. Exit 1 при ERROR → DL_FIXER. Никаких эвристик, никаких LLM. |
+| `scripts/dl_linter.py` | **Автоматически** | Синтаксический линтинг DL-правил. Запускает **Оркестратор** после Dictionary Validator. Проверки: ведущая `*`, `[@cmb]` с 1 аргументом, тройные скобки, дубли в `{...}`, тильда отдельно от слова, фрагменты токенов, одиночные `{}` в `[@cmb]`. Exit 1 при ERROR → DL_FIXER. |
+| `DL_FIXER.md` | **Автоматически (при ERROR валидаторов)** | Ремонтный агент. Применяет минимальные патчи к `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` на основе отчётов Dictionary Validator и DL Linter. Лимит: 3 итерации. Пилотный режим. |
 
 ### Протокол работы со словарями (Dictionary Pipeline)
 
