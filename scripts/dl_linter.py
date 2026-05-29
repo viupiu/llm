@@ -172,6 +172,82 @@ class DLLinter:
                 if re.search(r'\{[^\{]*\/[^}]*\}', args_str):
                     self.add_error(line_num, "Alternatives inside cmb must use double braces.")
 
+    def check_star_inside_braces(self, line_num: int, text: str):
+        # П15. Звёздочка внутри фигурных скобок {*}: {*}, { * }
+        # Звёздочка — wildcard правила, не элемент инлайн-списка
+        matches = re.finditer(r'\{([^}]*)\}', text)
+        for match in matches:
+            content = match.group(1).strip()
+            if content == '*' or content.strip() == '*':
+                self.add_error(line_num, "Wildcard '*' inside braces is forbidden. Remove {*}.")
+
+    def check_double_star_wildcard(self, line_num: int, text: str):
+        # П16. Правило вида "* * * ..." или "* * {" — пустой двойной wildcard
+        # "* * {*}" и "* * {словарь}" — бессмысленная конструкция, нужно убрать * *
+        stripped = text.strip()
+        if not stripped or stripped.startswith('#') or stripped.startswith('//') or '=>' in stripped:
+            return
+        if re.search(r'\*\s+\*\s+\*', stripped):
+            self.add_error(line_num, "Consecutive wildcards '* * *' are redundant. Use single '*' with pattern.")
+        if re.match(r'\*\s+\*\s+\{[^}]*\}\s*\*', stripped):
+            self.add_error(line_num, "Redundant '* *' before inline dictionary. Use '* {паттерн} *'.")
+
+    def check_attached_star(self, line_num: int, text: str):
+        # П17. Звёздочка прилипает к слову без пробела: *лево, *лев~, *двер~
+        # или слово* * где * прилипает справа
+        stripped = text.strip()
+        if not stripped or stripped.startswith('#') or stripped.startswith('//'):
+            return
+        star_matches = re.finditer(r'\*', stripped)
+        for m in star_matches:
+            pos = m.start()
+            # Проверяем символ после *
+            if pos + 1 < len(stripped):
+                ch_after = stripped[pos + 1]
+                if ch_after.isalpha() or ch_after == '~':
+                    self.add_error(line_num, f"Wildcard '*' must have a space after it. Found '* followed by '{ch_after}'.")
+            # Проверяем символ перед * (но не в конструкциях [@cmb], [dict] и т.д.)
+            if pos > 0:
+                ch_before = stripped[pos - 1]
+                if ch_before.isalpha() or ch_before == '~':
+                    # Исключаем случаи вроде [dict(name)] * — тут ]*, ок
+                    if ch_before not in (']', ')', '}'):
+                        self.add_error(line_num, f"Wildcard '*' must have a space before it. Found '{ch_before}' followed by '*'.")
+
+    def check_double_braces_outside_cmb(self, line_num: int, text: str):
+        # П18. Двойные скобки {{...}} вне [@cmb]
+        # {{а/б}} разрешены ТОЛЬКО внутри [@cmb]. Вне cmb используйте одинарные {а/б}
+        if '{{' not in text:
+            return
+        # Проверяем, есть ли @@cmb в строке
+        if '@cmb' not in text:
+            self.add_error(line_num, "Double braces '{{...}}' found outside [@cmb]. Use single braces '{...}' outside combinator.")
+
+    def check_tilde_not_attached(self, line_num: int, text: str):
+        # П19. Тильда отдельно от слова в правиле (не внутри {}): "двер ~", "поздравит ~"
+        # Проверяем токены из правила (вне скобок/конструкций)
+        stripped = text.strip()
+        if not stripped or stripped.startswith('#') or stripped.startswith('//'):
+            return
+        # Ищем паттерн "слово ~" где ~ идёт отдельно через пробел
+        if re.search(r'\w+\s+~(?!\w)', stripped):
+            # Исключаем контекст внутри []
+            outside_brackets = re.sub(r'\[[^\]]*\]', '', stripped)
+            if re.search(r'\w+\s+~(?!\w)', outside_brackets):
+                self.add_error(line_num, "Tilde '~' is not attached to a word. Use 'слово~' without space.")
+
+    def check_orphan_tilde_token(self, line_num: int, text: str):
+        # П20. Тильда как самостоятельный токен вне {} (например "* ~ *")
+        # Проверяем после удаления всего внутри [] и {}
+        cleaned = re.sub(r'\[[^\]]*\]', '', text)
+        cleaned = re.sub(r'\{[^}]*\}', '', cleaned)
+        cleaned = cleaned.strip()
+        if '~' in cleaned:
+            tokens = cleaned.split()
+            for tok in tokens:
+                if tok == '~' or tok == '~*':
+                    self.add_error(line_num, "Standalone tilde '~' token found outside inline dictionary.")
+
     def run(self):
         self.load_file()
         
@@ -189,6 +265,12 @@ class DLLinter:
             self.check_horizontal_separators(line_num, text)
             self.check_double_braces_single_element(line_num, text)
             self.check_single_braces_in_cmb(line_num, text)
+            self.check_star_inside_braces(line_num, text)
+            self.check_double_star_wildcard(line_num, text)
+            self.check_attached_star(line_num, text)
+            self.check_double_braces_outside_cmb(line_num, text)
+            self.check_tilde_not_attached(line_num, text)
+            self.check_orphan_tilde_token(line_num, text)
         
         self.check_dictionary_definitions()
         
