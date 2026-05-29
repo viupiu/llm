@@ -301,7 +301,7 @@
     "entityMap": {}
   },
   "intent_id": null,
-  "skill_id": "f3eae998-4707-0e4a-64e0",
+  "skill_id": null,
   "answers": {
     "blocks": [
       {

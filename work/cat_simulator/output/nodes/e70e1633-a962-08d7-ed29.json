@@ -1,5 +1,5 @@
 {
-  "id": "f7af41f3-dcbc-6cb2-6cca",
+  "id": "e70e1633-a962-08d7-ed29",
   "name": "Загрузка",
   "description": "",
   "parent": null,
@@ -8,7 +8,7 @@
   "dl_rules": {
     "blocks": [
       {
-        "key": "on8pu",
+        "key": "ee9wi",
         "data": {},
         "text": "EVENT 00b2fcbe-f27f-437b-a0d5-91072d840ed3 *",
         "type": "unstyled",
@@ -22,7 +22,7 @@
   "ml_examples": {
     "blocks": [
       {
-        "key": "gn55g",
+        "key": "g34qv",
         "data": {},
         "text": "",
         "type": "unstyled",
@@ -38,7 +38,7 @@
   "answers": {
     "blocks": [
       {
-        "key": "01lz3",
+        "key": "qg8lt",
         "data": {},
         "text": ":lu: [%cat_mood=\"content\"] [@goto(\"Мяу! Что будем делать?\")]",
         "type": "unstyled",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "key": "27xhs",
+        "key": "tttmh",
         "data": {},
         "text": ":lu: [%cat_mood=\"hungry\"] [@goto(\"Мяу! Что будем делать?\")]",
         "type": "unstyled",
@@ -118,7 +118,7 @@
         ]
       },
       {
-        "key": "qhuxq",
+        "key": "zzhvu",
         "data": {},
         "text": ":lu: [%cat_mood=\"sleepy\"] [@goto(\"Мяу! Что будем делать?\")]",
         "type": "unstyled",
@@ -158,7 +158,7 @@
         ]
       },
       {
-        "key": "w5piu",
+        "key": "dmdvi",
         "data": {},
         "text": ":lu: [%cat_mood=\"playful\"] [@goto(\"Мяу! Что будем делать?\")]",
         "type": "unstyled",
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "key": "pjdi9",
+        "key": "h8rvn",
         "data": {},
         "text": ":lu: [%cat_mood=\"offended\"] [@goto(\"Мяу! Что будем делать?\")]",
         "type": "unstyled",
@@ -259,13 +259,13 @@
   "is_active": true,
   "auto_conflict_resolution": null,
   "meta": {},
-  "created": "2026-05-29T18:21:11.417093",
-  "updated": "2026-05-29T18:21:12.417094",
+  "created": "2026-05-29T22:46:46.977341",
+  "updated": "2026-05-29T22:46:47.977342",
   "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
   "editors": [
     {
       "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
-      "timestamp": "2026-05-29T18:21:12Z"
+      "timestamp": "2026-05-29T22:46:47Z"
     }
   ]
 }

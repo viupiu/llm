@@ -37,110 +37,111 @@ RE_DICT_HEADER = re.compile(r"^##\s*Словарь:\s*([a-z][a-z0-9_]*)\s*$")
 RE_INCLUDE_REF = re.compile(r"--include\((\w[\w_]*)\s*\)")
 
 
-def parse_dictionaries_from_md(md_text: str) -> list[dict]:
-    """Парсит словари из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md (разбросаны по секциям узлов)."""
-    dictionaries = []
-    seen = set()
+def _collect_raw_dictionaries(md_text: str) -> dict[str, list[str]]:
+    """Возвращает {name: [lines]} — raw body всех словарей (с --include строками)."""
+    result = {}
     lines = md_text.splitlines()
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        # Поддержка формата "## Словарь: name"
         m = RE_DICT_HEADER.match(line)
-        if m:
-            name = m.group(1)
-            if name in seen:
-                i += 1
-                continue
-            seen.add(name)
-            i += 1
-            body = []
-            while i < len(lines):
-                t = lines[i].strip()
-                if not t:
-                    i += 1
-                    continue
-                if t.startswith("## ") or t.startswith("#"):
-                    break
-                if RE_DICT_HEADER.match(t):
-                    break
-                # Пропускаем DL-правила (паттерны с [@cmb, [dict, * и т.д.)
-                if t.startswith("*") or t.startswith("[") or t.startswith("{"):
-                    i += 1
-                    continue
-                body.append(t)
-                i += 1
-            blocks = [_dict_line_to_block(l) for l in body if l.strip()]
-            if not blocks:
-                continue
-            did = new_short_id()
-            dictionaries.append({
-                "id": did,
-                "name": name,
-                "description": "",
-                "content": normalize_blocks_field({"blocks": blocks}),
-                "is_common": True,
-                "is_hidden": False,
-                "is_active": True,
-                "meta": {},
-                "created": format_dos_datetime(),
-                "updated": None,
-                "creator": DEFAULT_CREATOR,
-                "editors": [],
-            })
-            continue
-        if line.startswith("## ") or line.startswith("#"):
+        if not m:
             i += 1
             continue
-        if RE_DICT_NAME.match(line):
-            name = line
-            if name in seen:
-                i += 1
-                continue
-            seen.add(name)
-            i += 1
-            body = []
-            while i < len(lines):
-                t = lines[i].strip()
-                if not t:
-                    i += 1
-                    continue
-                if t.startswith("## ") or t.startswith("#"):
-                    break
-                if RE_DICT_NAME.match(t):
-                    break
-                if t.startswith("*") or t.startswith("[") or t.startswith("{"):
-                    i += 1
-                    continue
-                body.append(t)
-                i += 1
-            blocks = [_dict_line_to_block(l) for l in body if l.strip()]
-            if not blocks:
-                continue
-            did = new_short_id()
-            dictionaries.append({
-                "id": did,
-                "name": name,
-                "description": "",
-                "content": normalize_blocks_field({"blocks": blocks}),
-                "is_common": True,
-                "is_hidden": False,
-                "is_active": True,
-                "meta": {},
-                "created": format_dos_datetime(),
-                "updated": None,
-                "creator": DEFAULT_CREATOR,
-                "editors": [],
-            })
-            continue
+        name = m.group(1)
         i += 1
+        body = []
+        while i < len(lines):
+            t = lines[i].strip()
+            if not t:
+                i += 1
+                continue
+            if t.startswith("## ") or t.startswith("#"):
+                break
+            if RE_DICT_HEADER.match(t):
+                break
+            # Пропускаем DL-правила
+            if t.startswith("*") or t.startswith("[") or t.startswith("{"):
+                i += 1
+                continue
+            body.append(t)
+            i += 1
+        result[name] = body
+    return result
 
-    # Валидация --include: все referenced словари должны существовать
-    all_includes = set()
+
+def parse_dictionaries_from_md(md_text: str) -> list[dict]:
+    """Парсит словари из 4_RULES_AUTHOR__RULES_AND_DICTIONARIES.md (разбросаны по секциями узлов)."""
+    raw_dicts = _collect_raw_dictionaries(md_text)
+
+    # Collect --include references per dict name
+    dict_includes: dict[str, list[str]] = {}
+    for name, body in raw_dicts.items():
+        direct_includes = [m.group(1) for m in RE_INCLUDE_REF.finditer(
+            md_text.splitlines()[0]  # placeholder, we'll re-scan
+        )]
+        dict_includes[name] = []
+
+    # Re-scan: find --include per dict
+    lines = md_text.splitlines()
+    current_dict = None
     for line in lines:
-        for m in RE_INCLUDE_REF.finditer(line):
-            all_includes.add(m.group(1))
-    missing = all_includes - seen
+        m = RE_DICT_HEADER.match(line.strip())
+        if m:
+            current_dict = m.group(1)
+            continue
+        if current_dict and line.strip().startswith("## "):
+            current_dict = None
+            continue
+        if current_dict:
+            for inc_match in RE_INCLUDE_REF.finditer(line):
+                dict_includes.setdefault(current_dict, []).append(inc_match.group(1))
+
+    # Resolve bodies recursively with cycle detection
+    def resolve_body(dict_name: str, visited: set) -> list[str]:
+        if dict_name in visited:
+            return []
+        visited.add(dict_name)
+        result = []
+        # First, add own raw body
+        result.extend(raw_dicts.get(dict_name, []))
+        # Then, recursively merge includes
+        for inc_name in dict_includes.get(dict_name, []):
+            result.extend(resolve_body(inc_name, visited))
+        return result
+
+    seen = set()
+    dictionaries = []
+    for name in sorted(raw_dicts.keys()):
+        if name in seen:
+            continue
+        seen.add(name)
+        body = resolve_body(name, set())
+        blocks = [_dict_line_to_block(l) for l in body if l.strip()]
+        if not blocks:
+            continue
+        did = new_short_id()
+        dictionaries.append({
+            "id": did,
+            "name": name,
+            "description": "",
+            "content": normalize_blocks_field({"blocks": blocks}),
+            "is_common": True,
+            "is_hidden": False,
+            "is_active": True,
+            "meta": {},
+            "created": format_dos_datetime(),
+            "updated": None,
+            "creator": DEFAULT_CREATOR,
+            "editors": [],
+        })
+
+    # Validate unresolved includes
+    all_defined = set(raw_dicts.keys())
+    all_referenced = set()
+    for refs in dict_includes.values():
+        all_referenced.update(refs)
+    missing = all_referenced - all_defined
     if missing:
         print(
             f"WARNING: --include references not found as defined dictionaries: {sorted(missing)}",

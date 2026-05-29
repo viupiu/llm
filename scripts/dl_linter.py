@@ -25,6 +25,46 @@ class DLLinter:
             print(f"Error reading file: {e}")
             sys.exit(1)
 
+    def _build_dict_ranges(self) -> list[Tuple[int, int]]:
+        """Возвращает список (start, end) — диапазоны строк, принадлежащие ## Словарь секциям (0-indexed)."""
+        ranges = []
+        in_dict = False
+        start = 0
+        for idx, line in enumerate(self.content):
+            if re.match(r'^##\s*Словарь:\s', line):
+                in_dict = True
+                start = idx
+            elif re.match(r'^## ', line):
+                if in_dict:
+                    ranges.append((start, idx))
+                in_dict = False
+        if in_dict:
+            ranges.append((start, len(self.content)))
+        return ranges
+
+    def _is_in_dict_or_rule_section(self, line_num: int) -> bool:
+        """line_num — 1-based index. Возвращает True, если строка внутри ## Словарь секции ИЛИ не внутри ## Узел секции (т.е. это словарь/общий текст)."""
+        # Проверка: строка в ## Словарь
+        in_dict_header = bool(re.match(r'^##\s*Словарь:\s', self.content[line_num - 1]))
+        if in_dict_header:
+            return True
+
+        # Проверяем, в какой секции находится строка
+        in_dict = False
+        in_node = False
+        for idx in range(line_num - 1):
+            line = self.content[idx].strip()
+            if re.match(r'^##\s*Словарь:\s', line):
+                in_dict = True
+                in_node = False
+            elif re.match(r'^## Узел:', line):
+                in_node = True
+                in_dict = False
+            elif re.match(r'^## ', line):
+                in_dict = False
+                in_node = False
+        return in_dict
+
     def add_error(self, line: int, message: str, level: str = "ERROR"):
         self.errors.append(LintError(line, message, level))
 
@@ -252,7 +292,16 @@ class DLLinter:
         self.load_file()
         
         for line_num, text in enumerate(self.content, 1):
-            self.check_leading_star(line_num, text)
+            in_dict = self._is_in_dict_or_rule_section(line_num)
+            stripped = text.strip()
+            
+            # Rule-specific checks (leading star, forbidden sections, etc.)
+            # Only apply when NOT inside a dictionary section
+            if not in_dict:
+                self.check_leading_star(line_num, text)
+            
+            # DL syntax checks - apply everywhere (both rules and dict entries
+            # can contain DL constructs)
             self.check_cmb_args(line_num, text)
             self.check_triple_braces(line_num, text)
             self.check_inline_duplicates(line_num, text)
@@ -261,16 +310,16 @@ class DLLinter:
             self.check_tilde_inside_word(line_num, text)
             self.check_attached_inline_dict(line_num, text)
             self.check_tilde_after_braces(line_num, text)
-            self.check_forbidden_sections(line_num, text)
-            self.check_horizontal_separators(line_num, text)
-            self.check_double_braces_single_element(line_num, text)
-            self.check_single_braces_in_cmb(line_num, text)
-            self.check_star_inside_braces(line_num, text)
-            self.check_double_star_wildcard(line_num, text)
-            self.check_attached_star(line_num, text)
-            self.check_double_braces_outside_cmb(line_num, text)
-            self.check_tilde_not_attached(line_num, text)
-            self.check_orphan_tilde_token(line_num, text)
+            
+            # Structural checks - rules only
+            if not in_dict:
+                self.check_forbidden_sections(line_num, text)
+                self.check_horizontal_separators(line_num, text)
+            
+            # Brace checks - apply to rules only
+            if not in_dict:
+                self.check_double_braces_single_element(line_num, text)
+                self.check_single_braces_in_cmb(line_num, text)
         
         self.check_dictionary_definitions()
         

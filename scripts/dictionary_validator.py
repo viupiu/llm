@@ -123,9 +123,6 @@ def parse_rules_file(rules_path: Path) -> Tuple[
                             break
                     for inc_m in RE_INCLUDE_REF.finditer(t):
                         include_deps.add(inc_m.group(1))
-                    if RE_INCLUDE_REF.search(t):
-                        i += 1
-                        continue
                     if t.startswith("*") or t.startswith("[") or t.startswith("{"):
                         i += 1
                         continue

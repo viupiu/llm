@@ -216,9 +216,16 @@ def split_rule_and_dsl_tags(raw_rule: str) -> tuple[str, str]:
 
     # Проверка: это реальный DL-паттерн?
     is_dl_rule = ('@cmb' in dl_part or '@keyword' in dl_part or '[-' in dl_part or
-                  'EVENT ' in dl_part or dl_part.strip() == '*')
-    if not is_dl_rule and '[dict(' in dl_part:
+                  'EVENT ' in dl_part or dl_part.strip() == '*' or '[dict(' in dl_part)
+    
+    # Any line matching the * pattern * structure is a DL rule.
+    if not is_dl_rule and re.match(r"^\* .+ \*$", dl_part.strip()):
         is_dl_rule = True
+    
+    # A standalone * (wildcard) is also a DL rule
+    if not is_dl_rule and dl_part.strip() in ('*', '* '):
+        is_dl_rule = True
+    
     if is_dl_rule:
         return dl_part, tags_part
 
