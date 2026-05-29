@@ -16,7 +16,7 @@ python prepare_staging.py `
   --out ..\work\GenderCheck_Bot\9_PACKAGER__STAGING `
   --assistant-name "Анекдот-Мастер" `
   --skill-name "Выбор категории" `
-  --export-basename "JokeBot"
+  --export-basename "<BotSlug>"
 
 # 2. Проверить артефакты проекта
 python validate_archive.py ..\work\GenderCheck_Bot

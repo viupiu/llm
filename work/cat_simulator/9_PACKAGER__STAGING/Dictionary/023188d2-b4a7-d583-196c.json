@@ -1,0 +1,844 @@
+{
+  "id": "023188d2-b4a7-d583-196c",
+  "name": "you_lie",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "cac6f",
+        "data": {},
+        "text": "вранье",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7d2a1",
+        "data": {},
+        "text": "враки",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sc8k7",
+        "data": {},
+        "text": "вреш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ckm6b",
+        "data": {},
+        "text": "врете",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dwg1c",
+        "data": {},
+        "text": "ложь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6tim7",
+        "data": {},
+        "text": "лож",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c6qok",
+        "data": {},
+        "text": "лжив~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dcvw2",
+        "data": {},
+        "text": "брешеш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9qfeb",
+        "data": {},
+        "text": "брешете",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "poxdr",
+        "data": {},
+        "text": "обманываеш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2px5o",
+        "data": {},
+        "text": "обманываете",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hzl5y",
+        "data": {},
+        "text": "брехня",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "46q7i",
+        "data": {},
+        "text": "неправда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sg8j2",
+        "data": {},
+        "text": "неверю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o8v95",
+        "data": {},
+        "text": "неверится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5y1wq",
+        "data": {},
+        "text": "невериться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5av3w",
+        "data": {},
+        "text": "невериц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "trzl0",
+        "data": {},
+        "text": "неврите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w5j0y",
+        "data": {},
+        "text": "неври",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2ko4p",
+        "data": {},
+        "text": "нелгите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "urxt4",
+        "data": {},
+        "text": "нелги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xxqlo",
+        "data": {},
+        "text": "необманывай~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i210p",
+        "data": {},
+        "text": "небреши~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mash9",
+        "data": {},
+        "text": "не правда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6az67",
+        "data": {},
+        "text": "не верю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "e1clr",
+        "data": {},
+        "text": "не верится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vfwyl",
+        "data": {},
+        "text": "не вериться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xible",
+        "data": {},
+        "text": "не вериц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5zys9",
+        "data": {},
+        "text": "не врите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2itb9",
+        "data": {},
+        "text": "не ври",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sbdpl",
+        "data": {},
+        "text": "не лгите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ovvnr",
+        "data": {},
+        "text": "не лги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ds5wr",
+        "data": {},
+        "text": "не обманывай~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a1nhn",
+        "data": {},
+        "text": "не бреши~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8qdn1",
+        "data": {},
+        "text": "ниправда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cxyek",
+        "data": {},
+        "text": "ниверю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hgqt4",
+        "data": {},
+        "text": "ниверится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mqw2t",
+        "data": {},
+        "text": "нивериться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l0ht2",
+        "data": {},
+        "text": "нивериц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6gzbj",
+        "data": {},
+        "text": "ниврите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "n1qm4",
+        "data": {},
+        "text": "ниври",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1fh8q",
+        "data": {},
+        "text": "нилгите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b4csf",
+        "data": {},
+        "text": "нилги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "89uwg",
+        "data": {},
+        "text": "ниобманывай~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "du7xh",
+        "data": {},
+        "text": "нибреши~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dp3wi",
+        "data": {},
+        "text": "ни правда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yspxk",
+        "data": {},
+        "text": "ни верю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "apmxz",
+        "data": {},
+        "text": "ни верится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zrj3r",
+        "data": {},
+        "text": "ни вериться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "skx9v",
+        "data": {},
+        "text": "ни вериц~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x52ro",
+        "data": {},
+        "text": "ни врите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8szmy",
+        "data": {},
+        "text": "ни ври",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hkihf",
+        "data": {},
+        "text": "ни лгите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "n9qrh",
+        "data": {},
+        "text": "ни лги",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "du2jb",
+        "data": {},
+        "text": "ни обманывай~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1kaiz",
+        "data": {},
+        "text": "ни бреши~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vtwor",
+        "data": {},
+        "text": "гониш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xu0u3",
+        "data": {},
+        "text": "гоните~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fa2rc",
+        "data": {},
+        "text": "не гони",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fn1pf",
+        "data": {},
+        "text": "не гоните",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qxpbc",
+        "data": {},
+        "text": "негони~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2g8yt",
+        "data": {},
+        "text": "негоните~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "11s1p",
+        "data": {},
+        "text": "не гани",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xgrvf",
+        "data": {},
+        "text": "не ганите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "glxjb",
+        "data": {},
+        "text": "негани~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rmhqp",
+        "data": {},
+        "text": "неганите~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nwbsk",
+        "data": {},
+        "text": "пориш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mmajf",
+        "data": {},
+        "text": "пореш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1wlna",
+        "data": {},
+        "text": "порите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bev9h",
+        "data": {},
+        "text": "порете",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j002l",
+        "data": {},
+        "text": "не пори",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r3ruo",
+        "data": {},
+        "text": "не порите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vogsx",
+        "data": {},
+        "text": "непори",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vf1kw",
+        "data": {},
+        "text": "непорите",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "t771k",
+        "data": {},
+        "text": "хорош  * гнать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g4zrx",
+        "data": {},
+        "text": "хорош * пороть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a07fi",
+        "data": {},
+        "text": "хорошь * гнать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ifwnx",
+        "data": {},
+        "text": "хорошь * пороть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "czvx6",
+        "data": {},
+        "text": "хватит * гнать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "37jk1",
+        "data": {},
+        "text": "хватит * пороть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wrlwr",
+        "data": {},
+        "text": "перестань~ * гнать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g0x95",
+        "data": {},
+        "text": "перестань~ * пороть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "valuk",
+        "data": {},
+        "text": "прекрати~ * гнать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ch6ov",
+        "data": {},
+        "text": "прекрати~ * пороть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "stcuc",
+        "data": {},
+        "text": "гонев~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w37s8",
+        "data": {},
+        "text": "брех~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1t6rw",
+        "data": {},
+        "text": "фантазируеш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j4fgf",
+        "data": {},
+        "text": "ты обманщик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "it60u",
+        "data": {},
+        "text": "ты обманщица",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y0fqn",
+        "data": {},
+        "text": "Это {Не/ни} Так",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 4
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 10
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-29T19:43:51.334905",
+  "updated": "2026-05-29T19:43:52.334906",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T19:43:52Z"
+    }
+  ]
+}

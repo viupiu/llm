@@ -1,0 +1,5391 @@
+{
+  "id": "cfca5f0d-080b-35e5-1652",
+  "name": "Мяу! Что будем делать? - Приветствие",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "4njf9",
+        "data": {},
+        "text": "* [dict(hello_all)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      },
+      {
+        "key": "zt58u",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "45ol7",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "n4428",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rkiid",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "snism",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fmjsk",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g8ry2",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hrphz",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "35kld",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "s6kjl",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "as17t",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "f3eae998-4707-0e4a-64e0",
+  "answers": {
+    "blocks": [
+      {
+        "key": "5n06k",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет-привет! Ты пришёл!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 77
+          }
+        ]
+      },
+      {
+        "key": "hfh1o",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! О, это ты! Как я рад! Ну, как бы рад.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "b8d55",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Как дела? Как у тебя дела? Мои тоже хорошие!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 104
+          }
+        ]
+      },
+      {
+        "key": "algy4",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет! Наконец-то! Я уже начинал думать...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "rsrlu",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Я ждал тебя! Не, ну, не ждал, но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "t74dg",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! О, это ты! Привет!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          }
+        ]
+      },
+      {
+        "key": "b19ah",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Ура! Ты здесь!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      },
+      {
+        "key": "juggi",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет-привет! Как-как-как?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 76
+          }
+        ]
+      },
+      {
+        "key": "tf3vn",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О, привет! Я думал, ты не придешь!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "nkecs",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет! Я скучал. Ну, немного.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          }
+        ]
+      },
+      {
+        "key": "ys727",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Как я тебя давно не видел! Ну, это не правда.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 105
+          }
+        ]
+      },
+      {
+        "key": "j5sb4",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ой, привет!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      },
+      {
+        "key": "knbez",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Как дела? У меня тоже хорошо.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 89
+          }
+        ]
+      },
+      {
+        "key": "71n0k",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет! Наконец-то! Я думал, ты ушел!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "4xbc5",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О, это ты! Как здорово!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 75
+          }
+        ]
+      },
+      {
+        "key": "uwp9m",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет-привет-привет!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "gyi90",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет! Я рад тебя видеть! Ну, как бы.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 90
+          }
+        ]
+      },
+      {
+        "key": "c7d1q",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Привет! Как ты? У меня всё ок.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          }
+        ]
+      },
+      {
+        "key": "ivppl",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Привет-привет!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          }
+        ]
+      },
+      {
+        "key": "ldg3q",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! О, привет! Я думал, тебя нет!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 78
+          }
+        ]
+      },
+      {
+        "key": "w475g",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты принес еду?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "5bs4b",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Надеюсь, ты пришёл с едой.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      },
+      {
+        "key": "t0uha",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но я голоден. Так что...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          }
+        ]
+      },
+      {
+        "key": "g6bgf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты принёс еду? Я спрашиваю, потому что...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 97
+          }
+        ]
+      },
+      {
+        "key": "y8dqd",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но прежде всего: ЕДА?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 77
+          }
+        ]
+      },
+      {
+        "key": "8b8qe",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты знаешь, что я хочу? ЕДУ.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 83
+          }
+        ]
+      },
+      {
+        "key": "8ks07",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты не принёс еду, да?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          }
+        ]
+      },
+      {
+        "key": "5keie",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты... Принёс?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "z84m3",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты знаешь, что мне сейчас нужно?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 91
+          }
+        ]
+      },
+      {
+        "key": "bo4nb",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Еда? Ты принёс?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "gigc5",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Надеюсь, ты пришёл не пустой.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 85
+          }
+        ]
+      },
+      {
+        "key": "aevg1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты принёс еду? Я спрашиваю серьёзно.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "e2w13",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но знаешь, что мне сейчас важнее всего?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "v6om1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты... ЕДА?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          }
+        ]
+      },
+      {
+        "key": "pqd2k",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты знаешь, чего я хочу?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      },
+      {
+        "key": "f2z9q",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      },
+      {
+        "key": "32nkb",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты знаешь, что мне нужно?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 84
+          }
+        ]
+      },
+      {
+        "key": "qb9bo",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты... С едой?}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "5enf6",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу... Привет. Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "x8vn0",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мрр... Привет. Ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      },
+      {
+        "key": "tz2ix",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... О, это ты... Привет...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "3rciq",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Ой, привет... Я не...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "l8jsh",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Привет... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 68
+          }
+        ]
+      },
+      {
+        "key": "asw63",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Привет... Я только...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "brfcw",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой, это ты... Привет...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "vfp4q",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Ой, привет... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      },
+      {
+        "key": "kcgmr",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Привет... Я только...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "fjsr5",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Оу, привет... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      },
+      {
+        "key": "9wcub",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... О, это ты... Привет...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "8vag4",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Привет... Я только...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "22fk7",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой, привет... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 72
+          }
+        ]
+      },
+      {
+        "key": "4wb36",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Оу, это ты... Привет...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "o5nzh",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Привет... Я только...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "ku0gu",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Ой, не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "m18d2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Оу, это ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      },
+      {
+        "key": "3f3b8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Привет... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "c7di9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Привет... Я только...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "34owy",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Оу, это ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "4pk5c",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой... Не буди...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "bpcgn",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Привет... Засыпаю...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          }
+        ]
+      },
+      {
+        "key": "bl910",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! ПРИВЕТ!!! ДАВАЙ ИГРАТЬ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "0ieqn",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! О, ЭТО ТЫ!!! ХВАТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "nj7uu",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! ПРИВЕТ-ПРИВЕТ-ПРИВЕТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "j6kn9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! Я РАД ТЕБЯ ВИДЕТЬ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "8uhrz",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! АААА!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          }
+        ]
+      },
+      {
+        "key": "qk3nf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! ДА ДА ДА ДА ДА!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          }
+        ]
+      },
+      {
+        "key": "kaimz",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! О БОЖЕ! О БОЖЕ! О БОЖЕ!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "3c2qa",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! ХВАТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "eeuyo",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! КУС!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          }
+        ]
+      },
+      {
+        "key": "qmpzq",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! ДА ДА ДА!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      },
+      {
+        "key": "7g4xe",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! Я УЖЕ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "e5nc1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! ЭТО ТЫ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          }
+        ]
+      },
+      {
+        "key": "z5nl8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! Я ХВАТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "hgtvv",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! Я РАД!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "vahh9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! ДА ДА ДА!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "sk4bn",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! О БОЖЕ О БОЖЕ О БОЖЕ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 72
+          }
+        ]
+      },
+      {
+        "key": "sg83v",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! ПРИВЕТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "ca9og",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! ХВАТ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "vmqun",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МЯУ!!! ДА ДА ДА!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "2i1px",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) МРРР!!! О БОЖЕ!!!}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          }
+        ]
+      },
+      {
+        "key": "jx775",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "5mod5",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Привет. Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          }
+        ]
+      },
+      {
+        "key": "55b7e",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ты пришёл. Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          }
+        ]
+      },
+      {
+        "key": "n4pga",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Привет. Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          }
+        ]
+      },
+      {
+        "key": "lerku",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ладно. Привет.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 65
+          }
+        ]
+      },
+      {
+        "key": "njcz9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Ты... Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          }
+        ]
+      },
+      {
+        "key": "wufqj",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Привет. Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "fnvl8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Ты... Ладно. Привет.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          }
+        ]
+      },
+      {
+        "key": "e35b1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "p6fxf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Привет. Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "0k13s",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "ktvsg",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "bkryu",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ладно. Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          }
+        ]
+      },
+      {
+        "key": "hv7wd",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Ты... Привет.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 64
+          }
+        ]
+      },
+      {
+        "key": "a2f5r",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "jk35x",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Ладно.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "78izf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ты... Но...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 62
+          }
+        ]
+      },
+      {
+        "key": "akce2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Но ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "l9thw",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ладно.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "n0a1h",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Ты...}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "w3vkn",
+        "data": {},
+        "text": "* ты {дома/тут/здесь} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 20
+          }
+        ]
+      },
+      {
+        "key": "7sd8z",
+        "data": {},
+        "text": "* {привет/эй} скучал *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 12
+          }
+        ]
+      },
+      {
+        "key": "ffmsd",
+        "data": {},
+        "text": "* я {{вернулся/пришёл/появился}} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 4
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          }
+        ]
+      },
+      {
+        "key": "2llh7",
+        "data": {},
+        "text": "* как {ты/дела/день} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          }
+        ]
+      },
+      {
+        "key": "qzeyr",
+        "data": {},
+        "text": "* давно {не/без} {видел/виделись} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 15
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          }
+        ]
+      },
+      {
+        "key": "jejwh",
+        "data": {},
+        "text": "* ты {в форме/красивый} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "7yw20",
+        "data": {},
+        "text": "* {подойди/вставай} ко мне *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      },
+      {
+        "key": "0n6lt",
+        "data": {},
+        "text": "* ну {наконец/наконец-то} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 24
+          }
+        ]
+      },
+      {
+        "key": "ie4r7",
+        "data": {},
+        "text": "* дела *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b99rc",
+        "data": {},
+        "text": "* {скучал/скучаю без меня} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 25
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T18:21:11.417093",
+  "updated": "2026-05-29T18:21:12.417094",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T18:21:12Z"
+    }
+  ]
+}

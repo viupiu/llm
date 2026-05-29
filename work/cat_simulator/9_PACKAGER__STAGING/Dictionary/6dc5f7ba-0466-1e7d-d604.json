@@ -1,0 +1,140 @@
+{
+  "id": "6dc5f7ba-0466-1e7d-d604",
+  "name": "keywords_cat_insult",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "7p7ed",
+        "data": {},
+        "text": "проуч",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bfzdb",
+        "data": {},
+        "text": "выгон",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mic5p",
+        "data": {},
+        "text": "выкид",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gyvro",
+        "data": {},
+        "text": "выброш~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "38hdv",
+        "data": {},
+        "text": "на улиц",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "k3925",
+        "data": {},
+        "text": "наказ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fmpvp",
+        "data": {},
+        "text": "прогон",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "whv6x",
+        "data": {},
+        "text": "бесиш",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bh4y6",
+        "data": {},
+        "text": "надоел",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "01552",
+        "data": {},
+        "text": "нагл",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ve7hw",
+        "data": {},
+        "text": "достал",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ucjtq",
+        "data": {},
+        "text": "довёл",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kuzs5",
+        "data": {},
+        "text": "вывел",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-29T19:43:51.336475",
+  "updated": "2026-05-29T19:43:52.336476",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T19:43:52Z"
+    }
+  ]
+}

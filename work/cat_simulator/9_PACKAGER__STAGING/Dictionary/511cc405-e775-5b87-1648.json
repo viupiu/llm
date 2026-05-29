@@ -1,0 +1,194 @@
+{
+  "id": "511cc405-e775-5b87-1648",
+  "name": "keywords_playing",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "kpz86",
+        "data": {},
+        "text": "игр",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nzax5",
+        "data": {},
+        "text": "лазерк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0rzn8",
+        "data": {},
+        "text": "игрушк~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g0f1a",
+        "data": {},
+        "text": "мух",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zhk74",
+        "data": {},
+        "text": "шарик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bciar",
+        "data": {},
+        "text": "ниточк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "imifn",
+        "data": {},
+        "text": "мышк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3hm6j",
+        "data": {},
+        "text": "перышк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "o62nz",
+        "data": {},
+        "text": "охот",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m91kc",
+        "data": {},
+        "text": "погоня",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0ygyo",
+        "data": {},
+        "text": "коробк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xttf2",
+        "data": {},
+        "text": "тоннель",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "e2p2x",
+        "data": {},
+        "text": "палочк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8ucob",
+        "data": {},
+        "text": "бумажк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6vdzp",
+        "data": {},
+        "text": "комок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1ox66",
+        "data": {},
+        "text": "мячик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rdani",
+        "data": {},
+        "text": "точк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kjbch",
+        "data": {},
+        "text": "лов",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mfll8",
+        "data": {},
+        "text": "прыгай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-29T19:43:51.336475",
+  "updated": "2026-05-29T19:43:52.336476",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T19:43:52Z"
+    }
+  ]
+}

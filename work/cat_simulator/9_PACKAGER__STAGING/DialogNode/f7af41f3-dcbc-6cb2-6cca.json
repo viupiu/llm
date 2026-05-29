@@ -1,0 +1,271 @@
+{
+  "id": "f7af41f3-dcbc-6cb2-6cca",
+  "name": "Загрузка",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"CIAS\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "on8pu",
+        "data": {},
+        "text": "EVENT 00b2fcbe-f27f-437b-a0d5-91072d840ed3 *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "gn55g",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "f3eae998-4707-0e4a-64e0",
+  "answers": {
+    "blocks": [
+      {
+        "key": "01lz3",
+        "data": {},
+        "text": ":lu: [%cat_mood=\"content\"] [@goto(\"Мяу! Что будем делать?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "27xhs",
+        "data": {},
+        "text": ":lu: [%cat_mood=\"hungry\"] [@goto(\"Мяу! Что будем делать?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          }
+        ]
+      },
+      {
+        "key": "qhuxq",
+        "data": {},
+        "text": ":lu: [%cat_mood=\"sleepy\"] [@goto(\"Мяу! Что будем делать?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          }
+        ]
+      },
+      {
+        "key": "w5piu",
+        "data": {},
+        "text": ":lu: [%cat_mood=\"playful\"] [@goto(\"Мяу! Что будем делать?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 59
+          }
+        ]
+      },
+      {
+        "key": "pjdi9",
+        "data": {},
+        "text": ":lu: [%cat_mood=\"offended\"] [@goto(\"Мяу! Что будем делать?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T18:21:11.417093",
+  "updated": "2026-05-29T18:21:12.417094",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T18:21:12Z"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "variables": [
+    "that_anchor",
+    "cat_mood"
+  ],
+  "details": {
+    "that_anchor": "assigned",
+    "cat_mood": "assigned"
+  },
+  "dictionaries": [
+    "hello_all",
+    "hello_hello",
+    "hello_zdravstvuy",
+    "hello_helloenglish",
+    "bye_solong",
+    "bye_gottago",
+    "common_thankyou",
+    "praise_great",
+    "praise_attaboy",
+    "praise_good_nom",
+    "mat",
+    "common_eat_2_pres",
+    "word_food_fruits",
+    "milk",
+    "common_bad",
+    "you_lie",
+    "common_like_2_pres",
+    "keywords_petting",
+    "keywords_feeding",
+    "keywords_playing",
+    "keywords_cat_insult"
+  ]
+}

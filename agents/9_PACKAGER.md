@@ -36,7 +36,8 @@ python scripts/build_full_staging.py `
 ```
 
 3. Проверка: `python scripts/validate_archive.py --staging-dir work/<BotSlug>/9_PACKAGER__STAGING`
-4. ZIP: `python scripts/pack_archive.py --staging work/<BotSlug>/9_PACKAGER__STAGING --out archives/exported/<имя>.zip`
+4. ZIP: `python scripts/pack_archive.py --staging work/<BotSlug>/9_PACKAGER__STAGING --out archives/exported/<BotSlug>.zip`
+- **Каноническое имя архива**: `archives/exported/<BotSlug>.zip`. Никаких UUID, суффиксов `-prod`, `-master` и т.д. Имя в архиве = имя папки в `work/`. (Инцидент 2026-05-29: `excuse_gen_bot_3bf03490-...zip` → исправлено на `excuse_gen_bot.zip`).
 
 ### `conditions` в DialogNode
 

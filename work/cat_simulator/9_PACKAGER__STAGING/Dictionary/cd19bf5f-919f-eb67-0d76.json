@@ -1,0 +1,158 @@
+{
+  "id": "cd19bf5f-919f-eb67-0d76",
+  "name": "keywords_feeding",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "axdp6",
+        "data": {},
+        "text": "корм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2weug",
+        "data": {},
+        "text": "вкусняшк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "59b83",
+        "data": {},
+        "text": "рыбк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vml8a",
+        "data": {},
+        "text": "сардинк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "h9fsx",
+        "data": {},
+        "text": "молоко",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wlmhh",
+        "data": {},
+        "text": "лакомств",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "z5xkl",
+        "data": {},
+        "text": "куриц",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gbtm2",
+        "data": {},
+        "text": "мяс",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l3is0",
+        "data": {},
+        "text": "колбаск",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "17b1d",
+        "data": {},
+        "text": "утк",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i2k9l",
+        "data": {},
+        "text": "консерв",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qi226",
+        "data": {},
+        "text": "миск",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "y12m3",
+        "data": {},
+        "text": "насып",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jc3jo",
+        "data": {},
+        "text": "ужин",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "xzs49",
+        "data": {},
+        "text": "сыр",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-29T19:43:51.336475",
+  "updated": "2026-05-29T19:43:52.336476",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T19:43:52Z"
+    }
+  ]
+}

@@ -68,7 +68,9 @@ def main() -> int:
     assistants = list((staging / "Assistant").glob("*.json"))
     assistant_id = json.loads(assistants[0].read_text(encoding="utf-8"))["id"]
     basename = manifest.get("export_basename", "bot_master")
-    default_name = f"{basename}_{assistant_id}.zip"
+    # Инцидент 2026-05-29: UUID ассистента убран из имени архива.
+    # Каноническое имя — только export_basename (совпадает с названием папки в work/).
+    default_name = f"{basename}.zip"
     out = args.out or (ROOT / "archives" / "exported" / default_name)
     out = out if out.is_absolute() else ROOT / out
 

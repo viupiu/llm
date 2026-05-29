@@ -1,0 +1,6678 @@
+{
+  "id": "a7ef0338-7085-af6d-fb9f",
+  "name": "Мяу! Что будем делать? - Покормить кота",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "qski3",
+        "data": {},
+        "text": "* [dict(keywords_feeding)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 24
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 25
+          }
+        ]
+      },
+      {
+        "key": "srtga",
+        "data": {},
+        "text": "* [dict(common_eat_2_pres)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 26
+          }
+        ]
+      },
+      {
+        "key": "b525l",
+        "data": {},
+        "text": "* [@cmb({{держ~/вот/насып~/нарезал/достал}}, {[dict(word_food_fruits)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 46
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 69
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          }
+        ]
+      },
+      {
+        "key": "srz8b",
+        "data": {},
+        "text": "* [@cmb({{время/пора/готов~}}, {{кормления/ужина/ед}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          }
+        ]
+      },
+      {
+        "key": "r56xb",
+        "data": {},
+        "text": "* [@cmb({{миска/блюдце/тарелка}}, {{полн~/готова/насыпана}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 60
+          }
+        ]
+      },
+      {
+        "key": "y241m",
+        "data": {},
+        "text": "* [@cmb({{хочешь/пей/кушай}}, {{молоко/вкусняшку/рыбку}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 57
+          }
+        ]
+      },
+      {
+        "key": "hi7wq",
+        "data": {},
+        "text": "* [@cmb({{новый/премиум/свежий}}, {{корм/вкусняшка/лакомство}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 62
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          }
+        ]
+      },
+      {
+        "key": "2r3vj",
+        "data": {},
+        "text": "* [@cmb({{открыл/нарезал/достал}}, {{консерв~/куриц~/утк~/колбаск~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 66
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 69
+          }
+        ]
+      },
+      {
+        "key": "9xkt2",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rprqm",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "d3d83",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ghuhy",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "9x69g",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": "f3eae998-4707-0e4a-64e0",
+  "answers": {
+    "blocks": [
+      {
+        "key": "jzdff",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О боже! Вкусно! Ты — мой лучший друг! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 111
+          }
+        ]
+      },
+      {
+        "key": "wa9wy",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням-ням! Ещё-ещё-ещё! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "vlhkl",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Вот это подача! Я в восторге! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "drldq",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням! Ты лучший хозяин на свете! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "pj8p6",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О да! Это... О боже! Вкуснотища! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 106
+          }
+        ]
+      },
+      {
+        "key": "97v9p",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням-ням-ням! Ты — гений! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "8yw5k",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Вот это — настоящая забота! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "ni6tg",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням! Ещё! Ещё-ещё-ещё! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 93
+          }
+        ]
+      },
+      {
+        "key": "8hml4",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Аромат! Вкус! Всё идеально! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "vx4io",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням-ням! Ты — мой герой! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "jkk23",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О боже! Вкусно-вкусно-вкусно! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "4k39s",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням! Ты — лучший шеф-повар! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 98
+          }
+        ]
+      },
+      {
+        "key": "5qpea",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Это — шедевр! Кто ты?! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          }
+        ]
+      },
+      {
+        "key": "2cta8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням-ням! С каждым ударом сердца — ещё одна порция! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 121
+          }
+        ]
+      },
+      {
+        "key": "as0xx",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Вот это я понимаю — ресторан! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "cb7g6",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням! Это даже лучше, чем мои ожидания! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 109
+          }
+        ]
+      },
+      {
+        "key": "b4o8y",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! О боже! У меня усы дрожат от восторга! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 112
+          }
+        ]
+      },
+      {
+        "key": "5uv1c",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням-ням! Ты — волшебник! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "gcm6g",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мур-мяу! Дааа! Вкуснотища! Ты — мой любимец! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 109
+          }
+        ]
+      },
+      {
+        "key": "yh8s1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"content\")]{(Довольный) Мррр! Ням! И мне сказали, что я прихотлив! А вот и нет! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 120
+          }
+        ]
+      },
+      {
+        "key": "v0w12",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) МЯУ! ЕДА! ЕДА ЕДА ЕДА!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 66
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 87
+          }
+        ]
+      },
+      {
+        "key": "hx8c9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! НАКО-НЕЦ-ТО! Я думал, я умру с голоду!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 109
+          }
+        ]
+      },
+      {
+        "key": "t6kmt",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! О боже-боже-боже! НЯМ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "jh1zw",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Меррр! НАКО-НЕЦ! Я ДУМАЛ, МЕНЯ ЗАБЫЛИ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "nti1m",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! ЕДА! МОЯ ЕДА! НАКОНЕЦ-ТО!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "i3rka",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! НЯМ-НЯМ-НЯМ! Я ДУМАЛ, Я НИКОГДА НЕ ПОЕЛ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 111
+          }
+        ]
+      },
+      {
+        "key": "wenaz",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! КОРМ! МОЙ КОРМ! Я ГОЛОДЕН ДАВНО!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "p6yw0",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! ВКУСНО-ВКУСНО-ВКУСНО! ХВАТИТ ЖДАТЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 106
+          }
+        ]
+      },
+      {
+        "key": "02pb2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! СПАСИБО! ТЫ САНДВИЧ! ТЫ МОЙ СПАСИТЕЛЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 108
+          }
+        ]
+      },
+      {
+        "key": "rr6vf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! Я ЧУВСТВУЮ, КАК С ИЕДЕНЬЮ ВОЗРАЖДАЕТСЯ МОЯ ДУША!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 118
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 119
+          }
+        ]
+      },
+      {
+        "key": "udn6r",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! НАКО-НЕЦ! Я ПОЧТИ СЛУЖИТЕЛЬСКУЮ УСТРОИЛ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 110
+          }
+        ]
+      },
+      {
+        "key": "yjawv",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! НЯМ! АААА! О БОЖЕ, КАК ВКУСНО!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "c1z52",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! ХВАТИТ ЖДАТЬ! Я ДАВНО ГОЛОДЕН!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 100
+          }
+        ]
+      },
+      {
+        "key": "6t8s3",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! ЕДА! КОРМ! РЫБКА! ТЫ МОЙ ГЕРОЙ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "pxqqa",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! ДА ДА ДА! ЕДА ЕДА ЕДА!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 92
+          }
+        ]
+      },
+      {
+        "key": "rcuy9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! ТЫ СПАС МЕНЯ! СПАС МОЙ ЖИВОТ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 100
+          }
+        ]
+      },
+      {
+        "key": "r5tic",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! МОЯ ЖИЗНЬ СПАСЕНА! НЯМ-НЯМ-НЯМ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "ulhyf",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! ВКУУУУУУСНО!!! ХВАТИТ ЖДАТЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 99
+          }
+        ]
+      },
+      {
+        "key": "wj8yy",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мяу! НАКОНЕЦ-ТО!!! ДА ДА ДА!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 93
+          }
+        ]
+      },
+      {
+        "key": "s1gke",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"hungry\")]{(Голодный) Мррр! МОЯ МИСКА ПОНОВОМУ НАПЛАНИРОВАНА!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 104
+          }
+        ]
+      },
+      {
+        "key": "4nplj",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой... Еда... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      },
+      {
+        "key": "s2pw8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Ням... Ой... Приятно... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "d4aup",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Спасибо... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 88
+          }
+        ]
+      },
+      {
+        "key": "sq03t",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Хм... Еда... Приятно... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "cie27",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ням... Ах... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      },
+      {
+        "key": "de9lx",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Ой... Спасибо... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          }
+        ]
+      },
+      {
+        "key": "oarxr",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Спасибо... Приятно... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 99
+          }
+        ]
+      },
+      {
+        "key": "p2tpq",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Хм... Спасибо... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          }
+        ]
+      },
+      {
+        "key": "cbhm2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ням... Приятно... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "ineci",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Спасибо... Хм... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          }
+        ]
+      },
+      {
+        "key": "3qq3v",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой... Приятно... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 94
+          }
+        ]
+      },
+      {
+        "key": "hkvud",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Спасибо... Ням... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 89
+          }
+        ]
+      },
+      {
+        "key": "lv784",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Мурр... Приятно... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 88
+          }
+        ]
+      },
+      {
+        "key": "4aloy",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Спасибо... Мурр... Приятно... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "v0j80",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ням... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 84
+          }
+        ]
+      },
+      {
+        "key": "2wtjk",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Приятно... Спасибо... Мурр... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "i6id9",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Хм... Спасибо... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "lclgr",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Приятно... Мурр... Ням... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 97
+          }
+        ]
+      },
+      {
+        "key": "3y7ll",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) М-мяу... Ой... Спасибо... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          }
+        ]
+      },
+      {
+        "key": "oqc3h",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"sleepy\")]{(Сонный) Мур-мяу... Мурр... Приятно... Ням... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 97
+          }
+        ]
+      },
+      {
+        "key": "f6fdq",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! О да! Ням! А ТЕПЕРЬ — ИГРА! У МЕНЯ ВОЗНИКЛА МОЩЬ! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 121
+          }
+        ]
+      },
+      {
+        "key": "mruqo",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням-ням! Энергия прибывает! ИДЁМ ИГРАТЬ! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 109
+          }
+        ]
+      },
+      {
+        "key": "h7ylx",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! Вкуснотища! Давай бегать-прыгать-кусать! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 117
+          }
+        ]
+      },
+      {
+        "key": "nvkdo",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! ААА! ЕДА ДАЁТ ЭНЕРГИЮ! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 75
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          }
+        ]
+      },
+      {
+        "key": "e18xb",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням-ням! Ты покормил — это значит, я могу БЕГАТЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 122
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 123
+          }
+        ]
+      },
+      {
+        "key": "o2c8q",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! А ТЕПЕРЬ — ХВАТ! ХВАТ МОЕЙ СИЛЫ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 108
+          }
+        ]
+      },
+      {
+        "key": "h7ply",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! Давай, давай, давай! Я ГОТОВ К БИТВЕ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 115
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 116
+          }
+        ]
+      },
+      {
+        "key": "w94wl",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! НЯМ! ЕДА В СЕРДЦЕ! ЭНЕРГИЯ В КРОВИ! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 104
+          }
+        ]
+      },
+      {
+        "key": "n58ol",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням-ням! Ты — лучший повар-тренер! Давай бегать! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 120
+          }
+        ]
+      },
+      {
+        "key": "xxx1e",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! СИЛА ПРИБЫВАЕТ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 91
+          }
+        ]
+      },
+      {
+        "key": "y7m7z",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! АГРЕССИЯ... Э-Э-Э... ИГРА! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "7mo70",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! НЯМ-НЯМ! ТВОЯ МЫШЬ НЕ СПАСЁТ С СЕБЯ! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 105
+          }
+        ]
+      },
+      {
+        "key": "1vail",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! Охотничий инстинкт на максимум! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 108
+          }
+        ]
+      },
+      {
+        "key": "h69p1",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! ААААА! С ИЕДЕНЬЕМ ПРИШЛА МОЩЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 106
+          }
+        ]
+      },
+      {
+        "key": "hlwzi",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням-ням! Хват! Кусать бегать!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "i8h30",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! МОЩЬ! МОЩЬ! МОЩИТЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 94
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          }
+        ]
+      },
+      {
+        "key": "louj7",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! ДАВАМ ИГРАТЬ-БЕГАТЬ-КУСАТЬ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 106
+          }
+        ]
+      },
+      {
+        "key": "bqsf3",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! НЯМ-НЯМ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          }
+        ]
+      },
+      {
+        "key": "4s1fd",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мур-мяу! Ням! С ИЕДЕНЬЕМ — В БОРЬБУ!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 101
+          }
+        ]
+      },
+      {
+        "key": "lf2be",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"playful\")]{(Игривый) Мррр! Ням! Охотничий дух на максимум!!! [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "wa3yi",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ладно... Ням... Приятно. Но всё равно. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 111
+          }
+        ]
+      },
+      {
+        "key": "be895",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо... Ням... Ты это делаешь... Но не думай, что я забыл. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 134
+          }
+        ]
+      },
+      {
+        "key": "8u8fw",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Еда... Ням... Благодарю. Но я не прощаю. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 113
+          }
+        ]
+      },
+      {
+        "key": "4gtqi",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо... Приятно. Но не забудь, что ты сказал. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 120
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 121
+          }
+        ]
+      },
+      {
+        "key": "sf3no",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Хорошо. Но я обижен. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 100
+          }
+        ]
+      },
+      {
+        "key": "q3m04",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо за еду. Но я всё равно обиделся. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 113
+          }
+        ]
+      },
+      {
+        "key": "u7m02",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Приятно. Но ты это заслуженно. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 110
+          }
+        ]
+      },
+      {
+        "key": "a5ew2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо... Я ем... Но это не значит, что я простил. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 123
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 124
+          }
+        ]
+      },
+      {
+        "key": "wtsat",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням-ням... Приятно. Но ты всё равно виноват. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 117
+          }
+        ]
+      },
+      {
+        "key": "tbhc6",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо за еду. Но это не отменяет то, что ты сказал. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 105
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 125
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 126
+          }
+        ]
+      },
+      {
+        "key": "7ked5",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Благодарю за еду. Но помни, что ты сделал. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 122
+          }
+        ]
+      },
+      {
+        "key": "tyeza",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо. Приятно. Но я не забыл. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 105
+          }
+        ]
+      },
+      {
+        "key": "0m5j2",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Хорошо, хорошо... Но я не простил. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 93
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 113
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 114
+          }
+        ]
+      },
+      {
+        "key": "v6fgc",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо. Еда — это хорошо. Но ты — нет. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 111
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 112
+          }
+        ]
+      },
+      {
+        "key": "z5k6o",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Приятно. Но я не разделился с обидой. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 117
+          }
+        ]
+      },
+      {
+        "key": "rux0k",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо. Приятно. Но я остался. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 104
+          }
+        ]
+      },
+      {
+        "key": "yirxm",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Благодарю. Но всё равно обидно. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 111
+          }
+        ]
+      },
+      {
+        "key": "49sy0",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо за еду. Но это не решит... [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 106
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 107
+          }
+        ]
+      },
+      {
+        "key": "va0p8",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мяу... Ням... Приятно. Но я всё помню. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 104
+          }
+        ]
+      },
+      {
+        "key": "10hxg",
+        "data": {},
+        "text": ":lu: [if(%cat_mood=\"offended\")]{(Обиженный) Мрр... Спасибо. Ням. Но я не простил. [%cat_mood=\"content\"]}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 30
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 103
+          }
+        ]
+      },
+      {
+        "key": "5apcn",
+        "data": {},
+        "text": "* иди {кушать/есть} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 6
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      },
+      {
+        "key": "jqmh5",
+        "data": {},
+        "text": "* {вставай/иди} {кушать/есть} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 14
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          }
+        ]
+      },
+      {
+        "key": "qen6g",
+        "data": {},
+        "text": "* миска {полна/готова} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 21
+          }
+        ]
+      },
+      {
+        "key": "lvs84",
+        "data": {},
+        "text": "* корм {открыт/готов/насыпан} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-29T18:21:11.417093",
+  "updated": "2026-05-29T18:21:12.417094",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-29T18:21:12Z"
+    }
+  ]
+}

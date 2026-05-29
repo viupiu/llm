@@ -22,20 +22,21 @@ def parse_node_from_header(text: str) -> str:
 
 
 def parse_nodes_from_dl_responses(text: str) -> list[str]:
-    return [parse_node_from_header(h) for h in re.split(r"---\s*$", text, flags=re.M)
-            if parse_node_from_header(h)]
+    return [m.group(1).strip() for m in re.finditer(r"## Узел:\s*(.+)", text)]
 
 
 def parse_nodes_from_dl_rules(text: str) -> list[str]:
-    return [parse_node_from_header(h) for h in re.split(r"---\s*$", text, flags=re.M)
-            if parse_node_from_header(h)]
+    return [m.group(1).strip() for m in re.finditer(r"## Узел:\s*(.+)", text)]
 
 
 def parse_dictionaries_from_rules(text: str) -> dict[str, list[str]]:
     result: dict[str, list[str]] = {}
-    for m in re.finditer(r"## Словарь:\s*(\S+)\n((?!##).*?)^(?=\n##|\Z)", text, re.M | re.S):
-        name = m.group(1).strip()
-        entries = [l.strip() for l in m.group(2).strip().splitlines() if l.strip()]
+    positions = [(m.start(), m.group(1).strip()) for m in re.finditer(r"## Словарь:\s*(\S+)", text)]
+    for i, (pos, name) in enumerate(positions):
+        content_start = text.index('\n', pos) + 1
+        content_end = positions[i+1][0] if i+1 < len(positions) else len(text)
+        content = text[content_start:content_end].strip()
+        entries = [l.strip() for l in content.splitlines() if l.strip()]
         result[name] = entries
     return result
 

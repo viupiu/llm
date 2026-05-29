@@ -15,8 +15,11 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
 
 from archive_core import (
     DEFAULT_CREATOR,
@@ -31,110 +34,7 @@ from archive_core import (
 RE_DICT_NAME = re.compile(r"^[a-z][a-z0-9_]*$")
 RE_SKILL_NAME = re.compile(r"### Skill:\s*(.+)")
 RE_DICT_HEADER = re.compile(r"^##\s*Словарь:\s*([a-z][a-z0-9_]*)\s*$")
-
-ROOT = Path(__file__).resolve().parents[1]
-
-
-def clean_name(name: str) -> str:
-    """Убирает ВСЕ обратные кавычки и пробелы из имён узлов/скиллов."""
-    return name.strip().replace("\u0060", "").strip()
-
-
-def parse_skills_from_map(map_md_path: Path | None) -> list[str]:
-    """Парсит названия навыков из файла архитектурной карты (### Skill: <name>). Дедупликация: dict.fromkeys сохраняет порядок."""
-    if map_md_path is None or not map_md_path.exists():
-        return []
-    text = map_md_path.read_text(encoding="utf-8")
-    return list(dict.fromkeys(clean_name(m.group(1)) for m in RE_SKILL_NAME.finditer(text)))
-
-
-RE_TABLE_NODE = re.compile(r"\|\s*\S+\s*\|\s*`([^`]+)`")
-
-
-def parse_skill_to_nodes_map(map_md_path: Path | None) -> dict[str, list[str]]:
-    """
-    Парсит из архитектурной карты какие узлы принадлежат какому скиллу.
-    Поддерживает два формата:
-      1. Table rows: `| G1 | `node_name` | TYPE | ...` (наиболее распространённый)
-      2. Header nodes: `#### Узел: `Bot_Start`` (legacy)
-    Возвращает {skill_name: [node_name, ...]}
-    """
-    if map_md_path is None or not map_md_path.exists():
-        return {}
-    text = map_md_path.read_text(encoding="utf-8")
-    skill_to_nodes: dict[str, list[str]] = {}
-    current_skill = None
-    known_skills: set[str] = set()
-    # Collect ownership overrides from "(пусто — узел N `Name` ... принадлежит `SKILL`)"
-    ownership_overrides: list[tuple[str, str]] = []  # (node_name, owner_skill)
-    # First pass: collect known skill names from "### Skill: NAME" headers
-    for m in RE_SKILL_NAME.finditer(text):
-        known_skills.add(clean_name(m.group(1)))
-    # Second pass: map nodes to skills
-    in_tree_section = False
-    for line in text.splitlines():
-        s = line.strip()
-        # Detect "## 2. Дерево узлов" (or similar section header with number)
-        if re.match(r"^#+\s*\d+\.\s*", s) and "дерево" in s.lower():
-            in_tree_section = True
-            continue
-        # Section header ### NAME — if NAME is a known skill, it sets current_skill
-        m_section = re.match(r"^#{3}\s+(.+)$", s)
-        if m_section and in_tree_section:
-            section_name = clean_name(m_section.group(1))
-            if section_name in known_skills:
-                current_skill = section_name
-                if current_skill not in skill_to_nodes:
-                    skill_to_nodes[current_skill] = []
-                continue
-        if not current_skill:
-            continue
-        # Check for "(пусто — узел N `Name` описан в таблице ... принадлеж(ит|ит навыку) `SKILL`)"
-        if s.startswith("(пусто"):
-            пусто_m = re.search(r"[`\u0060]([^`\u0060]+)[`\u0060]", s)
-            if пусто_m:
-                node_name = clean_name(пусто_m.group(1))
-                ownership_overrides.append((node_name, current_skill))
-                if node_name not in skill_to_nodes.get(current_skill, []):
-                    skill_to_nodes.setdefault(current_skill, []).append(node_name)
-            continue
-        # 1) Table rows: any `|` row in the nodes table
-        if s.startswith("|"):
-            cells = [c.strip() for c in s.split("|") if c.strip()]
-            if len(cells) >= 2:
-                second_cell = clean_name(cells[1])
-                # Skip separator row (---)
-                if re.match(r"^[-:]+$", second_cell):
-                    continue
-                # Skip header row
-                if "название" in second_cell.lower() or "name" in second_cell.lower():
-                    continue
-                if second_cell and second_cell not in skill_to_nodes.get(current_skill, []):
-                    skill_to_nodes.setdefault(current_skill, []).append(second_cell)
-            continue
-        # 2) Legacy header format: `#### Узел: `name``
-        m_node = re.match(r"#{4,5}\s*Узел:\s*(.+)", s)
-        if m_node:
-            node_name = clean_name(m_node.group(1))
-            skill_to_nodes.setdefault(current_skill, []).append(node_name)
-    # Post-process: ownership overrides move nodes FROM table-parsed skills TO the designated owner
-    for node_name, owner_skill in ownership_overrides:
-        for other_skill, other_nodes in list(skill_to_nodes.items()):
-            if other_skill != owner_skill and node_name in other_nodes:
-                other_nodes.remove(node_name)
-    return skill_to_nodes
-
-
-def _dict_line_to_block(text: str) -> dict:
-    return {
-        "key": "x",
-        "data": {},
-        "text": text,
-        "type": "unstyled",
-        "depth": 0,
-        "entityRanges": [],
-        "inlineStyleRanges": [],
-    }
+RE_INCLUDE_REF = re.compile(r"--include\((\w[\w_]*)\s*\)")
 
 
 def parse_dictionaries_from_md(md_text: str) -> list[dict]:
@@ -234,6 +134,19 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
             })
             continue
         i += 1
+
+    # Валидация --include: все referenced словари должны существовать
+    all_includes = set()
+    for line in lines:
+        for m in RE_INCLUDE_REF.finditer(line):
+            all_includes.add(m.group(1))
+    missing = all_includes - seen
+    if missing:
+        print(
+            f"WARNING: --include references not found as defined dictionaries: {sorted(missing)}",
+            file=sys.stderr,
+        )
+
     return dictionaries
 
 
@@ -368,6 +281,24 @@ def main() -> int:
     # Dictionaries
     if args.dict_md:
         md_path = args.dict_md if args.dict_md.is_absolute() else ROOT / args.dict_md
+
+        # --- Dictionary Validator (предварительная проверка) ---
+        validator_script = ROOT / "scripts" / "dictionary_validator.py"
+        if validator_script.exists():
+            catalog_path = ROOT / "docs" / "reference" / "COMMON_DICTIONARIES.md"
+            ref_dir = ROOT / "docs" / "reference" / "dictionaries"
+            proc = subprocess.run(
+                [sys.executable, str(validator_script),
+                 "--rules", str(md_path),
+                 "--ref-dir", str(ref_dir),
+                 "--catalog", str(catalog_path)],
+                capture_output=False
+            )
+            if proc.returncode != 0:
+                print("\nBuild aborted: Dictionary Validator failed.", file=sys.stderr)
+                return 1
+        # --------------------------------------------------------
+
         dicts = parse_dictionaries_from_md(md_path.read_text(encoding="utf-8"))
         for d in dicts:
             d = normalize_entity_export_fields(d, "Dictionary", creator=creator, created=now)
