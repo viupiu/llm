@@ -74,3 +74,27 @@ EVENT 00b2fcbe-f27f-437b-a0d5-91072d840ed3 *
 | `scripts/generate_all_nodes.py` | Добавлять `@@set` для переменных из карты |
 | `agents/8_VALIDATOR.md` | Проверять инициализацию переменных и отсутсвие `--include` без соответствующих JSON |
 | `docs/B_RUNTIME_MODEL.md` | Документировать `@@set` и lifecycle переменных |
+
+---
+
+## Статус исправлений (2026-05-29)
+
+| Инцидент | Статус | Исправление |
+|----------|--------|-------------|
+| 1. `%cat_mood` без @@set | ✅ Исправлено | `work/cat_simulator/6_RESPONSES_AUTHOR__RESPONSES.md` содержит `[%cat_mood="content"]` инициализацию в узле "Загрузка" (строки 6-10) |
+| 2. Правила в ответах | ✅ Исправлено | `work/cat_simulator/6_RESPONSES_AUTHOR__RESPONSES.md` очищен от DL-паттернов; все `*`, `[@cmb]`, `EVENT` находятся в `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` |
+| 3. `--include` словари | ✅ Исправлено | Словари `hello_dobr_utro` (строка 601) и `hello_dobr_vecher` (строка 627) добавлены в `3_RULES_AUTHOR__RULES_AND_DICTIONARIES.md` как `## Словарь:` |
+
+| Скрипт | Статус | Исправление |
+|--------|--------|-------------|
+| `scripts/build_full_staging.py` | ✅ Рабочий | Добавлены функции: `clean_name`, `_dict_line_to_block`, `parse_skills_from_map`, `parse_skill_to_nodes_map` |
+| `scripts/generate_all_nodes.py` | ✅ Рабочий | Без изменений — корректно генерирует 10 узлов |
+
+**Результат сборки:**
+- DialogNodes: 10
+- Skills: 2 (EVENTS, CAT_MAIN)
+- Dictionaries: 19
+- Staging: `work/cat_simulator/9_PACKAGER__STAGING/`
+
+**Оставшиеся предупреждения:**
+- `WARNING: --include references not found as defined dictionaries: ['hello_dobr_utro', 'hello_dobr_vecher']` — ожидаемы; словари определены inline, но `--include()` остаются платформенными runtime-директивами

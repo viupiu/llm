@@ -150,6 +150,93 @@ def parse_dictionaries_from_md(md_text: str) -> list[dict]:
     return dictionaries
 
 
+def clean_name(name: str) -> str:
+    """Убирает обратные кавычки и пробелы из имён узлов/скиллов."""
+    return name.strip().strip("`").strip()
+
+
+def _dict_line_to_block(text: str) -> dict:
+    return {
+        "key": "x",
+        "data": {},
+        "text": text,
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [],
+    }
+
+
+RE_SKILL_HEADER = re.compile(r"^### Skill:\s*(.+?)(?:\s*\(|$)")
+RE_NODE_TABLE_ROW = re.compile(r"^\|\s*(.+?)\s*\|")
+
+
+def parse_skills_from_map(map_md: Path | None) -> list[str]:
+    """Извлекает уникальные имена навыков из 1_ARCHITECTURE__MAP.md.
+
+    Формат: ### Skill: NAME ...
+    Игнорирует "(объявлен выше, повтор запрещён)".
+    """
+    if not map_md or not map_md.exists():
+        return []
+    text = map_md.read_text(encoding="utf-8")
+    seen = []
+    seen_set = set()
+    for m in RE_SKILL_HEADER.finditer(text):
+        name = clean_name(m.group(1))
+        if name and name.lower() != "объявлен выше, повтор запрещён" and name not in seen_set:
+            seen.append(name)
+            seen_set.add(name)
+    return seen
+
+
+def parse_skill_to_nodes_map(map_md: Path | None) -> dict[str, list[str]]:
+    """Возвращает {skill_name: [node_names]} из архитектурной карты.
+
+    Парсит таблицы узлов внутри каждого "### Skill: NAME" блока.
+    Первый столбец таблицы — имя узла.
+    """
+    if not map_md or not map_md.exists():
+        return {}
+    text = map_md.read_text(encoding="utf-8")
+    result: dict[str, list[str]] = {}
+    lines = text.splitlines()
+    current_skill = None
+    in_table = False
+    for line in lines:
+        stripped = line.strip()
+        # Начало блока скилла
+        m = RE_SKILL_HEADER.match(stripped)
+        if m:
+            name = clean_name(m.group(1))
+            if name:
+                current_skill = name
+                if current_skill not in result:
+                    result[current_skill] = []
+            in_table = False
+            continue
+        # Заголовки других секций обнуляют текущий скилл (но не ###)
+        if re.match(r"^(?:## |# )", stripped) and not stripped.startswith("###"):
+            current_skill = None
+            in_table = False
+            continue
+        # Строки таблицы: | node_name | ...
+        if current_skill and RE_NODE_TABLE_ROW.match(stripped):
+            in_table = True
+            parts = stripped.split("|")
+            if len(parts) >= 2:
+                node_name = clean_name(parts[1])
+                # Пропускаем заголовочные строки таблицы (Узел, Тип, и т.д.)
+                if node_name and node_name.lower() not in ("узел", "type", "тип", "purpose", "навык", "назначение") and node_name not in ("Тип", "Purpose", "Переходы", "Якорь", "Грань"):
+                    if node_name not in result[current_skill]:
+                        result[current_skill].append(node_name)
+            continue
+        # Пустая строка завершает таблицу
+        if not stripped and in_table:
+            in_table = False
+    return result
+
+
 def write_entity(out_dir: Path, entity_dir: str, obj: dict) -> None:
     folder = out_dir / entity_dir
     folder.mkdir(parents=True, exist_ok=True)
