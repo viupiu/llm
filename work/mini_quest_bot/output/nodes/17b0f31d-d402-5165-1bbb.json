@@ -1,0 +1,647 @@
+{
+  "id": "17b0f31d-d402-5165-1bbb",
+  "name": "Как вы преодолеете подземную реку? - Найти мост",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Как вы преодолеете подземную реку?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "d1y5x",
+        "data": {},
+        "text": "* [dict(keywords_bridge)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          }
+        ]
+      },
+      {
+        "key": "pa5lg",
+        "data": {},
+        "text": "* [@cmb({{мост~/переправ~/найд~/обойд~}}, {{вод~/шум~/река~/журч~/рев~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 73
+          }
+        ]
+      },
+      {
+        "key": "4sblh",
+        "data": {},
+        "text": "* [@cmb({{мост~/переправ~/найд~/обойд~}}, {{поиск~/найдём~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      },
+      {
+        "key": "hqnen",
+        "data": {},
+        "text": "* [@cmb({{мост~/переправ~/найд~/обойд~}}, {{не хочу прыгать/безопасн~/вслепую/~безопасн~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 88
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 89
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 90
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 91
+          }
+        ]
+      },
+      {
+        "key": "0nqo9",
+        "data": {},
+        "text": "* [@cmb({{вдоль/реки/по реке}}, {{переправ~/путь~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 50
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 51
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 52
+          }
+        ]
+      },
+      {
+        "key": "gliw2",
+        "data": {},
+        "text": "* [@cmb({{не прыгать/не хочу прыгать}}, {мост/поиск~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 52
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "ynda0",
+        "data": {},
+        "text": "Поищу мост",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "csq77",
+        "data": {},
+        "text": "Мост где-то рядом должен быть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6j13q",
+        "data": {},
+        "text": "Обойдём реку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wjpdz",
+        "data": {},
+        "text": "Давай найдём мост",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1a166",
+        "data": {},
+        "text": "Поищу дорогу через реку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "iqz1q",
+        "data": {},
+        "text": "Пойдём вдоль реки, пока не найдём способ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dno29",
+        "data": {},
+        "text": "Не хочу прыгать, поищем безопасный путь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ims1c",
+        "data": {},
+        "text": "Поищу другой путь через реку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dfpqr",
+        "data": {},
+        "text": "Мост должен где-то быть рядом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mv5q3",
+        "data": {},
+        "text": "Поищем мостик",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p1xdr",
+        "data": {},
+        "text": "Вдоль реки, может найдём переправу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "duuin",
+        "data": {},
+        "text": "А нет ли моста?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8lkf7",
+        "data": {},
+        "text": "Найду дорогу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l0l38",
+        "data": {},
+        "text": "Реку можно обойти, поищу как",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "f2ehm",
+        "data": {},
+        "text": "Не прыгать, а искать мост",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "24jg0",
+        "data": {},
+        "text": "Лучше искать путь, чем прыгать вслепую",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "au9qf",
+        "data": {},
+        "text": ":lu: Вы пробираетесь вдоль берега. Спустя время замечаете старый каменный мост, скрытый тенью. На середине моста, в ямке в камне, лежит посох с тускло светящимся наконечником. [%has_staff=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 176
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 196
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 202
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 242
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 243
+          }
+        ]
+      },
+      {
+        "key": "5lrur",
+        "data": {},
+        "text": ":lu: Вы идёте вдоль реки, присматриваясь к берегам. Впереди — разрушенный мост. На нём вы находите магический посох. [%has_staff=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 117
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 135
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 137
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 183
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 184
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:45:35.822748",
+  "updated": "2026-05-30T01:45:36.822749",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:45:36Z"
+    }
+  ]
+}

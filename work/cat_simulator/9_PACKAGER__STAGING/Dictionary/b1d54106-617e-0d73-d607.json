@@ -1,0 +1,261 @@
+{
+  "id": "b1d54106-617e-0d73-d607",
+  "name": "hello_dobr_utro",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "fjg7b",
+        "data": {},
+        "text": "доброе утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5tugt",
+        "data": {},
+        "text": "=>длбр~ утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "trr3r",
+        "data": {},
+        "text": "=>длбр~ цтр~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3660m",
+        "data": {},
+        "text": "=>добр~ утр~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x1pky",
+        "data": {},
+        "text": "=>добр~ цтр~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "krw0h",
+        "data": {},
+        "text": "=>добр~ тро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nvgao",
+        "data": {},
+        "text": "=>доб утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g7pmr",
+        "data": {},
+        "text": "=>бодр~ {утро/утра}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 18
+          }
+        ]
+      },
+      {
+        "key": "fy4n1",
+        "data": {},
+        "text": "=>утро добро~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qcayy",
+        "data": {},
+        "text": "=>д.утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m3l9r",
+        "data": {},
+        "text": "=>добое утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ke097",
+        "data": {},
+        "text": "=>доброго утречка",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "finae",
+        "data": {},
+        "text": "=>доброе утречко",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pvhwa",
+        "data": {},
+        "text": "=>с добрым утречком",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "orlym",
+        "data": {},
+        "text": "=>с добрым утром",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1x3n6",
+        "data": {},
+        "text": "=>доброй утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u03fp",
+        "data": {},
+        "text": "=>доброе утрпо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "q2j8x",
+        "data": {},
+        "text": "=>Доброеутро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mxlo3",
+        "data": {},
+        "text": "=>dobri utra",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "auu8b",
+        "data": {},
+        "text": "=>Доброе уиро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oz386",
+        "data": {},
+        "text": "=>доброе ткро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rc78s",
+        "data": {},
+        "text": "=>доьрое утро",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u2sie",
+        "data": {},
+        "text": "гутен морген",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "72qqz",
+        "data": {},
+        "text": "=>{гутенморген/гуд монин~/гудмонин~}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T01:31:57.147807",
+  "updated": "2026-05-30T01:31:58.147808",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:31:58Z"
+    }
+  ]
+}

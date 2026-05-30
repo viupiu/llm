@@ -1,0 +1,647 @@
+{
+  "id": "105ea786-fa4d-6ff4-0d6a",
+  "name": "Куда вы пойдёте от развилки? - Осмотреться",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Куда вы пойдёте от развилки?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "210yw",
+        "data": {},
+        "text": "* [dict(keywords_look)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "irwzy",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {{по сторонам/вкруг/на месте}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 85
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          }
+        ]
+      },
+      {
+        "key": "23sot",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {{здесь/тут/на месте/рядом/вокруг/окрестн~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 100
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 101
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 102
+          }
+        ]
+      },
+      {
+        "key": "kkk2j",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {{сначала/сперва/останов~/подожд~/пожал~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 98
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 99
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 100
+          }
+        ]
+      },
+      {
+        "key": "s87ko",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {{убедит~/пропустил~/спрятан~/есть тут}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 95
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 96
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 97
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 98
+          }
+        ]
+      },
+      {
+        "key": "lhpgz",
+        "data": {},
+        "text": "* [@cmb({{остал~/на место~/не спешу/не пойду}}, {осмотр~/огляд~/поиск~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 70
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 72
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "101gz",
+        "data": {},
+        "text": "Оглядеться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1nqdj",
+        "data": {},
+        "text": "Осмотрю развилку внимательнее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hj5wy",
+        "data": {},
+        "text": "Посмотрю вокруг сперва",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p2ppf",
+        "data": {},
+        "text": "Стой, сначала осмотрю окрестности",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lzmav",
+        "data": {},
+        "text": "Остановлюсь и поищу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "265re",
+        "data": {},
+        "text": "Погоди, хочу осмотреться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "uwxn7",
+        "data": {},
+        "text": "Давай оглядимся, вдруг что-то упустим",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oefv0",
+        "data": {},
+        "text": "Не спешу идти в коридор, лучше осмотрюсь по сторонам",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j1f6c",
+        "data": {},
+        "text": "Остановлюсь и поищу вокруг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "c0qaz",
+        "data": {},
+        "text": "Подожди-ка, давай посмотрим вокруг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "eo96w",
+        "data": {},
+        "text": "Стой, нету ли чего-то рядом?",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ola8a",
+        "data": {},
+        "text": "Я бы хотел остаться на месте и поискать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8mfrf",
+        "data": {},
+        "text": "Тут наверняка что-то есть, давай поищем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "t2bhy",
+        "data": {},
+        "text": "Погоди, оглянусь сначала",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p4gtu",
+        "data": {},
+        "text": "Пока никуда не пойду, хочу осмотреться",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kxw0q",
+        "data": {},
+        "text": "Давай не торопимся — сначала посмотрим, что вокруг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "1uw6x",
+        "data": {},
+        "text": ":lu: Вы решаете не спешить и присматриваетесь к развилке. Нащупываете за стеной небольшой тайник — в нём старый ключ на кожаном шнурке. [%has_key=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 200
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 201
+          }
+        ]
+      },
+      {
+        "key": "db1oo",
+        "data": {},
+        "text": ":lu: Вы останавливаетесь и внимательно оглядываете стены. За трещиной нащупываете потайную нишу со старинным ключом внутри. [%has_key=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 124
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 142
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 148
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 188
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 189
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:58:49.075785",
+  "updated": "2026-05-30T01:58:50.075786",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:58:50Z"
+    }
+  ]
+}

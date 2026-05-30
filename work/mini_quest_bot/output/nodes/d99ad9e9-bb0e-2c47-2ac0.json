@@ -1,0 +1,596 @@
+{
+  "id": "d99ad9e9-bb0e-2c47-2ac0",
+  "name": "Куда вы пойдёте от развилки? - Влево",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Куда вы пойдёте от развилки?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "lpe6z",
+        "data": {},
+        "text": "* [dict(keywords_left)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "rfeis",
+        "data": {},
+        "text": "* [@cmb({лев~}, {камн~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 13
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 23
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 24
+          }
+        ]
+      },
+      {
+        "key": "u4ob4",
+        "data": {},
+        "text": "* [@cmb({лев~}, {коридор~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 13
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 25
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 26
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 27
+          }
+        ]
+      },
+      {
+        "key": "c8hqy",
+        "data": {},
+        "text": "* [@cmb({лев~}, {{путь/направление/сторона/ветка}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 13
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 48
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 49
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 50
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 51
+          }
+        ]
+      },
+      {
+        "key": "o9s5j",
+        "data": {},
+        "text": "* [@cmb({лев~}, {коридор~/сторона~}, {{интересн~/страшн~/нестоян~/нужн~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 13
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 71
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 72
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 73
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 74
+          }
+        ]
+      },
+      {
+        "key": "js9by",
+        "data": {},
+        "text": "* [@cmb({{влево/налево/слева/левее}}, {{интересн~/страшн~/нестоян~/нужн~/камен~}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 35
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 82
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "c3rps",
+        "data": {},
+        "text": "Влево",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "qh24x",
+        "data": {},
+        "text": "Налево",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zkoux",
+        "data": {},
+        "text": "В левый коридор",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "w1nmq",
+        "data": {},
+        "text": "Слева",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "729o3",
+        "data": {},
+        "text": "Левее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "g14ty",
+        "data": {},
+        "text": "Пойдём тем, что каменистый",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "jqwy4",
+        "data": {},
+        "text": "Каменистый коридор, пошёл",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bhq1x",
+        "data": {},
+        "text": "Слева. Всё.",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "j4ozk",
+        "data": {},
+        "text": "Коридор с камнями — туда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5dafp",
+        "data": {},
+        "text": "Пойду налево, пусть уж",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bzdhw",
+        "data": {},
+        "text": "Камни? Ладно, влево пошёл",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "68p2d",
+        "data": {},
+        "text": "Левая сторона — мой выбор",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "cxl71",
+        "data": {},
+        "text": "А в ту сторону, где камни лежат",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5feof",
+        "data": {},
+        "text": "Давай в левый коридор, там наверняка что-то спрятано",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2njlx",
+        "data": {},
+        "text": "Влево пошёл, решено",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dapcx",
+        "data": {},
+        "text": "Слева выглядит страшнее, но я туда",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "azq7l",
+        "data": {},
+        "text": "Слева коридор, бери его",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "9g8iu",
+        "data": {},
+        "text": ":lu: Вы выбираете левый коридор. Каменистый путь тянется вперёд, стены постепенно сужаются. Спустя несколько шагов перед вами массивная закрытая дверь. [@goto(\"Что вы сделаете с мёртвой дверью?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 152
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 195
+          }
+        ]
+      },
+      {
+        "key": "vpkwb",
+        "data": {},
+        "text": ":lu: Вы уходите налево. Коридор каменистый, стены давят со всех сторон. Через несколько минут путь запирают тяжёлые двери. [@goto(\"Что вы сделаете с мёртвой дверью?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 123
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 129
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 166
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T02:14:52.996810",
+  "updated": "2026-05-30T02:14:53.996811",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:14:53Z"
+    }
+  ]
+}

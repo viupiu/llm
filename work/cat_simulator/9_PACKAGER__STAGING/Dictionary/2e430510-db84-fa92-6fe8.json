@@ -1,0 +1,149 @@
+{
+  "id": "2e430510-db84-fa92-6fe8",
+  "name": "hello_helloenglish",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "y7mis",
+        "data": {},
+        "text": "хай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6l0cp",
+        "data": {},
+        "text": "=>хай!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ihg0z",
+        "data": {},
+        "text": "=>Хаай",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dcqys",
+        "data": {},
+        "text": "=>Хаай11!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "htts7",
+        "data": {},
+        "text": "хэллоу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vyc5w",
+        "data": {},
+        "text": "=>хело",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "nn500",
+        "data": {},
+        "text": "=>хеллоу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "pm5sa",
+        "data": {},
+        "text": "=>хэло",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "mlak1",
+        "data": {},
+        "text": "=>хелло",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "l92jy",
+        "data": {},
+        "text": "=>хэлло",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "yrkn1",
+        "data": {},
+        "text": "=>хэлоу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wuqwx",
+        "data": {},
+        "text": "=>хелоу",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9kqgu",
+        "data": {},
+        "text": "=>Руддщ~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ejyo1",
+        "data": {},
+        "text": "=>халло",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T01:31:57.151794",
+  "updated": "2026-05-30T01:31:58.151795",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:31:58Z"
+    }
+  ]
+}

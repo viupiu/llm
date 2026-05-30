@@ -168,7 +168,7 @@ def _dict_line_to_block(text: str) -> dict:
     }
 
 
-RE_SKILL_HEADER = re.compile(r"^### Skill:\s*(.+?)(?:\s*\(|$)")
+RE_SKILL_HEADER = re.compile(r"^### Skill:\s*(.+?)(?:\s*\(|$)", re.MULTILINE)
 RE_NODE_TABLE_ROW = re.compile(r"^\|\s*(.+?)\s*\|")
 
 
@@ -278,9 +278,13 @@ def main() -> int:
     branch_id = new_full_id()
 
     # Парсим навыки из архитектурной карты
+    # Парсим навыки из архитектурной карты
     skill_names = parse_skills_from_map(args.map_md)
+    # Всегда создаём как минимум один скилл
     if not skill_names:
-        print("WARNING: No skills found in map file, nodes will have skill_id=None", file=sys.stderr)
+        auto_skill_name = args.assistant_name
+        skill_names = [auto_skill_name]
+        print(f"INFO: No skills from map, created default skill '{auto_skill_name}'", file=sys.stderr)
 
     # Парсим привязку узлов к скиллам
     skill_to_nodes = parse_skill_to_nodes_map(args.map_md)
@@ -296,8 +300,8 @@ def main() -> int:
         skill = {
             "id": sid,
             "name": skill_name,
-            "is_common": False,
-            "is_active": True,
+            "description": "",
+            "is_starter": False,
             "meta": {},
             "created": now,
             "updated": None,
@@ -344,10 +348,16 @@ def main() -> int:
 
     # DialogNodes
     node_count = 0
+    seen_names = set()
     for np in sorted(nodes_dir.glob("*.json")):
         node = json.loads(np.read_text(encoding="utf-8"))
         node_name = clean_name(node.get("name", ""))
         node["name"] = node_name
+
+        if node_name in seen_names:
+            print(f"  SKIPPED duplicate: {np.name} (name={node_name})", file=sys.stderr)
+            continue
+        seen_names.add(node_name)
 
         # Присваиваем skill_id по маппингу из架构图
         target_skill = node_to_skill.get(node_name)
@@ -392,6 +402,67 @@ def main() -> int:
             d = normalize_entity_export_fields(d, "Dictionary", creator=creator, created=now)
             write_entity(out_dir, "Dictionary", d)
             print(f"  Dictionary: {d['id']} ({d['name']})")
+
+    # --- Auto-declare variables used in nodes ---
+    RE_VAR_REF = re.compile(r"%([\w_]+)")
+    # Known system variables that don't need declaration
+    SYS_VARS = {"context", "sys", "date", "time", "now", "input", "text", "payload",
+                "user", "session", "request", "response", "counter", "random",
+                "anchor", "lastinput", "that", "topic", "lang", "channel"}
+
+    # Scan all DialogNodes for %variable references
+    all_used_vars: set[str] = set()
+    dn_dir = out_dir / "DialogNode"
+    if dn_dir.exists():
+        for np in dn_dir.glob("*.json"):
+            blob = np.read_text(encoding="utf-8")
+            for m in RE_VAR_REF.finditer(blob):
+                vn = m.group(1).lower()
+                if vn not in SYS_VARS:
+                    all_used_vars.add(m.group(1))
+
+    # Check which already have Variable entities
+    var_dir = out_dir / "Variable"
+    existing_vars: set[str] = set()
+    if var_dir.exists():
+        for vp in var_dir.glob("*.json"):
+            v = json.loads(vp.read_text(encoding="utf-8"))
+            existing_vars.add(v.get("name", "").lower())
+
+    undeclared = {vn for vn in all_used_vars if vn.lower() not in existing_vars}
+    var_descriptions = {
+        "cat_mood": "Настроение кота",
+        "that_anchor": "Якорь для задавателя вопроса",
+        "user_type": "Тип пользователя: физ/юр",
+    }
+
+    for vn in sorted(undeclared):
+        vid = new_short_id()
+        vdesc = var_descriptions.get(vn, f"Переменная: {vn}")
+        var_obj = {
+            "id": vid,
+            "name": vn,
+            "description": vdesc,
+            "type": "user",
+            "value": "",
+            "life_cycle": "0",
+            "extra": {
+                "api": True,
+                "scope": "session",
+                "secret": False,
+            },
+            "is_editable": None,
+            "created": now,
+            "updated": None,
+            "creator": creator,
+            "editors": [],
+        }
+        var_obj = normalize_entity_export_fields(var_obj, "Variable", creator=creator, created=now)
+        write_entity(out_dir, "Variable", var_obj)
+        print(f"  Variable: {vid} ({vn})")
+
+    if undeclared:
+        print(f"  Auto-declared {len(undeclared)} variable(s): {sorted(undeclared)}")
 
     # Manifest
     manifest = {

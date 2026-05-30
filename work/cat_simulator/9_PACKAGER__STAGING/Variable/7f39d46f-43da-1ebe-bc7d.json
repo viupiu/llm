@@ -1,0 +1,18 @@
+{
+  "id": "7f39d46f-43da-1ebe-bc7d",
+  "name": "cat_mood",
+  "description": "Настроение кота",
+  "type": "user",
+  "value": "",
+  "life_cycle": "0",
+  "extra": {
+    "api": true,
+    "scope": "session",
+    "secret": false
+  },
+  "is_editable": null,
+  "created": "2026-05-30T01:31:56.892101",
+  "updated": null,
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": []
+}

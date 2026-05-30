@@ -1,0 +1,104 @@
+{
+  "id": "571f6b6d-a330-ca1c-3665",
+  "name": "keywords_bridge",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "tbfwl",
+        "data": {},
+        "text": "мост",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "prl2j",
+        "data": {},
+        "text": "=>мост~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ifs72",
+        "data": {},
+        "text": "=>обойд",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vn7iu",
+        "data": {},
+        "text": "=>переправ~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0iwlc",
+        "data": {},
+        "text": "=>путь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "unkq7",
+        "data": {},
+        "text": "=>дорог~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bu0zn",
+        "data": {},
+        "text": "=>вдоль",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vnb3r",
+        "data": {},
+        "text": "=>найд~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "0bp7y",
+        "data": {},
+        "text": "=>найдём~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T02:11:33.169491",
+  "updated": "2026-05-30T02:11:34.169492",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:11:34Z"
+    }
+  ]
+}

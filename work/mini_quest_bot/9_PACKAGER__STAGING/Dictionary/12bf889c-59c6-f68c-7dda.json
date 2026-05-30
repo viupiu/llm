@@ -1,0 +1,104 @@
+{
+  "id": "12bf889c-59c6-f68c-7dda",
+  "name": "keywords_jump",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "w4hv0",
+        "data": {},
+        "text": "перепрыгнуть",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "fx1jv",
+        "data": {},
+        "text": "=>перепрыгну",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "p38o8",
+        "data": {},
+        "text": "=>прыгн~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tuu0k",
+        "data": {},
+        "text": "=>перескоч~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "u5my1",
+        "data": {},
+        "text": "=>перелет~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "zmjsf",
+        "data": {},
+        "text": "=>прыжок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a3ql1",
+        "data": {},
+        "text": "=>прыг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "srv4z",
+        "data": {},
+        "text": "=>прыж",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2tol9",
+        "data": {},
+        "text": "=>перескоч",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T02:11:33.169491",
+  "updated": "2026-05-30T02:11:34.169492",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:11:34Z"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ec95d693-01ce-7ac7-cdd2",
+  "name": "keywords_skip",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "c4t7v",
+        "data": {},
+        "text": "пропуск",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "b1djs",
+        "data": {},
+        "text": "=>пропусти~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "079gp",
+        "data": {},
+        "text": "=>игнори",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "dzte9",
+        "data": {},
+        "text": "=>обойд",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8khws",
+        "data": {},
+        "text": "=>мимо",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "65f0p",
+        "data": {},
+        "text": "=>оставим~",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T02:11:33.170489",
+  "updated": "2026-05-30T02:11:34.170490",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:11:34Z"
+    }
+  ]
+}

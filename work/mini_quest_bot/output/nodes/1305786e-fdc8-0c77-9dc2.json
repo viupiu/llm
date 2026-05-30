@@ -1,0 +1,91 @@
+{
+  "id": "1305786e-fdc8-0c77-9dc2",
+  "name": "Падение в воду",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "yumby",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "o6mc2",
+        "data": {},
+        "text": "Вы сваливаетесь в ледяную воду. Холод пронизывает до костей. Выплёвываете грязную жидкость, вытаскиваетесь на мокрый берег. Река всё так же преграждает путь. [@goto(\"Как вы преодолеете подземную реку?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 158
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 201
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 202
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:45:35.822748",
+  "updated": "2026-05-30T01:45:36.822749",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:45:36Z"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "id": "644585d9-a493-4176-d021",
+  "name": "Что вы сделаете с мёртвой дверью? - Осмотреть",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы сделаете с мёртвой дверью?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "v6i2p",
+        "data": {},
+        "text": "* [dict(keywords_look)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "jhmn4",
+        "data": {},
+        "text": "* [dict(keywords_door)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          }
+        ]
+      },
+      {
+        "key": "yqgk0",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {двер~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          }
+        ]
+      },
+      {
+        "key": "swp1k",
+        "data": {},
+        "text": "* [@cmb({{осмотр~/огляд~/поиск~/исслед~/провер~/изуч~}}, {[dict(keywords_door)]})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 57
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 58
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 78
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 81
+          }
+        ]
+      },
+      {
+        "key": "rpn2r",
+        "data": {},
+        "text": "* [@cmb({{разбер~/изуч~/провер~/поищу}}, {двер~/механизм~/замок})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 63
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 64
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 65
+          }
+        ]
+      },
+      {
+        "key": "m115z",
+        "data": {},
+        "text": "* [@cmb({{не буду ломать/не хочу ломать}}, {осмотр~/разбер~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 43
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 59
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 60
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 61
+          }
+        ]
+      },
+      {
+        "key": "e9nk7",
+        "data": {},
+        "text": "* {может/а мож~/хм, интересн~/попробую~} {осмотр~/изуч~/разбер~/провер~/поищу} {двер~/механизм~/замок/конструкци~/устройств~} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 41
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 79
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 124
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "uvu2b",
+        "data": {},
+        "text": "Осмотрю дверь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "2i457",
+        "data": {},
+        "text": "Посмотрю получше на механизм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "azav2",
+        "data": {},
+        "text": "Изучить механизм двери",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "lacfp",
+        "data": {},
+        "text": "Осмотрю замок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3bdq9",
+        "data": {},
+        "text": "Посмотрим, как она устроена",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6bkyv",
+        "data": {},
+        "text": "Давай исследуем замок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "htrd5",
+        "data": {},
+        "text": "Я бы хотел осмотреть дверь поближе",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "97qio",
+        "data": {},
+        "text": "Посмотрю на замок внимательнее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "9fhaa",
+        "data": {},
+        "text": "Осмотрю конструкцию двери",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tnfcg",
+        "data": {},
+        "text": "Изучу, как устроен механизм",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ioz6p",
+        "data": {},
+        "text": "Давай разберёмся, как она работает",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i6rl5",
+        "data": {},
+        "text": "Посмотрю на дверь внимательнее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hasxe",
+        "data": {},
+        "text": "Нужно проверить дверь на предмет чего-то полезного",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hgvoc",
+        "data": {},
+        "text": "Я не буду ломать, лучше осмотрю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "5be2r",
+        "data": {},
+        "text": "Хм, интересно… попробую разобраться с механизмом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "kuw5w",
+        "data": {},
+        "text": "Стой, может здесь есть что-то интересное, подожди, я посмотрю",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "umj4j",
+        "data": {},
+        "text": "Не хочу ломать, давай разберёмся как-то умнее",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "wzvcw",
+        "data": {},
+        "text": ":lu: Вы присматриваетесь к дверям. За потайной щелью замка нащупываете механизм и застрявший там ключ. [%has_key=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 103
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 121
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 167
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 168
+          }
+        ]
+      },
+      {
+        "key": "6l6ii",
+        "data": {},
+        "text": ":lu: Вы долго вглядываетесь в щели двери и находите потайную панель. За ней — скрытый ключ. [%has_key=\"true\"] [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 92
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 110
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 157
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:45:35.822748",
+  "updated": "2026-05-30T01:45:36.822749",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:45:36Z"
+    }
+  ]
+}

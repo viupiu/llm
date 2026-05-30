@@ -1,0 +1,68 @@
+{
+  "id": "a309e910-7b94-7ae8-8284",
+  "name": "keywords_jump_direct",
+  "description": "",
+  "content": {
+    "blocks": [
+      {
+        "key": "gol4c",
+        "data": {},
+        "text": "прыг",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "gj1kv",
+        "data": {},
+        "text": "=>прыжку",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "m6bmj",
+        "data": {},
+        "text": "=>прыгаем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rcmrq",
+        "data": {},
+        "text": "=>прыга",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "x8eqz",
+        "data": {},
+        "text": "=>прыжки",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "is_common": true,
+  "is_hidden": false,
+  "is_active": true,
+  "meta": {},
+  "created": "2026-05-30T02:11:33.169491",
+  "updated": "2026-05-30T02:11:34.169492",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:11:34Z"
+    }
+  ]
+}

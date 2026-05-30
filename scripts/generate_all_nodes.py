@@ -175,23 +175,30 @@ def parse_ml_blocks(md_text: str) -> dict[str, list[str]]:
             if re.match(r"^\*\*|\s*---\s*$", stripped):
                 i += 1
                 continue
-            # Запуск сбора при виде нумерованного или маркированного списка
-            if re.match(r"^\d+\.\s", stripped) or stripped.startswith("- "):
+            # Нумерованный список: "1. фраза"
+            num_m = re.match(r"^\d+\.\s+(.+)$", stripped)
+            if num_m:
                 collecting = True
-                # Извлекаем текст из "1. фраза" или "- фраза"
-                num_m = re.match(r"^\d+\.\s+(.+)$", stripped)
-                if num_m:
-                    phrase = num_m.group(1).strip()
-                    if phrase:
-                        examples.append(phrase)
-                elif stripped.startswith("- "):
-                    phrase = stripped[2:].strip()
-                    if phrase:
-                        examples.append(phrase)
+                examples.append(num_m.group(1).strip())
                 i += 1
                 continue
+            # Маркированный список: "- фраза"
+            if stripped.startswith("- "):
+                collecting = True
+                examples.append(stripped[2:].strip())
+                i += 1
+                continue
+            # Голые строки (без номера/дефиса) — каждый непустой ряд = пример
+            if stripped and not stripped.startswith(">"):
+                collecting = True
+                examples.append(stripped)
+                i += 1
+                continue
+            # Продолжение нумерованного/маркированного блока
             if collecting and stripped:
                 examples.append(stripped)
+                i += 1
+                continue
             i += 1
         nodes[node_name] = examples
     return nodes

@@ -1,0 +1,777 @@
+{
+  "id": "919e080f-613a-bfea-4d94",
+  "name": "Как вы пройдёте через выходную дверь? - Открыть ключом",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Как вы пройдёте через выходную дверь?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "45816",
+        "data": {},
+        "text": "* [dict(keywords_key)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 21
+          }
+        ]
+      },
+      {
+        "key": "dnjkd",
+        "data": {},
+        "text": "* [dict(keywords_staff)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 23
+          }
+        ]
+      },
+      {
+        "key": "9shjg",
+        "data": {},
+        "text": "* [@cmb({{ключ~/откр~/замок}}, {двер~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 37
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 39
+          }
+        ]
+      },
+      {
+        "key": "d6fq4",
+        "data": {},
+        "text": "* [@cmb({{ключ~/откр~/замок}}, {откр~/замок~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 27
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 31
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 44
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 45
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 46
+          }
+        ]
+      },
+      {
+        "key": "5k19x",
+        "data": {},
+        "text": "* [@cmb({{есть/у меня/вот он}}, {ключ~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 40
+          }
+        ]
+      },
+      {
+        "key": "re4fp",
+        "data": {},
+        "text": "* [@cmb({{посох~/магия~/магич~/заклин~}}, {двер~/откр~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          }
+        ]
+      },
+      {
+        "key": "1an8i",
+        "data": {},
+        "text": "* {открыв~/открою~/использ~/в руки} *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "9kj2i",
+        "data": {},
+        "text": "Ключ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "hkt06",
+        "data": {},
+        "text": "Открою ключом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "alrxq",
+        "data": {},
+        "text": "У меня есть ключ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "1rvq2",
+        "data": {},
+        "text": "Используем ключ",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "sk6ra",
+        "data": {},
+        "text": "Ключом открою, проще простого",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "f752w",
+        "data": {},
+        "text": "Откроем ключом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7ftmn",
+        "data": {},
+        "text": "Ключ в замок — и дверь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "3zx0u",
+        "data": {},
+        "text": "Посох в руки и открываем",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "oopfy",
+        "data": {},
+        "text": "Магия, пусть посох сработает",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "vsj6s",
+        "data": {},
+        "text": "Отпираю дверь, ключ на месте",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "i2zdd",
+        "data": {},
+        "text": "Заклинание на замок",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "r8dxc",
+        "data": {},
+        "text": "У меня ключ, вот он",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "170oz",
+        "data": {},
+        "text": "Посох откроет дверь, я уверен",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ps9ws",
+        "data": {},
+        "text": "Магия в помощь!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ld19b",
+        "data": {},
+        "text": "Посох справится",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "tat4l",
+        "data": {},
+        "text": "Магический посох — использую его",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "j8afv",
+        "data": {},
+        "text": ":lu: [if(%has_key)]{Вы вставляете предмет в замочное отверстие. Щёлк — и дверь распахивается. За ней — ночной воздух и звёзды. [@goto(\"Свобода\")]} [elsif(%has_staff)]{Вы подходите к двери с артефактом. Механизм откликается, двери отворяются. Впереди — свобода. [@goto(\"Свобода\")]} [else]{У вас нет предмета, который мог бы открыть эту дверь.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 261
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 267
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 277
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 278
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 279
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 281
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 286
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 287
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 341
+          }
+        ]
+      },
+      {
+        "key": "s1wxw",
+        "data": {},
+        "text": ":lu: [if(%has_key)]{Вы вставляете предмет в замочное отверстие. Щёлк — и дверь распахивается. За ней — ночной воздух и звёзды. [@goto(\"Свобода\")]} [elsif(%has_staff)]{Вы подходите к двери с артефактом. Механизм откликается, двери отворяются. Впереди — свобода. [@goto(\"Свобода\")]} [else]{У вас нет предмета, который мог бы открыть эту дверь.}",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 17
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 18
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 127
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 133
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 144
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 145
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 147
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 153
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 164
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 165
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 166
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 261
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 267
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 277
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 278
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 279
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 281
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 286
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 287
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 341
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:58:49.075785",
+  "updated": "2026-05-30T01:58:50.075786",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:58:50Z"
+    }
+  ]
+}

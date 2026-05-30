@@ -1,0 +1,697 @@
+{
+  "id": "03daefd0-b633-3f18-9647",
+  "name": "Что вы сделаете с мёртвой дверью? - Силой",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"Что вы сделаете с мёртвой дверью?\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "ra4bb",
+        "data": {},
+        "text": "* [dict(keywords_force)] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 23
+          }
+        ]
+      },
+      {
+        "key": "e9y1b",
+        "data": {},
+        "text": "* [@cmb({{пробей~/прорв~/силов~/разобь~/разнес~/слом~/взлом~/выбей~/выломай~}}, {двер~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 86
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 88
+          }
+        ]
+      },
+      {
+        "key": "2ox2z",
+        "data": {},
+        "text": "* [@cmb({{пробей~/прорв~/силов~/разобь~/разнес~/слом~/взлом~/выбей~/выломай~}}, {{силовым/методом/способом}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 76
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 77
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 81
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 106
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 108
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 109
+          }
+        ]
+      },
+      {
+        "key": "u3os2",
+        "data": {},
+        "text": "* [@cmb({{нужн~/надо~/стоит~}}, {двер~})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 9
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 28
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 29
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 32
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 40
+          }
+        ]
+      },
+      {
+        "key": "b7cp1",
+        "data": {},
+        "text": "* [@cmb({раз}, {{нельзя/нет друго пути}})] *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 2
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 7
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 12
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 15
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 16
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 38
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 39
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 40
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 41
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "og40n",
+        "data": {},
+        "text": "Разобью дверь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "4bmbi",
+        "data": {},
+        "text": "Выбью её",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "20lcj",
+        "data": {},
+        "text": "Пробью",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6hs7j",
+        "data": {},
+        "text": "С силой!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wjdng",
+        "data": {},
+        "text": "Силовым методом",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "80pv4",
+        "data": {},
+        "text": "Сломать её и пошёл дальше",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "a0vy0",
+        "data": {},
+        "text": "Разнесу её по кускам",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ndnuu",
+        "data": {},
+        "text": "В лоб! Разобью!",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "rvtcf",
+        "data": {},
+        "text": "Вломлю дверь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "7n834",
+        "data": {},
+        "text": "Взлому дверь",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "ervw9",
+        "data": {},
+        "text": "Дверь нужно разрушить",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "va4pm",
+        "data": {},
+        "text": "Сломаю эту дверь и пойдём дальше",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "8l4f0",
+        "data": {},
+        "text": "Пробью дверь и не будем тратить время",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "6kn88",
+        "data": {},
+        "text": "Ну, раз нельзя открыть, значит, нужно выломать",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "wdzef",
+        "data": {},
+        "text": "Ну что ж, врежемся в неё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      },
+      {
+        "key": "bjzte",
+        "data": {},
+        "text": "Прорвусь через неё",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "cm446",
+        "data": {},
+        "text": ":lu: [if(%lives=\"2\")]{[%lives=\"1\"]} [elsif(%lives=\"1\")]{[%lives=\"0\"]} Вы берётесь за двери и рвёте их на себя. Они поддаются с глухим скрипом, но отдача бьёт по рукам. Двери открылись, но вы потеряли силы. [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 206
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 212
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 252
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 253
+          }
+        ]
+      },
+      {
+        "key": "72czo",
+        "data": {},
+        "text": ":lu: [if(%lives=\"2\")]{[%lives=\"1\"]} [elsif(%lives=\"1\")]{[%lives=\"0\"]} Вы прикладываетесь плечом. Двери со скрипом отъезжают, но удар отдаётся по всему телу. Проход открыт, но цена высока. [@goto(\"Как вы пройдёте через выходную дверь?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 5
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 8
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 19
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 20
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 21
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 22
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 33
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 34
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 36
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 42
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 53
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 54
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 55
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 56
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 67
+          },
+          {
+            "style": "BRACES",
+            "length": 1,
+            "offset": 68
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 188
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 194
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 234
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 235
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:59:26.502153",
+  "updated": "2026-05-30T01:59:27.502154",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:59:27Z"
+    }
+  ]
+}

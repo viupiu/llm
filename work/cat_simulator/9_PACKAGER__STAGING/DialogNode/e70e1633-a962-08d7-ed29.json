@@ -34,7 +34,7 @@
     "entityMap": {}
   },
   "intent_id": null,
-  "skill_id": null,
+  "skill_id": "61dfdb99-9829-ac3c-4f4f",
   "answers": {
     "blocks": [
       {

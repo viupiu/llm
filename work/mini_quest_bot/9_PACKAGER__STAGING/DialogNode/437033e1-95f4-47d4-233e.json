@@ -1,0 +1,181 @@
+{
+  "id": "437033e1-95f4-47d4-233e",
+  "name": "Как вы пройдёте через выходную дверь?",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": null,
+  "dl_rules": {
+    "blocks": [],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "1sm1v",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "g8cbh",
+        "data": {},
+        "text": ":lu: Коридор заканчивается дверью с глубоким замочным отверстием. Видимо, это выход — если найти способ открыть.[br][br]Что вы сделаете?[br][br]— Открыть ключом[br]— Подобраться силой [%that_anchor=\"Как вы пройдёте через выходную дверь?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 112
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 115
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 116
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 119
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 136
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 139
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 140
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 160
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 163
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 184
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 237
+          }
+        ]
+      },
+      {
+        "key": "qsenw",
+        "data": {},
+        "text": ":lu: Перед вами последняя дверь. В ней замочное отверстие — возможно, это выход.[br][br]— Открыть ключом[br]— Подобраться силой [%that_anchor=\"Как вы пройдёте через выходную дверь?\"]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 80
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 83
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 84
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 87
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 104
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 107
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 128
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 181
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T01:45:35.822748",
+  "updated": "2026-05-30T01:45:36.822749",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T01:45:36Z"
+    }
+  ]
+}

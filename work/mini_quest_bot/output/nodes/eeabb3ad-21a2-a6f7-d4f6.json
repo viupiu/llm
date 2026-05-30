@@ -1,0 +1,111 @@
+{
+  "id": "eeabb3ad-21a2-a6f7-d4f6",
+  "name": "EVENT_Загрузка",
+  "description": "",
+  "parent": null,
+  "shortcuts": [],
+  "conditions": "%that_anchor=\"CIAS\"",
+  "dl_rules": {
+    "blocks": [
+      {
+        "key": "8m0ez",
+        "data": {},
+        "text": "EVENT 00b2fcbe-f27f-437b-a0d5-91072d840ed3 *",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "ml_examples": {
+    "blocks": [
+      {
+        "key": "kjmzm",
+        "data": {},
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": []
+      }
+    ],
+    "entityMap": {}
+  },
+  "intent_id": null,
+  "skill_id": null,
+  "answers": {
+    "blocks": [
+      {
+        "key": "n8atc",
+        "data": {},
+        "text": "Вы приходите в себя в темноте. Холодный камень под плечом, воздух тяжёлый и сырой. Перед вами развилка — два узких коридора, уходящих во тьму. [%lives=\"2\"] [@goto(\"Куда вы пойдёте от развилки?\")]",
+        "type": "unstyled",
+        "depth": 0,
+        "entityRanges": [],
+        "inlineStyleRanges": [
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 143
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 154
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 156
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 162
+          },
+          {
+            "style": "PARENTHESES",
+            "length": 1,
+            "offset": 193
+          },
+          {
+            "style": "BRACKETS",
+            "length": 1,
+            "offset": 194
+          }
+        ]
+      }
+    ],
+    "entityMap": {}
+  },
+  "responses": [],
+  "slot_filling": [
+    {
+      "id": "xxxxxxxxxx",
+      "entity": {
+        "id": "",
+        "name": ""
+      },
+      "question": "",
+      "required": false,
+      "variable": {
+        "id": "",
+        "name": ""
+      }
+    }
+  ],
+  "is_active": true,
+  "auto_conflict_resolution": null,
+  "meta": {},
+  "created": "2026-05-30T02:14:52.996810",
+  "updated": "2026-05-30T02:14:53.996811",
+  "creator": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+  "editors": [
+    {
+      "user_id": "a04359b1-6422-4e56-9792-bf13f40afb9b",
+      "timestamp": "2026-05-30T02:14:53Z"
+    }
+  ]
+}

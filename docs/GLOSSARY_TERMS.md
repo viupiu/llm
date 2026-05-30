@@ -6,7 +6,8 @@
 |------------------|-------------|
 | узел, ДУ, диалоговый узел, node, dialog node, stage, step, экран, блок | узел |
 | интент, намерение, intent, intent_type, user_intent, query_type | интент |
-| правило, DL rule, матчинг, правило матчинга, pattern, matching rule | правило |
+| правило, DL rule, pattern, matching rule | правило |
+| матчинг, matching, сопоставление запроса | сопоставление |
 | словарь, dictionary, dict, lexicon, пакет слов, пак | словарь |
 | якорь, anchor, mark, reference, точка перехода | якорь |
 | контекст, context, состояние, state, memory, session, переменная состояния | контекст |

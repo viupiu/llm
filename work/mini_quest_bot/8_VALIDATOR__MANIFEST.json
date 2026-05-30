@@ -1,0 +1,30 @@
+{
+  "variables": [
+    "that_anchor",
+    "lives",
+    "has_key",
+    "has_staff"
+  ],
+  "details": {
+    "that_anchor": "assigned",
+    "lives": "assigned",
+    "has_key": "assigned",
+    "has_staff": "assigned"
+  },
+  "dictionaries": [
+    "keywords_left",
+    "keywords_right",
+    "keywords_water",
+    "keywords_look",
+    "keywords_place",
+    "keywords_force",
+    "keywords_door",
+    "keywords_skip",
+    "keywords_forward",
+    "keywords_jump",
+    "keywords_jump_direct",
+    "keywords_bridge",
+    "keywords_key",
+    "keywords_staff"
+  ]
+}

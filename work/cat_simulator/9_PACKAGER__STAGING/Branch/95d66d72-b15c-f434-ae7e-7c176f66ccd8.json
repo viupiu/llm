@@ -1,0 +1,14 @@
+{
+  "id": "95d66d72-b15c-f434-ae7e-7c176f66ccd8",
+  "assistant_id": "10a32aab-635c-d73b-3cb8-881ef3ca948e",
+  "parent_id": null,
+  "name": "master",
+  "is_loaded": false,
+  "project_id": "205473",
+  "created": "2026-05-30T01:31:56.892101",
+  "synced": null,
+  "updated": null,
+  "is_sync_db_git": true,
+  "creator": null,
+  "editors": []
+}
